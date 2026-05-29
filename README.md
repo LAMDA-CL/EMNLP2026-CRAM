@@ -8,10 +8,10 @@
   <a href="#acknowledgments">🙏 Acknowledgments</a> •
   <a href="#contact">📧 Contact</a>
 </p>
-
 <p align="center">
-  <img src="docs/assets/images/prism-banner.jpg" alt="PRISM" width="90%"/>
+  <img src="docs/assets/images/prism-banner.jpg" alt="PRISM" width="100%"/>
 </p>
+
 
 <div align="center">
 
