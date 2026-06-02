@@ -1,0 +1,5 @@
+# Caption / COCO-style metrics (eval_caption.py, m4c_evaluator.py)
+-r base.txt
+
+pycocotools>=2.0.6
+pycocoevalcap>=1.2

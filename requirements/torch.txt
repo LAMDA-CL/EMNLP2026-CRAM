@@ -1,0 +1,17 @@
+# PyTorch wheels — pick ONE line matching your CUDA driver.
+# Install before other requirements, e.g.:
+#   pip install -r requirements/torch.txt
+#
+# CUDA 11.8 (recommended baseline for torch 2.0.1 + LLaVA)
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+torchvision==0.15.2
+
+# CUDA 12.1 (uncomment and comment cu118 block above if you use cu121)
+# --extra-index-url https://download.pytorch.org/whl/cu121
+# torch==2.0.1
+# torchvision==0.15.2
+
+# CPU-only (smoke tests only; not for real training)
+# torch==2.0.1
+# torchvision==0.15.2

@@ -1,0 +1,8 @@
+# Multi-GPU training (DeepSpeed launcher via run.py)
+-r base.txt
+
+deepspeed==0.10.3
+ninja>=1.11.0
+
+# Optional experiment tracking
+wandb>=0.15.0

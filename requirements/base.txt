@@ -1,0 +1,31 @@
+# PRISM core dependencies (LLaVA 1.5–compatible stack).
+# Install PyTorch with your CUDA build FIRST — see requirements/README.md.
+
+transformers==4.31.0
+tokenizers>=0.12.1,<0.14
+sentencepiece==0.1.99
+accelerate==0.21.0
+peft==0.4.0
+bitsandbytes==0.41.0
+safetensors>=0.3.3
+
+numpy>=1.24,<2
+scikit-learn==1.2.2
+einops==0.6.1
+einops-exts==0.0.4
+timm==0.6.13
+
+pillow>=9.4.0
+tqdm>=4.65.0
+shortuuid>=1.0.0
+requests>=2.28.0
+httpx==0.24.0
+
+pydantic>=1,<2
+markdown2[all]>=2.4.0
+
+# Optional UI / demo stack (used by LLaVA-style tooling in-repo)
+gradio==3.35.2
+gradio_client==0.2.9
+fastapi>=0.100.0
+uvicorn>=0.22.0

@@ -1,0 +1,7 @@
+# Optional: memory-efficient attention (train_mem.py, llama_flash_attn_monkey_patch.py)
+# Build from source; version must match your torch/CUDA. Example:
+#   pip install flash-attn==2.5.8 --no-build-isolation
+#
+# Not required for default `run.py train` (uses standard attention).
+
+flash-attn>=2.5.0,<3.0.0

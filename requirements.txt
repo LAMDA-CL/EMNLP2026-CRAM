@@ -1,0 +1,7 @@
+# Full training + eval environment. Install PyTorch first:
+#   pip install -r requirements/torch.txt
+#   pip install -r requirements.txt
+
+-r requirements/torch.txt
+-r requirements/train.txt
+-r requirements/eval.txt

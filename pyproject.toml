@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prism"
+version = "0.1.0"
+description = "PRISM: Multimodal Continual Instruction Tuning Toolbox"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Jun-Tao Tang", email = "juntao_tang@outlook.com" },
+]
+
+# PyTorch is installed separately (CUDA-specific wheels). See requirements/torch.txt.
+dependencies = [
+  "transformers==4.31.0",
+  "tokenizers>=0.12.1,<0.14",
+  "sentencepiece==0.1.99",
+  "shortuuid>=1.0.0",
+  "accelerate==0.21.0",
+  "peft==0.4.0",
+  "bitsandbytes==0.41.0",
+  "safetensors>=0.3.3",
+  "pydantic>=1,<2",
+  "markdown2[all]>=2.4.0",
+  "numpy>=1.24,<2",
+  "scikit-learn==1.2.2",
+  "gradio==3.35.2",
+  "gradio_client==0.2.9",
+  "requests>=2.28.0",
+  "httpx==0.24.0",
+  "uvicorn>=0.22.0",
+  "fastapi>=0.100.0",
+  "einops==0.6.1",
+  "einops-exts==0.0.4",
+  "timm==0.6.13",
+  "pillow>=9.4.0",
+  "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+train = ["deepspeed==0.10.3", "ninja>=1.11.0", "wandb>=0.15.0"]
+eval = ["pycocotools>=2.0.6", "pycocoevalcap>=1.2"]
+flash = ["flash-attn>=2.5.0,<3.0.0"]
+all = ["prism[train,eval]"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+  "backbone*",
+  "config*",
+  "core*",
+  "method*",
+  "PEFT*",
+  "utils*",
+]
+exclude = [
+  "checkpoints*",
+  "output*",
+  "results*",
+  "scripts*",
+  "tests*",
+]
