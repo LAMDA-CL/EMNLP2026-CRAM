@@ -1,4 +1,4 @@
-from ..paths.llava_paths import CHECKPOINT_DIR, INSTRUCTION_DIR, PRETRAIN_MM_PROJECTOR
+from ..paths.llava_paths import CHECKPOINT_DIR, PRETRAIN_MM_PROJECTOR
 
 # UCIT instruction roots (adjust for your machine)
 UCIT_INSTRUCTION_DIR = "/root/autodl-tmp/UCIT/instructions"

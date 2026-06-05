@@ -20,6 +20,7 @@ TRAIN_FLAG_OVERRIDES = {
     "--warmup_ratio": "0.03",
     "--lr_scheduler_type": "cosine",
     "--model_max_length": "2048",
+    "--gradient_accumulation_steps": "1",
 }
 
 TRAIN_EXTRA_ARGS: list[str] = []

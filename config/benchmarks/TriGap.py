@@ -1,5 +1,5 @@
 import os
-from ..paths.llava_paths import CHECKPOINT_DIR, INSTRUCTION_DIR, PRETRAIN_MM_PROJECTOR
+from ..paths.llava_paths import CHECKPOINT_DIR, PRETRAIN_MM_PROJECTOR
 
 TRIGAP_INSTRUCTION_DIR = "/root/autodl-tmp/TriGap/instructions"
 TRIGAP_IMAGE_DIR = "/root/autodl-tmp/TriGap/datasets"

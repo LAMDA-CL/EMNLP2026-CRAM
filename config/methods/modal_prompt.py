@@ -18,6 +18,7 @@ TRAIN_FLAG_OVERRIDES = {
     "--model_max_length": "2048",
     "--dataloader_num_workers": "4",
     "--lora_enable": "False",
+    "--gradient_accumulation_steps": "1",
 }
 
 TRAIN_EXTRA_ARGS: list[str] = []

@@ -24,6 +24,7 @@ TRAIN_FLAG_OVERRIDES = {
     "--logging_steps": "1",
     "--model_max_length": "2048",
     "--dataloader_num_workers": "4",
+    "--gradient_accumulation_steps": "1",
 }
 
 TRAIN_EXTRA_ARGS: list[str] = []

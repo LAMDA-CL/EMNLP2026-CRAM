@@ -125,7 +125,6 @@ def _resolve_paths() -> dict[str, str]:
     from config.paths.llava_paths import (  # type: ignore
         BASE_MODEL_PATH,
         CLIP_PATH,
-        IMAGE_FOLDER,
         DEEPSPEED_CONFIG,
         CHECKPOINT_DIR,
         RESULT_DIR,
@@ -134,11 +133,20 @@ def _resolve_paths() -> dict[str, str]:
     return {
         "BASE_MODEL_PATH": str(BASE_MODEL_PATH),
         "CLIP_PATH": str(CLIP_PATH),
-        "IMAGE_FOLDER": str(IMAGE_FOLDER),
         "DEEPSPEED_CONFIG": str(DEEPSPEED_CONFIG),
         "CHECKPOINT_DIR": str(CHECKPOINT_DIR),
         "RESULT_DIR": str(RESULT_DIR),
     }
+
+
+def _task_image_folder(task: dict, *, benchmark: str) -> str:
+    image_folder = task.get("image_folder")
+    if image_folder is not None:
+        return str(image_folder)
+    raise SystemExit(
+        f"Missing image_folder for benchmark={benchmark!r} task={task.get('name', task.get('cur_task'))!r}. "
+        f"Set 'image_folder' on the task in config/benchmarks/*."
+    )
 
 
 def _resolve_method_checkpoint(
@@ -386,7 +394,7 @@ def _build_train_command(
         "--data_path",
         str(task["train_data_path"]),
         "--image_folder",
-        paths["IMAGE_FOLDER"] if (task.get("image_folder") is None) else task.get("image_folder"),
+        _task_image_folder(task, benchmark=benchmark),
         "--vision_tower",
         paths["CLIP_PATH"],
         "--text_tower",
@@ -416,8 +424,6 @@ def _build_train_command(
         str(int(batch_size)),
         "--per_device_eval_batch_size",
         str(int(batch_size)),
-        "--gradient_accumulation_steps",
-        "1",
         "--evaluation_strategy",
         "no",
         "--save_strategy",
@@ -531,7 +537,7 @@ def _run_inference_one_chunk(
         "--question-file",
         str(task["test_data_path"]),
         "--image-folder",
-        paths["IMAGE_FOLDER"] if task["image_folder"] is None else task["image_folder"],
+        _task_image_folder(task, benchmark=benchmark),
         "--answers-file",
         str(output_file),
         "--batch-size",
@@ -596,7 +602,7 @@ def _run_inference_parallel(
                 "--question-file",
                 str(task["test_data_path"]),
                 "--image-folder",
-                paths["IMAGE_FOLDER"] if task["image_folder"] is None else task["image_folder"],
+                _task_image_folder(task, benchmark=benchmark),
                 "--answers-file",
                 str(output_file),
                 "--batch-size",
@@ -941,9 +947,7 @@ def cmd_infer(args: argparse.Namespace) -> int:
                     try:
                         eval_config = task["eval"]
                         ui_method = INFERENCE_METHOD_MAP.get(task["name"], "default")
-                        image_folder = task.get("image_folder")
-                        if image_folder is None:
-                            image_folder = paths["IMAGE_FOLDER"]
+                        image_folder = _task_image_folder(task, benchmark=args.benchmark)
 
                         cmd = [
                             sys.executable,
