@@ -29,6 +29,7 @@
             Overview <span class="chevron" aria-hidden="true"></span>
           </button>
           <div class="nav-section-children">
+            <a href="#authors" class="nav-link">Authors</a>
             <a href="#introduction" class="nav-link">Introduction</a>
             <a href="#architecture" class="nav-link">Architecture</a>
             <a href="#architecture-pillars" class="nav-link sub">Four pillars</a>
@@ -43,6 +44,9 @@
           </button>
           <div class="nav-section-children">
             <a href="#quickstart" class="nav-link">Quick tour</a>
+            <a href="#weights" class="nav-link">Pre-trained weights</a>
+            <a href="#backbone" class="nav-link">Backbone</a>
+            <a href="#precision" class="nav-link">Precision</a>
             <a href="#install" class="nav-link">Installation</a>
             <a href="#install-verify" class="nav-link sub">Verify install</a>
             <a href="#paths" class="nav-link">Paths &amp; data</a>
@@ -76,10 +80,9 @@
           <div class="nav-section-children">
             <a href="#configuration-reference" class="nav-link">Configuration</a>
             <a href="#configuration-run" class="nav-link sub">run_config.py</a>
-            <a href="#configuration-methods" class="nav-link sub">methods/*.py</a>
-            <a href="#configuration-paths" class="nav-link sub">llava_paths.py</a>
+            <a href="#configuration-backbone" class="nav-link sub">Backbone registry</a>
+            <a href="#configuration-paths" class="nav-link sub">Path configs</a>
             <a href="#environment" class="nav-link">Environment</a>
-            <a href="#authors" class="nav-link">Authors</a>
             <a href="#troubleshooting" class="nav-link">Troubleshooting</a>
           </div>
         </div>
@@ -96,23 +99,17 @@
               <strong>I</strong>nfrastructure for <strong>S</strong>calable <strong>M</strong>ultimodal
               Continual Instruction Tuning
             </p>
-            <h2>Documentation for researchers and contributors</h2>
-            <p class="lead">
-              Use the sidebar to browse topics. Click a section title to expand or collapse groups.
-              Every link scrolls to an anchor in this page.
-            </p>
-            <div class="pillars">
-              <div class="pillar methods">Methods</div>
-              <div class="pillar backbones">Backbones</div>
-              <div class="pillar benchmarks">Benchmarks</div>
-              <div class="pillar evaluation">Evaluation</div>
-            </div>
-            <div class="badges">
-              <span class="badge">Python 3.10+</span>
-              <span class="badge">PyTorch 2.0.1</span>
-              <span class="badge">DeepSpeed</span>
-              <span class="badge">LLaVA 1.5</span>
-            </div>
+            <section class="hero-authors" id="authors">
+              <h2>Authors</h2>
+              <ul class="author-list">
+                <li><span class="author-name">Jun-Tao Tang</span></li>
+                <li><span class="author-name">Shi-Yu Cheng</span></li>
+                <li><span class="author-name">Dai-Wei Zhou</span></li>
+              </ul>
+              <p class="author-supervision">
+                Completed under guidance of Dai-Wei Zhou.
+              </p>
+            </section>
           </div>
         </header>
 
@@ -124,7 +121,8 @@
             <strong>catastrophic forgetting</strong> of earlier capabilities.
           </p>
           <p>
-            PRISM targets <strong>continual instruction tuning</strong> on LLaVA-style architectures:
+            PRISM targets <strong>continual instruction tuning</strong> on multimodal LLM backbones
+            (currently <strong>LLaVA-1.5</strong> and <strong>InternVL-Chat 1.0</strong>):
             you keep a frozen (or lightly tuned) multimodal backbone, add parameter-efficient adapters,
             and plug in continual-learning logic through a stable integration API.
           </p>
@@ -161,7 +159,7 @@
             </div>
             <div class="card">
               <h4>Backbones</h4>
-              <p><code>backbone/llava/</code> + <code>backbone/shared/train/</code> (LLaVATrainer, DeepSpeed) + multimodal processors.</p>
+              <p><code>backbone/llava/</code>, <code>backbone/internvl/</code>, plus shared training in <code>backbone/shared/train/</code>. Select via <code>--backbone</code> or <code>config/backbone/registry.py</code>.</p>
             </div>
             <div class="card">
               <h4>Benchmarks</h4>
@@ -175,9 +173,9 @@
 
           <h3 id="architecture-pipeline">Training pipeline</h3>
           <div class="flow">
-            <span class="step">1.</span> Edit <code>config/paths/llava_paths.py</code> and benchmark paths<br />
-            <span class="step">2.</span> <code>python run.py train &lt;task_ids&gt; --benchmark … --method …</code><br />
-            <span class="step">3.</span> <code>core.load_model_for_train</code> → LLaVA + PEFT + <code>CLModel</code><br />
+            <span class="step">1.</span> Edit <code>config/paths/&lt;backbone&gt;_paths.py</code>, benchmark paths, and <code>config/run_config.py</code> (backbone + precision)<br />
+            <span class="step">2.</span> <code>python run.py train &lt;task_ids&gt; --benchmark … --backbone …</code><br />
+            <span class="step">3.</span> <code>core.load_model_for_train</code> → active MLLM + PEFT + <code>CLModel</code><br />
             <span class="step">4.</span> <code>LLaVATrainer</code> + <code>CLTrainerCallback</code> → <code>checkpoints/</code><br />
             <span class="step">5.</span> <code>python run.py infer …</code> → <code>results/</code> → eval merge script
           </div>
@@ -200,48 +198,198 @@
         <section class="doc-section" id="methods">
           <h2>Methods catalog</h2>
           <p>
-            Select a method with <code>--method &lt;id&gt;</code>. The id must match a folder under
-            <code>method/custom/</code> with a registered integration class.
+            Select a continual-learning integration with <code>--method &lt;id&gt;</code>.
+            Each id maps to a folder under <code>method/custom/</code>.
+            Hyperparameters live in <code>config/methods/&lt;method&gt;.py</code>.
           </p>
           <div class="table-scroll">
           <table>
-            <thead><tr><th>Method</th><th>Description</th><th>Typical use</th></tr></thead>
+            <thead><tr><th>Abbr.</th><th><code>--method</code></th><th>Paper</th></tr></thead>
             <tbody>
-              <tr><td><code>hide_llava</code></td><td>HiDe-style routing + PEFT on LLaVA.</td><td>Strong CL baseline with task routing.</td></tr>
-              <tr><td><code>replay_lora</code></td><td>Replay buffer + LoRA.</td><td>When stored past data is available.</td></tr>
-              <tr><td><code>ft_lora</code></td><td>FT-style training with LoRA hooks.</td><td>Simple LoRA continual fine-tuning.</td></tr>
-              <tr><td><code>olora</code></td><td>Orthogonal LoRA (O-LoRA–style).</td><td>Reduce interference between tasks.</td></tr>
-              <tr><td><code>smolora</code></td><td>SMoLoRA mixture routing.</td><td>Instruction-conditioned expert selection.</td></tr>
-              <tr><td><code>moelora</code></td><td>MoE-style LoRA experts.</td><td>Capacity across tasks.</td></tr>
-              <tr><td><code>clmoe</code></td><td>CL-MoE wiring.</td><td>MoE continual learning experiments.</td></tr>
-              <tr><td><code>modal_prompt</code></td><td>Modal / prompt tuning.</td><td>Prompt-based adaptation.</td></tr>
-              <tr><td><code>ewc</code></td><td>Elastic Weight Consolidation.</td><td>Regularization without replay.</td></tr>
-              <tr><td><code>disco</code></td><td>DISCO custom tuner.</td><td>Method-specific PEFT extension.</td></tr>
-              <tr><td><code>same</code></td><td>SAME spectral + CLIP router experts.</td><td>Anchor-based expert mixture.</td></tr>
-              <tr><td><code>zeroshot</code></td><td>No CL checkpoint.</td><td>Base LLaVA inference only.</td></tr>
+              <tr><td>HiDe-LLaVA</td><td><code>hide_llava</code></td><td><a href="https://arxiv.org/abs/2503.12941" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>Replay+LoRA</td><td><code>replay_lora</code></td><td><a href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener">LoRA</a></td></tr>
+              <tr><td>LoRA</td><td><code>ft_lora</code></td><td><a href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener">LoRA</a></td></tr>
+              <tr><td>O-LoRA</td><td><code>olora</code></td><td><a href="https://arxiv.org/abs/2310.14152" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>SMoLoRA</td><td><code>smolora</code></td><td><a href="https://arxiv.org/abs/2411.13949" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>MoELoRA</td><td><code>moelora</code></td><td><a href="https://arxiv.org/abs/2403.08350" target="_blank" rel="noopener">CoIN</a></td></tr>
+              <tr><td>CL-MoE</td><td><code>clmoe</code></td><td><a href="https://arxiv.org/abs/2503.00413" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>ModalPrompt</td><td><code>modal_prompt</code></td><td><a href="https://arxiv.org/abs/2410.05849" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>EWC</td><td><code>ewc</code></td><td><a href="https://arxiv.org/abs/1612.00796" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>DisCo</td><td><code>disco</code></td><td><a href="https://arxiv.org/abs/2503.12897" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>SAME</td><td><code>same</code></td><td><a href="https://arxiv.org/abs/2602.01990" target="_blank" rel="noopener">arXiv</a></td></tr>
+              <tr><td>Zero-shot</td><td><code>zeroshot</code></td><td>Base MLLM (no CL adapter)</td></tr>
             </tbody>
           </table>
           </div>
-          <p>
-            Hyperparameters (LoRA rank, batch size per task, PEFT target modules) are in
-            <code>config/methods/&lt;method&gt;.py</code> as <code>METHOD_CONFIG</code> and <code>TRAIN_BATCH_SIZES</code>.
-          </p>
         </section>
 
         <section class="doc-section" id="quickstart">
           <h2>Quick tour</h2>
-          <p>End-to-end workflow in five steps:</p>
+          <p>End-to-end workflow:</p>
           <ol>
-            <li>Clone repo and install dependencies (PyTorch first, then <code>requirements.txt</code>).</li>
-            <li>Point <code>config/paths/llava_paths.py</code> at LLaVA, CLIP, and dataset roots.</li>
+            <li>Clone repo and run <code>bash scripts/setup_env.sh</code> (default stack tested on RTX 5090).</li>
+            <li>Download weights (see <a href="#weights">Pre-trained weights</a>) and edit <code>config/paths/llava_paths.py</code> or <code>config/paths/internvl_paths.py</code>.</li>
+            <li>Set <code>backbone</code>, <code>TRAIN_PRECISION</code>, and <code>INFER_PRECISION</code> in <code>config/run_config.py</code> (see <a href="#backbone">Backbone</a> and <a href="#precision">Precision</a>).</li>
+            <li>Sanity check: <code>python run.py infer 0 --method zeroshot --backbone llava</code></li>
             <li>Train sequential tasks: <code>python run.py train 0 1 2 …</code></li>
-            <li>Run inference on a task checkpoint: <code>python run.py infer …</code></li>
-            <li>Merge JSONL and compute metrics: <code>python utils/eval_merge_jsonl.py …</code></li>
+            <li>Infer and evaluate: <code>python run.py infer …</code> → <code>utils/eval_merge_jsonl.py …</code></li>
           </ol>
+        </section>
+
+        <section class="doc-section" id="weights">
+          <h2>Pre-trained weights</h2>
+          <p>
+            Download checkpoints from each upstream <strong>Model Zoo</strong>, then point path configs at your local directories.
+          </p>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Backbone</th><th><code>--backbone</code></th><th>Checkpoint name</th><th>Upstream</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>LLaVA-1.5</td>
+                <td><code>llava</code></td>
+                <td><code>llava-v1.5-7b</code></td>
+                <td><a href="https://github.com/haotian-liu/LLaVA" target="_blank" rel="noopener">haotian-liu/LLaVA</a></td>
+              </tr>
+              <tr>
+                <td>InternVL-Chat 1.0</td>
+                <td><code>internvl</code></td>
+                <td><code>InternVL-Chat-ViT-6B-Vicuna-7B</code></td>
+                <td><a href="https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat_llava" target="_blank" rel="noopener">internvl_chat_llava</a></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <p>
+            Use <strong>LLaVA-1.5</strong> and <strong>InternVL-Chat 1.0</strong> weights — not LLaVA-NeXT or InternVL2.
+            You can add more backbones under <code>config/backbone/</code> and <code>backbone/</code>, then register them in
+            <code>config/backbone/registry.py</code>.
+          </p>
+        </section>
+
+        <section class="doc-section" id="backbone">
+          <h2>Backbone</h2>
+          <p>
+            PRISM resolves the active backbone from CLI <code>--backbone</code>, environment variable
+            <code>PRISM_BACKBONE</code>, or <code>BACKBONE_DEFAULT</code> / <code>TRAIN_DEFAULTS["backbone"]</code> in
+            <code>config/run_config.py</code>. Supported ids: <code>llava</code>, <code>internvl</code>.
+          </p>
+
+          <h3 id="backbone-paths">Path configs</h3>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Backbone</th><th>Path module</th><th>Constants module</th><th>Checkpoint suffix</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><code>llava</code></td>
+                <td><code>config/paths/llava_paths.py</code></td>
+                <td><code>config/backbone/llava.py</code></td>
+                <td><code>_llava</code></td>
+              </tr>
+              <tr>
+                <td><code>internvl</code></td>
+                <td><code>config/paths/internvl_paths.py</code></td>
+                <td><code>config/backbone/internvl.py</code></td>
+                <td><code>_internvl</code></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <p>
+            Each path module sets <code>BASE_MODEL_PATH</code>, vision / routing towers, checkpoint and result dirs, and DeepSpeed config.
+            InternVL adds <code>LOAD_VISION_TOWER_SEPARATELY</code> and <code>EMBEDDED_VISION_IMAGE_SIZE</code> — for zeroshot / eval,
+            keep the merged InternVL-Chat checkpoint (<code>LOAD_VISION_TOWER_SEPARATELY = False</code>).
+          </p>
+
+          <h3 id="backbone-cli">CLI examples</h3>
+          <div class="code-block">
+            <div class="code-block-toolbar">
+              <span class="lang">bash</span>
+              <button type="button" class="copy-btn">Copy</button>
+            </div>
+            <pre><code># LLaVA backbone (default suffix _llava)
+python run.py train 0 --backbone llava --benchmark ucit
+
+# InternVL backbone (suffix _internvl — match INFER_DEFAULTS / --checkpoint-suffix)
+python run.py infer 0 --backbone internvl --checkpoint-suffix _internvl --method zeroshot
+
+# Override via env for a shell session
+export PRISM_BACKBONE=internvl</code></pre>
+          </div>
+          <div class="callout">
+            <strong>Checkpoints:</strong> Task folders use the active suffix, e.g.
+            <code>checkpoints/ucit/&lt;method&gt;/Task2_llava/</code> or <code>Task2_internvl/</code>.
+            Set <code>checkpoint_suffix</code> in <code>INFER_DEFAULTS</code> to match the backbone you trained with.
+          </div>
+        </section>
+
+        <section class="doc-section" id="precision">
+          <h2>Precision</h2>
+          <p>
+            Training and inference precision are configured separately in <code>config/run_config.py</code>.
+            CLI flags override the file defaults.
+          </p>
+
+          <h3 id="precision-train">Training — <code>TRAIN_PRECISION</code></h3>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Value</th><th>Behavior</th></tr></thead>
+            <tbody>
+              <tr><td><code>bf16</code></td><td>Full weights + bf16 mixed precision (highest VRAM).</td></tr>
+              <tr><td><code>fp16</code></td><td>Full weights + fp16 mixed precision.</td></tr>
+              <tr><td><code>8bit</code></td><td>bitsandbytes 8-bit LLM + bf16 compute (lower VRAM).</td></tr>
+              <tr><td><code>4bit</code></td><td>bitsandbytes 4-bit LLM + bf16 compute (lowest VRAM).</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="code-block">
+            <div class="code-block-toolbar">
+              <span class="lang">bash</span>
+              <button type="button" class="copy-btn">Copy</button>
+            </div>
+            <pre><code># config/run_config.py
+TRAIN_PRECISION = "bf16"
+
+# CLI override
+python run.py train 0 --train-precision 8bit</code></pre>
+          </div>
+
+          <h3 id="precision-infer">Inference — <code>INFER_PRECISION</code></h3>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Value</th><th>Behavior</th></tr></thead>
+            <tbody>
+              <tr><td><code>bf16</code></td><td>Recommended default; bfloat16 weights.</td></tr>
+              <tr><td><code>fp16</code></td><td>Float16 weights.</td></tr>
+              <tr><td><code>8bit</code> / <code>4bit</code></td><td>Quantized LLM only; vision towers stay fp16/bf16.</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="code-block">
+            <div class="code-block-toolbar">
+              <span class="lang">bash</span>
+              <button type="button" class="copy-btn">Copy</button>
+            </div>
+            <pre><code># config/run_config.py
+INFER_PRECISION = "bf16"
+
+# CLI overrides (take precedence over INFER_PRECISION)
+python run.py infer 0 --load-8bit
+python run.py infer 0 --load-4bit</code></pre>
+          </div>
+          <div class="callout warn">
+            <strong>InternVL note:</strong> 4-bit inference often degrades VQA quality on InternVL-Chat; prefer
+            <code>bf16</code> or <code>8bit</code> for zeroshot and evaluation.
+          </div>
         </section>
 
         <section class="doc-section" id="install">
           <h2>Installation</h2>
+          <p>
+            The default one-shot script is <strong>tested on RTX 5090</strong> (CUDA 12.8+, torch 2.8 + cu128).
+            PRISM has also been run on RTX 3090, A100, RTX Pro 6000, and similar GPUs — adjust PyTorch,
+            flash-attn, and CUDA-related pins for your hardware (see <code>requirements/README.md</code>).
+          </p>
           <div class="code-block">
             <div class="code-block-toolbar">
               <span class="lang">bash</span>
@@ -249,8 +397,19 @@
             </div>
             <pre><code>git clone &lt;YOUR_REPO_URL&gt; PRISM
 cd PRISM
-pip install -r requirements/torch.txt    # match your CUDA version
-pip install -r requirements.txt</code></pre>
+bash scripts/setup_env.sh</code></pre>
+          </div>
+          <p>This creates conda env <code>prism</code>, installs the default stack, flash-attn, and <code>pip install -e .</code>.</p>
+          <p>Manual / legacy stacks:</p>
+          <div class="code-block">
+            <div class="code-block-toolbar">
+              <span class="lang">bash</span>
+              <button type="button" class="copy-btn">Copy</button>
+            </div>
+            <pre><code>pip install -r requirements/torch.txt      # 5090 default (cu128)
+# pip install -r requirements/torch-cu118.txt   # older CUDA / A100
+pip install -r requirements.txt
+pip install -e .</code></pre>
           </div>
           <p>Conda alternative:</p>
           <div class="code-block">
@@ -259,10 +418,12 @@ pip install -r requirements.txt</code></pre>
               <button type="button" class="copy-btn">Copy</button>
             </div>
             <pre><code>conda env create -f environment.yml
-conda activate prism</code></pre>
+conda activate prism
+bash scripts/setup_env.sh</code></pre>
           </div>
           <div class="callout">
-            <strong>Note:</strong> See <code>requirements/README.md</code> for version pins (torch 2.0.1, transformers 4.31.0, deepspeed 0.10.3).
+            <strong>Note:</strong> See <code>requirements/README.md</code> for pins and options
+            (<code>TORCH_REQUIREMENTS</code>, <code>FLASH_ATTN_WHEEL</code>, <code>SKIP_FLASH_ATTN</code>).
           </div>
 
           <h3 id="install-verify">Verify install</h3>
@@ -278,15 +439,42 @@ python -c "from core.load_model import _resolve_train_cuda_device; print('PRISM 
 
         <section class="doc-section" id="paths">
           <h2>Paths &amp; data</h2>
-          <p>Edit <code>config/paths/llava_paths.py</code> before any run:</p>
+          <p>
+            Edit the path module for your active backbone before any run. Shared dirs
+            (<code>CHECKPOINT_DIR</code>, <code>RESULT_DIR</code>, …) live in <code>config/paths/common.py</code>.
+          </p>
+
+          <h3 id="paths-llava">LLaVA — <code>config/paths/llava_paths.py</code></h3>
           <div class="table-scroll">
           <table>
             <thead><tr><th>Variable</th><th>Description</th></tr></thead>
             <tbody>
-              <tr><td><code>BASE_MODEL_PATH</code></td><td>LLaVA-1.5 (or compatible) weight directory.</td></tr>
-              <tr><td><code>CLIP_PATH</code></td><td>CLIP checkpoint for vision/text towers.</td></tr>
-              <tr><td><code>PRISM_ROOT</code></td><td>Root containing <code>instructions/</code> and <code>datasets/</code>.</td></tr>
-              <tr><td><code>CHECKPOINT_DIR</code></td><td>Output for <code>Task{N}_llava</code> folders.</td></tr>
+              <tr><td><code>BASE_MODEL_PATH</code></td><td>LLaVA-1.5 weight directory (<code>llava-v1.5-7b</code>).</td></tr>
+              <tr><td><code>CLIP_PATH</code></td><td>CLIP checkpoint for vision / text routing towers.</td></tr>
+              <tr><td><code>PRETRAIN_MM_PROJECTOR</code></td><td>Optional LLaVA-1.5 mm_projector pretrain weights.</td></tr>
+            </tbody>
+          </table>
+          </div>
+
+          <h3 id="paths-internvl">InternVL — <code>config/paths/internvl_paths.py</code></h3>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Variable</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td><code>BASE_MODEL_PATH</code></td><td>InternVL-Chat merged checkpoint.</td></tr>
+              <tr><td><code>CLIP_PATH</code></td><td>CLIP for dual-modal routing (same as CoIN / HiDe-style setups).</td></tr>
+              <tr><td><code>VISION_TOWER_PATH</code></td><td>Standalone InternViT weights (when loading ViT separately).</td></tr>
+              <tr><td><code>LOAD_VISION_TOWER_SEPARATELY</code></td><td><code>False</code> for eval/zeroshot; <code>True</code> only when intentionally swapping ViT.</td></tr>
+            </tbody>
+          </table>
+          </div>
+
+          <h3 id="paths-shared">Shared output dirs</h3>
+          <div class="table-scroll">
+          <table>
+            <thead><tr><th>Variable</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td><code>CHECKPOINT_DIR</code></td><td>Output for <code>Task{N}_llava</code> / <code>Task{N}_internvl</code> folders.</td></tr>
               <tr><td><code>RESULT_DIR</code></td><td>Inference JSONL tree.</td></tr>
               <tr><td><code>LOG_DIR</code></td><td>Text logs from <code>run.py</code>.</td></tr>
               <tr><td><code>DEEPSPEED_CONFIG</code></td><td>Usually <code>config/deepspeed/zero2.json</code>.</td></tr>
@@ -297,7 +485,8 @@ python -c "from core.load_model import _resolve_train_cuda_device; print('PRISM 
           <h3 id="paths-benchmarks">Benchmarks layout</h3>
           <p>
             Each benchmark under <code>config/benchmarks/</code> lists tasks with JSON annotation paths and image folders.
-            <code>run.py</code> passes <code>--benchmark ucit|coin|trigap</code> to set <code>task_num</code> and data paths.
+            <code>run.py</code> passes <code>--benchmark ucit|coin|trigap</code> to set task schedules and data paths.
+            Register custom benchmarks in <code>config/benchmarks/__init__.py</code>.
           </p>
           <p>
             For UCIT, <code>--use-sub-dataset</code> appends <code>_sub</code> to JSON filenames (see <code>utils/sub_dataset.py</code>).
@@ -307,19 +496,10 @@ python -c "from core.load_model import _resolve_train_cuda_device; print('PRISM 
               <span class="lang">python</span>
               <button type="button" class="copy-btn">Copy</button>
             </div>
-            <pre><code># config/paths/llava_paths.py (minimal example)
-from pathlib import Path
-
-PROJECT_ROOT = str(Path(__file__).parent.parent.parent.absolute())
-
-BASE_MODEL_PATH = "/data/models/llava-v1.5-7b"
-CLIP_PATH = "/data/models/clip-vit-large-patch14-336"
-PRISM_ROOT = "/data/prism_assets"   # instructions/ + datasets/
-
-CHECKPOINT_DIR = f"{PROJECT_ROOT}/checkpoints"
-RESULT_DIR = f"{PROJECT_ROOT}/results"
-LOG_DIR = f"{PROJECT_ROOT}/logs"
-DEEPSPEED_CONFIG = f"{PROJECT_ROOT}/config/deepspeed/zero2.json"</code></pre>
+            <pre><code># config/benchmarks/UCIT.py (layout example)
+UCIT_ROOT = "/data/UCIT"
+UCIT_INSTRUCTION_DIR = f"{UCIT_ROOT}/instructions"
+UCIT_IMAGE_DIR = f"{UCIT_ROOT}/datasets"</code></pre>
           </div>
         </section>
 
@@ -338,8 +518,9 @@ DEEPSPEED_CONFIG = f"{PROJECT_ROOT}/config/deepspeed/zero2.json"</code></pre>
             </div>
             <pre><code>python run.py train &lt;task_id&gt; [more_ids ...] \
   --benchmark ucit \
-  --method ewc \
+  --backbone llava \
   --gpus 0,1,2,3 \
+  [--train-precision bf16|fp16|8bit|4bit] \
   [--port 29602] \
   [--debug] \
   [--use-sub-dataset | --no-use-sub-dataset]</code></pre>
@@ -349,7 +530,7 @@ DEEPSPEED_CONFIG = f"{PROJECT_ROOT}/config/deepspeed/zero2.json"</code></pre>
           <h3 id="train-internals">What happens internally</h3>
           <ol>
             <li><code>load_config()</code> merges CLI, <code>config/methods/&lt;method&gt;.py</code>, and benchmark task counts.</li>
-            <li><code>load_model_for_train</code> builds LLaVA, wraps with <code>CLModel</code> + integration, loads previous task weights if configured.</li>
+            <li><code>load_model_for_train</code> builds the active MLLM backbone, wraps with <code>CLModel</code>, loads previous task weights if configured.</li>
             <li><code>LLaVATrainer</code> runs the Hugging Face training loop with DeepSpeed; callbacks invoke <code>CLIntegration</code> hooks.</li>
             <li><code>save_model</code> writes PEFT adapters and calls <code>save_extra_state</code> when implemented.</li>
           </ol>
@@ -359,9 +540,9 @@ DEEPSPEED_CONFIG = f"{PROJECT_ROOT}/config/deepspeed/zero2.json"</code></pre>
 
           <h3 id="train-checkpoints">Checkpoints</h3>
           <p>
-            Typical layout: <code>checkpoints/&lt;benchmark&gt;/&lt;method&gt;/Task&lt;k&gt;_llava/</code> containing
-            <code>adapter_config.json</code>, <code>adapter_model.safetensors</code>, and optional method state
-            (e.g. <code>same_state.bin</code>, <code>grac_state.bin</code>).
+            Typical layout: <code>checkpoints/&lt;benchmark&gt;/&lt;method&gt;/Task&lt;k&gt;_llava/</code> or
+            <code>Task&lt;k&gt;_internvl/</code> containing <code>adapter_config.json</code>,
+            <code>adapter_model.safetensors</code>, and optional method-specific state files.
           </p>
         </section>
 
@@ -374,16 +555,18 @@ DEEPSPEED_CONFIG = f"{PROJECT_ROOT}/config/deepspeed/zero2.json"</code></pre>
             </div>
             <pre><code>python run.py infer &lt;task_id&gt; \
   --benchmark ucit \
-  --method ewc \
+  --backbone llava \
   --checkpoint-task 5 \
   --checkpoint-suffix _llava \
   --stage last \
   --gpus 0,1 \
+  [--load-8bit | --load-4bit] \
   --temperature 0</code></pre>
           </div>
           <p>
-            Inference spawns <code>backbone/shared/eval/model_unified.py</code> with method-specific loading via
-            <code>core.load_model_for_inference</code>. For <code>zeroshot</code>, use <code>--model-base</code> only (no CL adapter).
+            Inference spawns <code>backbone/shared/eval/model_unified.py</code> with backbone-aware loading via
+            <code>core.load_model_for_inference</code>. For <code>zeroshot</code>, use the base MLLM checkpoint only (no CL adapter).
+            Match <code>--checkpoint-suffix</code> to the backbone used during training (<code>_llava</code> vs <code>_internvl</code>).
           </p>
         </section>
 
@@ -410,9 +593,9 @@ python utils/eval_merge_jsonl.py merge.jsonl --benchmark ucit --task-id 5</code>
           <h2>Reproduce experiments</h2>
           <ol>
             <li><strong>Lock environment</strong> — Use pinned <code>requirements/</code>; record CUDA driver version.</li>
-            <li><strong>Match assets</strong> — Same LLaVA base, CLIP, and benchmark file layout as the reference run.</li>
-            <li><strong>Align configs</strong> — Copy or diff <code>config/run_config.py</code> and <code>config/methods/&lt;method&gt;.py</code>.</li>
-            <li><strong>Train in order</strong> — Incremental methods require prior <code>Task{k}_llava</code> checkpoints or explicit <code>previous_task_model_path</code>.</li>
+            <li><strong>Match assets</strong> — Same base weights, backbone (<code>--backbone</code>), and benchmark layout as the reference run.</li>
+            <li><strong>Align configs</strong> — Copy or diff <code>config/run_config.py</code> (backbone, <code>TRAIN_PRECISION</code>, <code>INFER_PRECISION</code>).</li>
+            <li><strong>Train in order</strong> — Incremental runs require prior task checkpoints with the correct suffix (<code>_llava</code> or <code>_internvl</code>).</li>
             <li><strong>Match infer flags</strong> — <code>--conv-mode</code>, <code>--temperature</code>, <code>--stage</code>, chunk settings.</li>
             <li><strong>Compare logs</strong> — Under <code>output/</code>; training logs echo the full DeepSpeed command.</li>
           </ol>
@@ -533,10 +716,11 @@ TRAIN_FLAG_OVERRIDES = {
           <table>
             <thead><tr><th>File</th><th>Contents</th></tr></thead>
             <tbody>
-              <tr><td><code>config/run_config.py</code></td><td><code>TRAIN_DEFAULTS</code>, <code>INFER_DEFAULTS</code>, extra CLI args.</td></tr>
-              <tr><td><code>config/methods/*.py</code></td><td>Per-method training and inference overrides.</td></tr>
+              <tr><td><code>config/run_config.py</code></td><td><code>TRAIN_DEFAULTS</code>, <code>INFER_DEFAULTS</code>, <code>TRAIN_PRECISION</code>, <code>INFER_PRECISION</code>, <code>BACKBONE_DEFAULT</code>.</td></tr>
+              <tr><td><code>config/backbone/*.py</code></td><td>Per-backbone constants (<code>CHECKPOINT_SUFFIX</code>, conv mode, routing dim).</td></tr>
+              <tr><td><code>config/backbone/registry.py</code></td><td>Resolve <code>--backbone</code>, load path modules, precision helpers.</td></tr>
+              <tr><td><code>config/paths/*_paths.py</code></td><td>Local weight and output directory paths per backbone.</td></tr>
               <tr><td><code>config/benchmarks/*.py</code></td><td>Task definitions and eval dataset names.</td></tr>
-              <tr><td><code>config/backbone/llava.py</code></td><td><code>DEFAULT_CONV_MODE</code>, <code>CLIP_FEATURE_DIM</code>.</td></tr>
               <tr><td><code>config/deepspeed/*.json</code></td><td>ZeRO stage configuration.</td></tr>
             </tbody>
           </table>
@@ -552,24 +736,27 @@ TRAIN_FLAG_OVERRIDES = {
             <pre><code># config/run_config.py
 TRAIN_DEFAULTS = {
     "benchmark": "ucit",
-    "method": "ewc",
+    "backbone": "llava",
     "gpus": "0,1,2,3",
     "port": 29602,
     "debug": False,
     "use_sub_dataset": False,
 }
 
+TRAIN_PRECISION = "bf16"   # bf16 | fp16 | 8bit | 4bit
+INFER_PRECISION = "bf16"   # bf16 | fp16 | 8bit | 4bit
+BACKBONE_DEFAULT = "llava"
+
 INFER_DEFAULTS = {
     "benchmark": "ucit",
-    "method": "ewc",
+    "backbone": "llava",
     "checkpoint_task": "5",
-    "checkpoint_suffix": "_llava",
+    "checkpoint_suffix": "_llava",   # _internvl for InternVL runs
     "stage": "last",
     "gpus": "0",
     "temperature": "0",
 }
 
-# Appended to every train command (optional)
 TRAIN_EXTRA_ARGS: list[str] = []</code></pre>
           </div>
           <p>Override on the command line without editing the file:</p>
@@ -578,35 +765,21 @@ TRAIN_EXTRA_ARGS: list[str] = []</code></pre>
               <span class="lang">bash</span>
               <button type="button" class="copy-btn">Copy</button>
             </div>
-            <pre><code>python run.py train 0 --benchmark coin --method same --gpus 0,1 --debug</code></pre>
+            <pre><code>python run.py train 0 --benchmark coin --backbone internvl --train-precision 8bit --gpus 0,1
+python run.py infer 0 --backbone internvl --checkpoint-suffix _internvl --load-8bit</code></pre>
           </div>
 
-          <h3 id="configuration-methods">Per-method — <code>config/methods/&lt;method&gt;.py</code></h3>
+          <h3 id="configuration-backbone">Backbone registry — <code>config/backbone/registry.py</code></h3>
           <p>
-            Each method module exports <code>METHOD_CONFIG</code> (PEFT + algorithm knobs),
-            <code>TRAIN_BATCH_SIZES[benchmark][task_id]</code>, and optional <code>TRAIN_FLAG_OVERRIDES</code>
-            merged into the DeepSpeed launch string.
+            Resolution order: CLI <code>--backbone</code> → env <code>PRISM_BACKBONE</code> →
+            <code>BACKBONE_DEFAULT</code> / defaults in <code>run_config.py</code>.
+            To add a backbone, create <code>config/backbone/&lt;id&gt;.py</code>,
+            <code>config/paths/&lt;id&gt;_paths.py</code>, implement model code under <code>backbone/&lt;id&gt;/</code>,
+            and register the id in <code>_SUPPORTED</code> inside <code>registry.py</code>.
           </p>
-          <div class="code-block">
-            <div class="code-block-toolbar">
-              <span class="lang">python</span>
-              <button type="button" class="copy-btn">Copy</button>
-            </div>
-            <pre><code># config/methods/same.py (pattern)
-METHOD_CONFIG = {
-    "lora_r": 64,
-    "lora_alpha": 16,
-    "peft_target_modules": "attn_and_ffn",
-    # method-specific keys consumed in integration.py
-}
 
-TRAIN_BATCH_SIZES = {
-    "ucit": {0: 4, 1: 4, 2: 4, 3: 4, 4: 4, 5: 2},
-}</code></pre>
-          </div>
-
-          <h3 id="configuration-paths">Paths — <code>config/paths/llava_paths.py</code></h3>
-          <p>Point these at your local LLaVA weights, CLIP, and dataset roots before the first train run:</p>
+          <h3 id="configuration-paths">Path configs</h3>
+          <p>LLaVA example (<code>config/paths/llava_paths.py</code>):</p>
           <div class="code-block">
             <div class="code-block-toolbar">
               <span class="lang">python</span>
@@ -614,13 +787,22 @@ TRAIN_BATCH_SIZES = {
             </div>
             <pre><code>BASE_MODEL_PATH = "/path/to/llava-v1.5-7b"
 CLIP_PATH = "/path/to/clip-vit-large-patch14-336"
-PRISM_ROOT = "/path/to/prism_data"  # contains instructions/ and datasets/
 
 CHECKPOINT_DIR = f"{PROJECT_ROOT}/checkpoints"
 RESULT_DIR = f"{PROJECT_ROOT}/results"</code></pre>
           </div>
+          <p>InternVL example (<code>config/paths/internvl_paths.py</code>):</p>
+          <div class="code-block">
+            <div class="code-block-toolbar">
+              <span class="lang">python</span>
+              <button type="button" class="copy-btn">Copy</button>
+            </div>
+            <pre><code>BASE_MODEL_PATH = "/path/to/InternVL-Chat-ViT-6B-Vicuna-7B"
+CLIP_PATH = "/path/to/clip-vit-large-patch14-336"
+LOAD_VISION_TOWER_SEPARATELY = False   # recommended for eval / zeroshot</code></pre>
+          </div>
           <p>
-            <code>MCIT_ROOT</code> is kept as a legacy alias for older checkpoints and docs that still reference the previous project name.
+            Benchmark roots are set in <code>config/benchmarks/&lt;name&gt;.py</code> (e.g. <code>UCIT_ROOT</code>, <code>COIN_ROOT</code>).
           </p>
         </section>
 
@@ -630,8 +812,8 @@ RESULT_DIR = f"{PROJECT_ROOT}/results"</code></pre>
           <table>
             <thead><tr><th>Variable</th><th>Purpose</th></tr></thead>
             <tbody>
+              <tr><td><code>PRISM_BACKBONE</code></td><td>Default backbone id (<code>llava</code>, <code>internvl</code>) when CLI omits <code>--backbone</code>.</td></tr>
               <tr><td><code>PYPRISM_LOG_LEVEL</code></td><td>Logging level for training subprocess (<code>DEBUG</code>, <code>INFO</code>, …). Legacy: <code>PYMCIT_LOG_LEVEL</code>.</td></tr>
-              <tr><td><code>PRISM_SAME_*</code></td><td>Optional overrides for SAME router / expert behavior (see <code>method/custom/same/</code>). Legacy: <code>MCITBOX_SAME_*</code>.</td></tr>
               <tr><td><code>CUDA_VISIBLE_DEVICES</code></td><td>Set by <code>run.py</code> from <code>--gpus</code> before spawning workers.</td></tr>
             </tbody>
           </table>
@@ -641,21 +823,10 @@ RESULT_DIR = f"{PROJECT_ROOT}/results"</code></pre>
               <span class="lang">bash</span>
               <button type="button" class="copy-btn">Copy</button>
             </div>
-            <pre><code>export PYPRISM_LOG_LEVEL=DEBUG
-python run.py train 0 --benchmark ucit --method ewc --gpus 0</code></pre>
+            <pre><code>export PRISM_BACKBONE=internvl
+export PYPRISM_LOG_LEVEL=DEBUG
+python run.py train 0 --benchmark ucit --gpus 0</code></pre>
           </div>
-        </section>
-
-        <section class="doc-section" id="authors">
-          <h2>Authors</h2>
-          <ul class="author-list">
-            <li><span class="author-name">Jun-Tao Tang</span></li>
-            <li><span class="author-name">Shi-Yu Cheng</span></li>
-            <li><span class="author-name">Dai-Wei Zhou</span></li>
-          </ul>
-          <p class="author-supervision">
-            Completed under guidance of Dai-Wei Zhou.
-          </p>
         </section>
 
         <section class="doc-section" id="troubleshooting">
@@ -672,11 +843,14 @@ python run.py train 0 --benchmark ucit --method ewc --gpus 0</code></pre>
               <span class="lang">bash</span>
               <button type="button" class="copy-btn">Copy</button>
             </div>
-            <pre><code># Expected layout
-checkpoints/ucit/ewc/Task2_llava/adapter_model.safetensors
+            <pre><code># LLaVA checkpoint
+checkpoints/ucit/&lt;method&gt;/Task2_llava/adapter_model.safetensors
 
-python run.py infer 2 --benchmark ucit --method ewc \
-  --checkpoint-task 2 --checkpoint-suffix _llava --stage last</code></pre>
+# InternVL checkpoint
+checkpoints/ucit/&lt;method&gt;/Task2_internvl/adapter_model.safetensors
+
+python run.py infer 2 --benchmark ucit \
+  --backbone llava --checkpoint-task 2 --checkpoint-suffix _llava --stage last</code></pre>
           </div>
           <h3>Custom PEFT tuner not registered</h3>
           <p>

@@ -244,10 +244,32 @@ a:hover {
 }
 
 .hero .tagline {
-  margin: 0 0 0.85rem;
+  margin: 0 0 1.25rem;
   font-size: 0.92rem;
   line-height: 1.55;
   color: var(--text-muted);
+}
+
+.hero-authors {
+  margin: 0;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.hero-authors h2 {
+  margin: 1rem 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.hero-authors .author-list {
+  margin-bottom: 0.75rem;
+}
+
+.hero-authors .author-supervision {
+  margin: 0;
 }
 
 .hero .tagline strong {
