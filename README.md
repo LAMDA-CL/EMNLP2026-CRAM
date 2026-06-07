@@ -3,10 +3,7 @@
   <a href="#introduction">📖 Introduction</a> •
   <a href="#methods-implemented">🧩 Methods</a> •
   <a href="#how-to-use">🚀 How To Use</a> •
-  <a href="#pre-trained-weights">🧠 Weights</a> •
-  <a href="#datasets">📂 Datasets</a> •
   <a href="#license">📄 License</a> •
-  <a href="#acknowledgments">🙏 Acknowledgments</a> •
   <a href="#contact">📧 Contact</a>
 </p>
 
@@ -18,8 +15,7 @@
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=LAMDA-CL.Prism&left_color=green&right_color=red" alt="visitors">
 <a href="https://arxiv.org/abs/2605.26110"><img src="https://img.shields.io/badge/paper-Prism-success?style=flat-square" alt="Prism paper"></a>
-<a href="#datasets"><img src="https://img.shields.io/badge/benchmarks-CoIN_UCIT_TriGap-blue?style=flat-square" alt="CoIN UCIT TriGap"></a>
-<a href="#methods-implemented"><img src="https://img.shields.io/badge/MCIT_methods-12-success?style=flat-square" alt="12 MCIT methods"></a>
+<a href="https://lamda-cl.github.io/Prism/"><img src="https://img.shields.io/badge/documentation-Prism-blue?style=flat-square" alt="PRISM documentation"></a>
 
 </div>
 
