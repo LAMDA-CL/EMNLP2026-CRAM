@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import copy
 import os
-from typing import Any, Dict, List, Literal, Optional, Tuple
+import random
+from typing import Any, Dict, Iterator, List, Literal, Optional, Tuple
 
 import numpy as np
 import torch
@@ -104,6 +106,488 @@ class PromptIntegration(CLIntegration):
         if self.virtual_tokens is not None:
             out["virtual_tokens"] = self.virtual_tokens
         return out
+
+
+class ReplayIntegration(CLIntegration):
+    """Per-task experience replay buffer for mixing past samples into training."""
+
+    _STATE_FILE = "replay_buffer_state.pt"
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.task_num: int = int(getattr(config, "task_num", 8))
+        self.cur_task: int = int(getattr(config, "cur_task", 0))
+        self.buffer_size: int = int(getattr(config, "replay_buffer_size", 256))
+        self.store_prob: float = float(getattr(config, "replay_store_prob", 0.05))
+        n_slot = max(0, self.task_num - 1)
+        self._slots: List[List[Dict[str, Any]]] = [[] for _ in range(n_slot)]
+
+    def _per_slot_cap(self) -> int:
+        if not self._slots:
+            return 0
+        return max(1, self.buffer_size // len(self._slots))
+
+    def flatten_past_examples(self, cur_task: Optional[int] = None) -> List[Dict[str, Any]]:
+        k = int(cur_task if cur_task is not None else self.cur_task)
+        if k <= 0:
+            return []
+        out: List[Dict[str, Any]] = []
+        for i in range(min(k, len(self._slots))):
+            for row in self._slots[i]:
+                out.append(copy.deepcopy(row))
+        return out
+
+    def initialize_model(self, model: nn.Module) -> None:
+        return
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        return
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        self.cur_task = int(task_id) + 1
+
+    def should_store_training_example(
+        self,
+        model: nn.Module,
+        context: CLContext,
+        raw_example: Dict[str, Any],
+        batch: Dict[str, Any],
+        *,
+        example_index: int,
+        loss: Optional[torch.Tensor] = None,
+    ) -> bool:
+        if context.task_id is None or not isinstance(raw_example, dict):
+            return False
+        tid = int(context.task_id)
+        if tid < 0 or tid >= len(self._slots):
+            return False
+        if len(self._slots[tid]) >= self._per_slot_cap():
+            return False
+        return random.random() < self.store_prob
+
+    def on_training_batch_end(
+        self,
+        model: nn.Module,
+        context: CLContext,
+        batch: Dict[str, Any],
+        *,
+        loss: Optional[torch.Tensor] = None,
+        trainer: Any = None,
+    ) -> None:
+        raw_rows = batch.get("cl_raw_example")
+        if not raw_rows or context.task_id is None:
+            return
+        tid = int(context.task_id)
+        if tid < 0 or tid >= len(self._slots):
+            return
+        cap = self._per_slot_cap()
+        slot = self._slots[tid]
+        rows = raw_rows if isinstance(raw_rows, list) else [raw_rows]
+        for row in rows:
+            if not isinstance(row, dict) or len(slot) >= cap:
+                continue
+            if random.random() < self.store_prob:
+                slot.append(copy.deepcopy(row))
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {
+            "task_num": self.task_num,
+            "buffer_size": self.buffer_size,
+            "stored_examples": sum(len(s) for s in self._slots),
+        }
+
+    def save_extra_state(self, output_dir: str, model=None) -> bool:
+        os.makedirs(output_dir, exist_ok=True)
+        payload = {
+            "version": 1,
+            "task_num": self.task_num,
+            "cur_task": self.cur_task,
+            "buffer_size": self.buffer_size,
+            "slots": [[copy.deepcopy(x) for x in slot] for slot in self._slots],
+        }
+        torch.save(payload, os.path.join(output_dir, self._STATE_FILE))
+        return True
+
+    def load_extra_state(self, load_dir: str, model=None) -> bool:
+        path = os.path.join(load_dir, self._STATE_FILE)
+        if not os.path.isfile(path):
+            return False
+        blob = torch.load(path, map_location="cpu")
+        if not isinstance(blob, dict):
+            return False
+        slots = blob.get("slots")
+        if not isinstance(slots, list):
+            return False
+        cap = self._per_slot_cap()
+        for i in range(min(len(self._slots), len(slots))):
+            row = slots[i]
+            if isinstance(row, list):
+                self._slots[i] = [
+                    copy.deepcopy(x) for x in row[:cap] if isinstance(x, dict)
+                ]
+        self.cur_task = int(blob.get("cur_task", self.cur_task))
+        return True
+
+
+class AnchorRegularizationIntegration(CLIntegration):
+    """L2 anchor penalty toward parameter snapshots from completed tasks."""
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.reg_lambda: float = float(getattr(config, "anchor_reg_lambda", 1.0))
+        self._anchors: Dict[int, Dict[str, torch.Tensor]] = {}
+
+    def _iter_trainable_named_params(self, model: nn.Module) -> Iterator[Tuple[str, nn.Parameter]]:
+        for name, p in model.named_parameters():
+            if p.requires_grad:
+                yield name, p
+
+    def _snapshot_task(self, model: nn.Module, task_id: int) -> None:
+        snap: Dict[str, torch.Tensor] = {}
+        for name, p in self._iter_trainable_named_params(model):
+            snap[name] = p.detach().clone()
+        self._anchors[int(task_id)] = snap
+
+    def initialize_model(self, model: nn.Module) -> None:
+        return
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        return
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        if not model.training:
+            return outputs
+        base_loss = getattr(outputs, "loss", None)
+        if base_loss is None:
+            return outputs
+        cur_task = int(context.task_id if context.task_id is not None else 0)
+        if cur_task < 1:
+            return outputs
+
+        terms: List[torch.Tensor] = []
+        for tid in range(cur_task):
+            anchor = self._anchors.get(tid)
+            if not anchor:
+                continue
+            for name, p in self._iter_trainable_named_params(model):
+                ref = anchor.get(name)
+                if ref is not None:
+                    terms.append(F.mse_loss(p, ref.to(device=p.device, dtype=p.dtype)))
+
+        if terms:
+            reg = self.reg_lambda * (sum(terms) / len(terms))
+            context.add_auxiliary_loss("anchor_reg", reg)
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        self._snapshot_task(model, int(task_id))
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {"anchor_reg_lambda": self.reg_lambda, "num_snapshots": len(self._anchors)}
+
+    def save_extra_state(self, output_dir: str, model=None) -> bool:
+        os.makedirs(output_dir, exist_ok=True)
+        torch.save(
+            {"anchors": self._anchors, "reg_lambda": self.reg_lambda},
+            os.path.join(output_dir, "anchor_reg_state.pt"),
+        )
+        return True
+
+    def load_extra_state(self, load_dir: str, model=None) -> bool:
+        path = os.path.join(load_dir, "anchor_reg_state.pt")
+        if not os.path.isfile(path):
+            return False
+        blob = torch.load(path, map_location="cpu")
+        if not isinstance(blob, dict):
+            return False
+        anchors = blob.get("anchors")
+        if isinstance(anchors, dict):
+            self._anchors = {int(k): v for k, v in anchors.items()}
+        return bool(self._anchors)
+
+
+class TaskBroadcastIntegration(CLIntegration):
+    """Broadcast ``context.task_id`` onto submodules that expose a configurable attribute."""
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.broadcast_attr: str = str(getattr(config, "task_broadcast_attr", "cur_task"))
+        self.fallback_task: int = int(getattr(config, "cur_task", 0))
+
+    def _resolve_task_id(self, context: CLContext) -> int:
+        if context.task_id is not None:
+            return int(context.task_id)
+        return int(getattr(self.config, "cur_task", self.fallback_task))
+
+    def _broadcast(self, model: nn.Module, task_id: int) -> None:
+        for module in model.modules():
+            if hasattr(module, self.broadcast_attr):
+                setattr(module, self.broadcast_attr, int(task_id))
+
+    def initialize_model(self, model: nn.Module) -> None:
+        self._broadcast(model, self._resolve_task_id(CLContext(task_id=self.fallback_task)))
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        self._broadcast(model, self._resolve_task_id(context))
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        self._broadcast(model, self._resolve_task_id(context))
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        self.fallback_task = int(task_id) + 1
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {
+            "task_broadcast_attr": self.broadcast_attr,
+            "cur_task": self.fallback_task,
+        }
+
+
+class AdapterGateIntegration(CLIntegration):
+    """Hard one-hot expert gating: activate only the current task's adapter during training."""
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.task_num: int = int(getattr(config, "task_num", getattr(config, "expert_num", 8)))
+        self.peft_expert_layer_name: str = str(
+            getattr(config, "peft_expert_layer_name", "SAMELinear")
+        )
+        self.inference_mode: str = str(getattr(config, "adapter_gate_inference", "uniform"))
+
+    def _matches_expert_layer(self, module: Any) -> bool:
+        name = module.__class__.__name__
+        target = self.peft_expert_layer_name
+        return name == target or name.startswith(f"{target}")
+
+    def _write_gate(self, model: nn.Module, task_id: int, *, uniform: bool = False) -> None:
+        for module in model.modules():
+            if not self._matches_expert_layer(module):
+                continue
+            n = int(getattr(module, "expert_num", self.task_num))
+            vec = torch.full((n,), 1.0 / max(n, 1), dtype=torch.float32)
+            if not uniform and 0 <= task_id < n:
+                vec = torch.zeros(n, dtype=torch.float32)
+                vec[task_id] = 1.0
+            dev = next(module.parameters()).device
+            module.router = vec.to(device=dev)
+
+    def initialize_model(self, model: nn.Module) -> None:
+        tid = int(getattr(self.config, "cur_task", 0))
+        self._write_gate(model, tid, uniform=(self.inference_mode == "uniform"))
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        if model.training:
+            tid = int(context.task_id if context.task_id is not None else getattr(self.config, "cur_task", 0))
+            self._write_gate(model, tid)
+        elif self.inference_mode == "uniform":
+            self._write_gate(model, 0, uniform=True)
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        return
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {
+            "task_num": self.task_num,
+            "adapter_gate_inference": self.inference_mode,
+        }
+
+
+class OrthogonalPenaltyIntegration(CLIntegration):
+    """Penalize alignment between current LoRA weights and past-task LoRA snapshots."""
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.orth_lambda: float = float(getattr(config, "orth_lambda", 0.1))
+        self._past_vectors: Dict[int, Dict[str, torch.Tensor]] = {}
+
+    def _iter_lora_params(self, model: nn.Module) -> Iterator[Tuple[str, nn.Parameter]]:
+        for name, p in model.named_parameters():
+            if p.requires_grad and "lora" in name.lower():
+                yield name, p
+
+    def initialize_model(self, model: nn.Module) -> None:
+        return
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        return
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        if not model.training:
+            return outputs
+        if getattr(outputs, "loss", None) is None:
+            return outputs
+        cur_task = int(context.task_id if context.task_id is not None else 0)
+        if cur_task < 1:
+            return outputs
+
+        terms: List[torch.Tensor] = []
+        for tid in range(cur_task):
+            past = self._past_vectors.get(tid)
+            if not past:
+                continue
+            for name, p in self._iter_lora_params(model):
+                ref = past.get(name)
+                if ref is None:
+                    continue
+                u = F.normalize(p.flatten(), dim=0, eps=1e-8)
+                v = F.normalize(ref.to(device=p.device, dtype=p.dtype).flatten(), dim=0, eps=1e-8)
+                terms.append((u * v).sum().pow(2))
+
+        if terms:
+            penalty = self.orth_lambda * (sum(terms) / len(terms))
+            context.add_auxiliary_loss("orth_penalty", penalty)
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        vecs: Dict[str, torch.Tensor] = {}
+        for name, p in self._iter_lora_params(model):
+            vecs[name] = p.detach().flatten().cpu().clone()
+        self._past_vectors[int(task_id)] = vecs
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {"orth_lambda": self.orth_lambda, "num_task_snapshots": len(self._past_vectors)}
+
+    def save_extra_state(self, output_dir: str, model=None) -> bool:
+        os.makedirs(output_dir, exist_ok=True)
+        torch.save(
+            {"past_vectors": self._past_vectors, "orth_lambda": self.orth_lambda},
+            os.path.join(output_dir, "orth_penalty_state.pt"),
+        )
+        return True
+
+    def load_extra_state(self, load_dir: str, model=None) -> bool:
+        path = os.path.join(load_dir, "orth_penalty_state.pt")
+        if not os.path.isfile(path):
+            return False
+        blob = torch.load(path, map_location="cpu")
+        if not isinstance(blob, dict):
+            return False
+        past = blob.get("past_vectors")
+        if isinstance(past, dict):
+            self._past_vectors = {int(k): v for k, v in past.items()}
+        return bool(self._past_vectors)
+
+
+class DistillationIntegration(CLIntegration):
+    """Track per-task logit EMA and add a lightweight distillation penalty."""
+
+    def __init__(self, config: Any):
+        super().__init__(config)
+        self.distill_lambda: float = float(getattr(config, "distill_lambda", 0.5))
+        self.ema_momentum: float = float(getattr(config, "distill_ema_momentum", 0.9))
+        self._teacher_stats: Dict[int, torch.Tensor] = {}
+
+    def initialize_model(self, model: nn.Module) -> None:
+        return
+
+    def on_input_prep(
+        self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext
+    ) -> None:
+        return
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        logits = getattr(outputs, "logits", None)
+        if logits is None or not model.training:
+            return outputs
+
+        cur_task = int(context.task_id if context.task_id is not None else 0)
+        pooled = logits.detach().float().mean(dim=tuple(range(logits.dim() - 1)))
+        prev = self._teacher_stats.get(cur_task)
+        if prev is None:
+            self._teacher_stats[cur_task] = pooled.cpu().clone()
+        else:
+            m = self.ema_momentum
+            self._teacher_stats[cur_task] = (
+                m * prev + (1.0 - m) * pooled.cpu()
+            ).clone()
+
+        if cur_task < 1 or getattr(outputs, "loss", None) is None:
+            return outputs
+
+        terms: List[torch.Tensor] = []
+        for tid in range(cur_task):
+            teacher = self._teacher_stats.get(tid)
+            if teacher is None:
+                continue
+            t = teacher.to(device=pooled.device, dtype=pooled.dtype)
+            if t.shape != pooled.shape:
+                continue
+            terms.append(F.mse_loss(pooled, t))
+
+        if terms:
+            context.add_auxiliary_loss(
+                "logit_distill", self.distill_lambda * (sum(terms) / len(terms))
+            )
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        return
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {
+            "distill_lambda": self.distill_lambda,
+            "distill_ema_momentum": self.ema_momentum,
+            "teacher_tasks": sorted(self._teacher_stats.keys()),
+        }
+
+    def save_extra_state(self, output_dir: str, model=None) -> bool:
+        os.makedirs(output_dir, exist_ok=True)
+        torch.save(
+            {
+                "teacher_stats": self._teacher_stats,
+                "distill_lambda": self.distill_lambda,
+                "ema_momentum": self.ema_momentum,
+            },
+            os.path.join(output_dir, "distill_state.pt"),
+        )
+        return True
+
+    def load_extra_state(self, load_dir: str, model=None) -> bool:
+        path = os.path.join(load_dir, "distill_state.pt")
+        if not os.path.isfile(path):
+            return False
+        blob = torch.load(path, map_location="cpu")
+        if not isinstance(blob, dict):
+            return False
+        stats = blob.get("teacher_stats")
+        if isinstance(stats, dict):
+            self._teacher_stats = {int(k): v for k, v in stats.items()}
+        return bool(self._teacher_stats)
+
 
 class RouterIntegration(CLIntegration):
     _PRISM_SAME_PREFIX = "prism.same."

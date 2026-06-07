@@ -1,7 +1,16 @@
-# Full training + eval environment. Install PyTorch first:
+# Full training + eval environment (CUDA 12.8 / torch 2.8 baseline).
+#
+# One-shot setup (recommended):
+#   bash scripts/setup_env.sh
+#
+# Manual equivalent:
 #   pip install -r requirements/torch.txt
-#   pip install -r requirements.txt
+#   pip install -r requirements/train.txt
+#   pip install -r requirements/eval.txt
+#   pip install -r requirements/flash-attn.txt
+#   pip install -e .
 
 -r requirements/torch.txt
 -r requirements/train.txt
 -r requirements/eval.txt
+-r requirements/flash-attn.txt

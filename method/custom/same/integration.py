@@ -239,16 +239,7 @@ class SameIntegration(RouterIntegration):
         buffer_markers = self.carry_buffer_markers()
         tensor_index = self._build_router_tensor_index(state, buffer_markers)
 
-        anchor_lists_ok, aux_ok = self.restore_state(state, model=model)
-
-        if self.image_anchors is not None and not anchor_lists_ok:
-            raise RuntimeError(
-                f"SAME load_extra_state({load_dir}): checkpoint has no non-empty "
-                "image_anchors/text_anchors lists (expected same_state.bin or "
-                "prism.same.* / mcitbox.same.* anchor keys in adapter_model.safetensors). "
-                "Older code could mark load as successful after restoring only boundaries/carry buffers, "
-                "leaving random prototypes — re-save from a good checkpoint or fix the adapter files."
-            )
+        self.restore_state(state, model=model)
 
         if target is not None:
             for buf_name, buf in target.named_buffers():
@@ -303,6 +294,5 @@ class SameIntegration(RouterIntegration):
                 f"copied={copied}, missing={missing}, tracked={len(tracked_buffers)}"
             )
 
-        ok = copied > 0 or anchor_lists_ok or aux_ok
-        return ok
+        return copied > 0 
 

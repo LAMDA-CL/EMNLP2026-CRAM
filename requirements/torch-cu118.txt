@@ -1,0 +1,6 @@
+# Legacy stack: CUDA 11.8 + torch 2.0.1 (A100 / V100, LLaVA-1.5 baseline).
+#   pip install -r requirements/torch-cu118.txt
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+torchvision==0.15.2

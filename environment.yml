@@ -1,29 +1,17 @@
-# Conda environment for PRISM (Multimodal Continual Instruction Tuning Toolbox)
+# Conda environment for PRISM (CUDA 12.8 / torch 2.8 baseline).
 #
-# Create:  conda env create -f environment.yml
-# Update: conda env update -f environment.yml --prune
+# One-shot (recommended):
+#   bash scripts/setup_env.sh
 #
-# Adjust pytorch-cuda / cudatoolkit to match your driver before creating the env.
+# Conda-only alternative (creates env, then run setup script for pip deps):
+#   conda env create -f environment.yml
+#   conda activate prism
+#   bash scripts/setup_env.sh
 
 name: prism
 channels:
-  - pytorch
-  - nvidia
-  - conda-forge
   - defaults
 
 dependencies:
   - python=3.10
   - pip>=23.0
-
-  # Prefer conda PyTorch; comment out and use pip requirements/torch.txt if versions clash
-  - pytorch=2.0.1
-  - torchvision=0.15.2
-  - pytorch-cuda=11.8
-
-  - pip:
-      - -r requirements/base.txt
-      - deepspeed==0.10.3
-      - ninja>=1.11.0
-      - pycocotools>=2.0.6
-      - pycocoevalcap>=1.2

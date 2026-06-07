@@ -3,6 +3,7 @@
   <a href="#introduction">📖 Introduction</a> •
   <a href="#methods-implemented">🧩 Methods</a> •
   <a href="#how-to-use">🚀 How To Use</a> •
+  <a href="#pre-trained-weights">🧠 Weights</a> •
   <a href="#datasets">📂 Datasets</a> •
   <a href="#license">📄 License</a> •
   <a href="#acknowledgments">🙏 Acknowledgments</a> •
@@ -79,9 +80,65 @@ To add a method, implement `method/custom/<your_method>/integration.py` and regi
 
 ## 🚀 How To Use
 
-Install dependencies (`pip install -r requirements/torch.txt`, then `pip install -r requirements.txt`), set paths in `config/paths/llava_paths.py`, and edit `config/run_config.py` (and `config/methods/<method>.py` if needed).
+<a id="pre-trained-weights"></a>
 
-After configuration, run a quick **zero-shot** inference on a single task to check that model weights, data paths, and GPUs are set up correctly (`zeroshot` uses the base MLLM checkpoint only):
+### Pre-trained Weights
+
+Download from each repo’s **Model Zoo**, then set paths in `config/paths/llava_paths.py` or `config/paths/internvl_paths.py`. Select backbone via `backbone` in `config/run_config.py` (`llava` or `internvl`).
+
+- [**LLaVA**](https://github.com/haotian-liu/LLaVA) — `llava-v1.5-7b`
+- [**InternVL**](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat_llava) — `InternVL-Chat-ViT-6B-Vicuna-7B`
+
+You can plug in additional backbones under `config/backbone/` and `backbone/`, then register them in `config/backbone/registry.py`.
+
+<a id="datasets"></a>
+
+### Datasets
+
+PRISM currently supports three benchmarks:
+
+| Benchmark | `--benchmark` | Tasks | Reference |
+| :--- | :--- | :---: | :--- |
+| **CoIN** | `coin` | 8 | [Paper](https://arxiv.org/abs/2403.08350) · [Benchmark](https://github.com/zackschen/CoIN/tree/CoIN) |
+| **UCIT** | `ucit` | 6 | [Paper](https://arxiv.org/abs/2503.12941) · [Benchmark](https://github.com/Ghy0501/HiDe-LLaVA) |
+| **TriGap** | `trigap` | 10 | [Paper](https://arxiv.org/abs/2602.01990) · [Benchmark](https://huggingface.co/datasets/JuntaoTang/TriGap) |
+
+A benchmark typically has an **image folder** and an **instruction folder**. JSON files in the instruction folder reference image paths, so your on-disk layout must match those paths.
+
+Then set the benchmark paths in `config/benchmarks/<benchmark>.py` (e.g. `TRIGAP_IMAGE_DIR` and `TRIGAP_INSTRUCTION_DIR` in `TriGap.py`).
+
+For quick experiments, you can use smaller **sub-splits**: sample the instruction JSON yourself, save it with a `_sub` suffix (e.g. `train_sub.json`), and set `"use_sub_dataset": true` in `config/run_config.py`.
+
+You can add custom benchmarks under `config/benchmarks/` and register them in `config/benchmarks/__init__.py`.
+
+---
+
+### Environment setup (one command)
+
+The default one-shot setup below is **tested on RTX 5090** (Blackwell, **CUDA 12.8+**, torch 2.8 + cu128). We have also run PRISM on other GPUs such as **RTX 3090**, **A100**, and **RTX Pro 6000**; you may need to adjust PyTorch, flash-attn, and related library versions to match your driver and hardware.
+
+**Requirements:** Linux, **Python 3.10**, NVIDIA GPU.
+
+From the repository root:
+
+```bash
+bash scripts/setup_env.sh
+```
+
+This creates conda env **`prism`** (if missing), installs the default 5090 stack, training/eval dependencies, flash-attn, and runs `pip install -e .`. See [`requirements/README.md`](requirements/README.md) for options (e.g. `TORCH_REQUIREMENTS=requirements/torch-cu118.txt` for older CUDA stacks, `FLASH_ATTN_WHEEL`, `SKIP_FLASH_ATTN`).
+
+Activate and verify:
+
+```bash
+conda activate prism
+python -c "import torch; import transformers; import deepspeed; print(torch.__version__, transformers.__version__)"
+```
+
+### Paths and config
+
+Edit backbone paths under `config/paths/` and benchmark roots under `config/benchmarks/`. Tune runs via `config/run_config.py`.
+
+After configuration, run a quick **zero-shot** inference on a single task to check weights, data paths, and GPUs (`zeroshot` uses the base MLLM checkpoint only):
 
 ```bash
 python run.py infer 0 --method zeroshot
@@ -97,24 +154,6 @@ python run.py infer 0 1 2
 > **`0`, `1`, `2` are task indices** (see `config/benchmarks/<benchmark>.py`). You may train any tasks you need; stage *k* resumes from task *k*−1’s checkpoint. For **inference**, choose the checkpoint in `config/run_config.py`.
 >
 > CLI flags override config; omitted flags use config defaults.
-
----
-
-## 📂 Datasets
-
-PRISM currently supports three benchmarks:
-
-| Benchmark | `--benchmark` | Tasks | Reference |
-| :--- | :--- | :---: | :--- |
-| **CoIN** | `coin` | 8 | [Paper](https://arxiv.org/abs/2403.08350) · [Benchmark](https://github.com/zackschen/CoIN/tree/CoIN) |
-| **UCIT** | `ucit` | 6 | [Paper](https://arxiv.org/abs/2503.12941) · [Benchmark](https://github.com/Ghy0501/HiDe-LLaVA) |
-| **TriGap** | `trigap` | 10 | [Paper](https://arxiv.org/abs/2602.01990) · [Benchmark](https://huggingface.co/datasets/JuntaoTang/TriGap) |
-
-A benchmark typically has an **image folder** and an **instruction folder**. JSON files in the instruction folder reference image paths, so your on-disk layout must match those paths.
-
-Then set the benchmark paths in `config/benchmarks/<benchmark>.py` (e.g. `TRIGAP_IMAGE_DIR` and `TRIGAP_INSTRUCTION_DIR` in `TriGap.py`).
-
-For quick experiments, you can use smaller **sub-splits**: sample the instruction JSON yourself, save it with a `_sub` suffix (e.g. `train_sub.json`), and set `"use_sub_dataset": true` in `config/run_config.py`.
 
 ---
 

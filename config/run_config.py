@@ -16,7 +16,7 @@ TRAIN_DEFAULTS = {
     # hide_llava, olora, replay_lora, ...
     "method": "same",
     # UCIT: when True, append _sub to train/test/eval *.json paths (canonical names in config/benchmarks/UCIT.py).
-    "use_sub_dataset": True,
+    "use_sub_dataset": False,
 }
 
 # Extra args appended at the end of the training command.
@@ -28,7 +28,7 @@ TRAIN_EXTRA_ARGS: list[str] = []
 #   "fp16" — full weights + fp16 mixed precision
 #   "8bit" — bitsandbytes 8-bit LLM (QLoRA-style) + bf16 compute (default, saves VRAM)
 #   "4bit" — bitsandbytes 4-bit LLM + bf16 compute
-TRAIN_PRECISION = "8bit"
+TRAIN_PRECISION = "bf16"
 
 # ===== Argument defaults (infer) =====
 # Inference compute precision for load_model_for_inference (LLM + multimodal towers).
@@ -47,7 +47,7 @@ INFER_DEFAULTS = {
     "stage": "last",
     "method": "same",
     "temperature": "0",
-    "use_sub_dataset": True,
+    "use_sub_dataset": False,
 }
 
 
