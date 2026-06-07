@@ -1,4 +1,5 @@
 from method.base.integration import CLIntegration
+from method.base.peft_extension import register_peft_extension
 from method.base.context import CLContext
 from method.base.hooks import HookManager
 from method.factory import CLMethodFactory
@@ -265,13 +266,11 @@ class DiscoIntegration(CLIntegration):
             self.text_boundary[task_idx].requires_grad = False
 
     def _compute_soft_routing(self, image_feat, text_feat):
+        device = text_feat.device
         text_feat_mean = text_feat.mean(dim=0, keepdim=True)
 
-        cos_sim = F.cosine_similarity(
-            torch.stack([p for p in self.text_anchors]).squeeze(1),
-            text_feat_mean,
-            dim=1,
-        )
+        global_text = torch.stack([p.to(device) for p in self.text_anchors]).squeeze(1)
+        cos_sim = F.cosine_similarity(global_text, text_feat_mean, dim=1)
         cos_sim = cos_sim[:self.task_num]
 
         cos_sim_softmax = F.softmax(cos_sim / self.routing_temperature, dim=0)
@@ -280,12 +279,12 @@ class DiscoIntegration(CLIntegration):
 
     def _propagate_mask_signal(self, model, cos_sim_list):
         for module in model.modules():
-            if module.__class__.__name__ == 'DiscoMOELoraLinear':
+            if hasattr(module, "mask_signal"):
                 module.mask_signal = cos_sim_list
 
     def _set_lora_id_on_layers(self, model, task_id):
         for module in model.modules():
-            if module.__class__.__name__ == 'DiscoMOELoraLinear':
+            if hasattr(module, "lora_id"):
                 module.lora_id = task_id
 
     def _text_only_routing(self, model, input_ids, clip_tokenizer, text_tower):

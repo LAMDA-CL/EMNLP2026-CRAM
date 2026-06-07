@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers.pytorch_utils import Conv1D
 
-from ...import_utils import is_bnb_4bit_available, is_bnb_available
+from ...import_utils import is_bnb_4bit_available, is_bnb_available, linear8bitlt_init_kwargs
 from ...utils import (
     TRANSFORMERS_MODELS_TO_ADALORA_TARGET_MODULES_MAPPING,
     PeftType,
@@ -167,7 +167,7 @@ class AdaLoraModel(LoraModel):
                         kwargs.update(
                             {
                                 "has_fp16_weights": target.state.has_fp16_weights,
-                                "memory_efficient_backward": target.state.memory_efficient_backward,
+                                "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                                 "threshold": target.state.threshold,
                                 "index": target.index,
                             }
@@ -480,11 +480,7 @@ if is_bnb_available():
                 self,
                 in_features,
                 out_features,
-                bias=kwargs.get("bias", True),
-                has_fp16_weights=kwargs.get("has_fp16_weights", True),
-                memory_efficient_backward=kwargs.get("memory_efficient_backward", False),
-                threshold=kwargs.get("threshold", 0.0),
-                index=kwargs.get("index", None),
+                **linear8bitlt_init_kwargs(**kwargs),
             )
             AdaLoraLayer.__init__(self, in_features=in_features, out_features=out_features)
             # Freezing the pre-trained weight matrix

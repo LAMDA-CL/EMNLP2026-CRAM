@@ -1,6 +1,9 @@
+import ast
+import logging
 import torch
 import transformers
-from typing import Dict, Optional
+from contextlib import contextmanager
+from typing import Dict, Iterator, Optional
 
 from backbone.shared.multimodal.data_processor import smart_tokenizer_and_embedding_resize
 from backbone.shared.multimodal import conversation as conversation_lib
@@ -9,6 +12,87 @@ from config.backbone.registry import (
     import_mllm_model_class,
     resolve_backbone_id,
 )
+
+
+_HF_CHECKPOINT_LOAD_LOGGER = "transformers.modeling_utils"
+
+
+def _count_keys_in_hf_load_message(msg: str) -> int | None:
+    """Parse ``: ['k1', 'k2', ...]`` from a transformers checkpoint load log line."""
+    marker = ": ["
+    idx = msg.find(marker)
+    if idx == -1:
+        return None
+    end = msg.find("\n-", idx)
+    if end == -1:
+        end = len(msg)
+    list_str = msg[idx + 2 : end].strip()
+    try:
+        keys = ast.literal_eval(list_str)
+    except (SyntaxError, ValueError):
+        return None
+    return len(keys) if isinstance(keys, list) else None
+
+
+@contextmanager
+def quiet_hf_checkpoint_load_messages(*, context: str = "") -> Iterator[None]:
+    """
+    Replace verbose transformers ``from_pretrained`` unused/missing-key dumps with one line.
+
+    Filters checkpoint load messages from the ``transformers`` log tree (handlers live on
+    the library root logger, so we attach filters there and on ``modeling_utils``).
+    """
+    unused_count: int | None = None
+    missing_count: int | None = None
+    shape_mismatch = False
+    saw_unused = False
+    saw_missing = False
+
+    class _HFLoadFilter(logging.Filter):
+        def filter(self, record: logging.LogRecord) -> bool:
+            nonlocal unused_count, missing_count, shape_mismatch, saw_unused, saw_missing
+            msg = record.getMessage()
+            if "were not used when initializing" in msg:
+                saw_unused = True
+                unused_count = _count_keys_in_hf_load_message(msg)
+                return False
+            if "were not initialized from the model checkpoint" in msg:
+                saw_missing = True
+                if "shapes did not match" in msg:
+                    shape_mismatch = True
+                else:
+                    missing_count = _count_keys_in_hf_load_message(msg)
+                return False
+            return True
+
+    filt = _HFLoadFilter()
+    loggers = [
+        logging.getLogger("transformers"),
+        logging.getLogger(_HF_CHECKPOINT_LOAD_LOGGER),
+    ]
+    for log in loggers:
+        log.addFilter(filt)
+    try:
+        yield
+    finally:
+        for log in loggers:
+            log.removeFilter(filt)
+        parts: list[str] = []
+        if saw_unused:
+            if unused_count is not None and unused_count > 0:
+                parts.append(f"{unused_count} unused checkpoint weight(s) skipped")
+            else:
+                parts.append("some unused checkpoint weights skipped")
+        if saw_missing:
+            if shape_mismatch:
+                parts.append("shape-mismatched weights newly initialized")
+            elif missing_count is not None and missing_count > 0:
+                parts.append(f"{missing_count} weight(s) newly initialized")
+            else:
+                parts.append("some weights newly initialized")
+        if parts:
+            suffix = f" ({context})" if context else ""
+            print(f"[load] {'; '.join(parts)}.{suffix}", flush=True)
 
 
 def setup_quantization(training_args, compute_dtype) -> Dict:
@@ -94,12 +178,13 @@ def load_pretrained_model(
                     "embedded_vision_image_size",
                     get_embedded_vision_image_size(backbone_id),
                 )
-        model = ModelClass.from_pretrained(
-            model_name_or_path,
-            config=config,
-            cache_dir=training_args.cache_dir,
-            **bnb_args,
-        )
+        with quiet_hf_checkpoint_load_messages(context=model_name_or_path):
+            model = ModelClass.from_pretrained(
+                model_name_or_path,
+                config=config,
+                cache_dir=training_args.cache_dir,
+                **bnb_args,
+            )
     else:
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_name_or_path,

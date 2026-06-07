@@ -1,7 +1,7 @@
 from ..paths.common import CHECKPOINT_DIR
 
 # CoIN benchmark roots (edit for your machine)
-COIN_ROOT = "/data2/mnt2/zhoudw/zh/CoIN"
+COIN_ROOT = "/root/autodl-tmp/MCIT"
 COIN_INSTRUCTION_DIR = f"{COIN_ROOT}/instructions/Instructions_Original_0.1"
 COIN_IMAGE_DIR = f"{COIN_ROOT}/datasets"
 

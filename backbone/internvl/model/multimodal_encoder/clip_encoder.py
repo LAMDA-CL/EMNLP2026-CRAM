@@ -24,6 +24,7 @@ class MLLMVisionTower(nn.Module):
         self.select_layer = args.mm_vision_select_layer
         self.select_feature = getattr(args, "mm_vision_select_feature", "patch")
         self.load_separately = getattr(args, "load_vision_tower_separately", True)
+        self._embedded_vision_image_size = getattr(args, "embedded_vision_image_size", None)
 
         if self.load_separately:
             if not delay_load:
@@ -47,13 +48,17 @@ class MLLMVisionTower(nn.Module):
         cfg = InternVisionConfig.from_pretrained(self.vision_tower_name, **load_kw)
         embedded = not self.load_separately
         if embedded:
-            from config.backbone.registry import get_embedded_vision_image_size
+            if self._embedded_vision_image_size is not None:
+                cfg.image_size = int(self._embedded_vision_image_size)
+            else:
+                from config.backbone.registry import get_embedded_vision_image_size
 
-            cfg.image_size = get_embedded_vision_image_size("internvl")
+                cfg.image_size = get_embedded_vision_image_size("internvl")
         self.image_processor = build_intern_vit_image_processor(
             self.vision_tower_name,
             config=cfg,
             embedded_in_chat=embedded,
+            embedded_image_size=self._embedded_vision_image_size,
         )
         self.vision_tower = InternVisionModel(cfg)
         self.vision_tower.requires_grad_(False)

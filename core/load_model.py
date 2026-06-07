@@ -15,6 +15,7 @@ from backbone.shared.model_loading import (
     adjust_precision,
     prepare_model_for_kbit,
     setup_gradient_checkpointing,
+    quiet_hf_checkpoint_load_messages,
 )
 from .config_loader import (
     ModelArguments,
@@ -492,6 +493,34 @@ def _module_has_meta_params(module: Any) -> bool:
     return any(p.is_meta for p in module.parameters(recurse=True))
 
 
+def _warn_internvl_patch_mismatch(model: Any, *, method: Optional[str] = None) -> None:
+    """Warn when separate ViT resolution differs from InternVL-Chat pretraining (336px / 576 patches)."""
+    try:
+        vt = model.get_vision_tower()
+    except Exception:
+        return
+    if vt is None:
+        return
+    patches = getattr(vt, "num_patches", None)
+    if patches is None:
+        return
+    from config.backbone.registry import get_embedded_vision_image_size
+
+    embedded_px = get_embedded_vision_image_size("internvl")
+    expected = (embedded_px // 14) ** 2
+    if int(patches) == int(expected):
+        return
+    ctx = f" method={method}" if method else ""
+    print(
+        f"[infer] WARNING: ViT outputs {patches} patch tokens but InternVL-Chat was trained "
+        f"with {expected} ({embedded_px}px). Multimodal quality will be severely degraded "
+        f"(garbled answers like '.' / 'Ъ' on VQA).{ctx}\n"
+        f"[infer] For zeroshot baseline, set LOAD_VISION_TOWER_SEPARATELY=False in "
+        f"config/paths/internvl_paths.py (use embedded ViT from BASE_MODEL_PATH).",
+        flush=True,
+    )
+
+
 def _move_tower_for_infer(
     module: Any,
     load_device: torch.device,
@@ -500,16 +529,33 @@ def _move_tower_for_infer(
     model: Any,
     label: str = "tower",
 ) -> None:
-    """Move a vision/text tower unless Accelerate ``device_map`` already placed it."""
+    """Move a vision/text tower; separately loaded ViT is independent of LLM ``device_map``."""
     if module is None:
         return
-    if _uses_hf_device_map(model) or _module_has_meta_params(module):
+    if _module_has_meta_params(module):
         print(
-            f"[infer] {label}: keep Accelerate device_map placement (skip .to()).",
+            f"[infer] {label}: skip .to() on meta tensors (weights load on first forward).",
             flush=True,
         )
         return
+
+    load_separately = bool(getattr(module, "load_separately", False))
+    tower_sharded = _uses_hf_device_map(module)
+    parent_sharded = _uses_hf_device_map(model)
+
     try:
+        if load_separately:
+            module.to(device=load_device, dtype=dtype)
+            print(f"[infer] {label}: loaded separately -> {load_device} ({dtype}).", flush=True)
+            return
+        if tower_sharded or parent_sharded:
+            print(
+                f"[infer] {label}: keep Accelerate device_map placement (cast dtype={dtype}).",
+                flush=True,
+            )
+            if dtype is not None:
+                module.to(dtype=dtype)
+            return
         module.to(device=load_device, dtype=dtype)
     except NotImplementedError as exc:
         if "meta tensor" in str(exc).lower():
@@ -517,6 +563,8 @@ def _move_tower_for_infer(
                 f"[infer] {label}: skip .to() on meta tensors (weights load on first forward).",
                 flush=True,
             )
+            if dtype is not None:
+                module.to(dtype=dtype)
             return
         raise
 
@@ -595,8 +643,6 @@ def _apply_infer_tower_paths_to_config(
         text_tower=text_tower,
     )
     load_sep = get_load_vision_tower_separately(backbone_id)
-    if _is_zeroshot_method(method) and resolve_backbone_id(backbone_id) == "internvl":
-        load_sep = False
     setattr(cfg, "load_vision_tower_separately", load_sep)
     if not getattr(cfg, "load_vision_tower_separately", True):
         from config.backbone.registry import get_embedded_vision_image_size
@@ -659,8 +705,6 @@ def load_model_for_inference(
     kwargs.pop("task_num", None)
     kwargs.pop("expert_num", None)
     kwargs.pop("benchmark", None)
-    same_print_router = kwargs.pop("same_print_router", None)
-    same_print_router_max = kwargs.pop("same_print_router_max", None)
 
     if device != "cuda":
         kwargs["device_map"] = {"": device}
@@ -717,7 +761,10 @@ def load_model_for_inference(
 
             tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
             print(f"Loading {bb_label} from base model...", flush=True)
-            model = ModelClass.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
+            with quiet_hf_checkpoint_load_messages(context=model_base):
+                model = ModelClass.from_pretrained(
+                    model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs
+                )
 
             if text_tower:
                 clip_tokenizer = AutoTokenizer.from_pretrained(
@@ -752,20 +799,20 @@ def load_model_for_inference(
                             for k, v in kw.items():
                                 setattr(self, k, v)
 
-                    pseudo_args = SimpleArgs(
+                    pseudo_fields = dict(
                         method=method,
                         cur_task=kwargs.get("cur_task", 0),
                         task_num=task_num,
                         benchmark=benchmark,
                         clip_feature_dim=kwargs.get("clip_feature_dim", routing_dim),
-                        same_print_router=bool(same_print_router),
-                        same_print_router_max=(
-                            int(same_print_router_max)
-                            if same_print_router_max is not None
-                            else 10_000
-                        ),
                     )
-                    merge_method_config_into(pseudo_args, method=method)
+                    pseudo_args = SimpleArgs(**pseudo_fields)
+                    merge_method_config_into(
+                        pseudo_args,
+                        method=method,
+                        benchmark=benchmark,
+                        backbone=backbone_id,
+                    )
                     merge_benchmark_task_num_into(pseudo_args, benchmark=benchmark)
                     _is_zeroshot = str(method or "").strip().lower() == "zeroshot"
                     if getattr(pseudo_args, "task_num", None) is None and not _is_zeroshot:
@@ -833,7 +880,10 @@ def load_model_for_inference(
                 backbone_id=backbone_id,
                 method=method,
             )
-            model = ModelClass.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
+            with quiet_hf_checkpoint_load_messages(context=model_base):
+                model = ModelClass.from_pretrained(
+                    model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs
+                )
 
             mm_path = os.path.join(model_path, "mm_projector.bin")
             if os.path.isfile(mm_path) and not _is_zeroshot_method(method):
@@ -854,7 +904,8 @@ def load_model_for_inference(
             model.set_tokenizer(tokenizer)
         else:
             tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
-            model = ModelClass.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
+            with quiet_hf_checkpoint_load_messages(context=model_path):
+                model = ModelClass.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
             model.set_tokenizer(tokenizer)
         
         if vision_tower:
@@ -870,6 +921,8 @@ def load_model_for_inference(
         load_vit_separately = getattr(model.config, "load_vision_tower_separately", True)
         if vision_tower_model is not None and not vision_tower_model.is_loaded:
             if load_vit_separately:
+                vt_path = getattr(model.config, "mm_vision_tower", vision_tower or "")
+                print(f"[infer] Loading MLLM vision tower from {vt_path}...", flush=True)
                 vision_tower_model.load_model()
             else:
                 vision_tower_model.mark_loaded_from_checkpoint()
@@ -922,6 +975,8 @@ def load_model_for_inference(
                 label="vision_tower",
             )
             image_processor = vision_tower_model.image_processor
+            if resolve_backbone_id(backbone_id) == "internvl":
+                _warn_internvl_patch_mismatch(model, method=method)
         else:
             image_processor = None
 
@@ -937,26 +992,6 @@ def load_model_for_inference(
         context_len = 2048
 
     if isinstance(model, torch.nn.Module):
-        integ = getattr(model, "_integration", None)
-        if integ is not None:
-            from method.custom.specialized_integration import RouterIntegration
-
-            if isinstance(integ, RouterIntegration):
-                env_on = os.getenv("SAME_PRINT_ROUTER", "").strip().lower() in ("1", "true", "yes", "on")
-                integ._router_mix_log_enabled = (
-                    bool(integ._router_mix_log_enabled) or env_on or bool(same_print_router)
-                )
-                if bool(same_print_router) and same_print_router_max is not None:
-                    integ._router_mix_log_max = int(same_print_router_max)
-                elif os.getenv("SAME_PRINT_ROUTER_MAX"):
-                    integ._router_mix_log_max = int(os.getenv("SAME_PRINT_ROUTER_MAX", "10000"))
-                integ._router_mix_log_count = 0
-                if integ._router_mix_log_enabled:
-                    print(
-                        f"[infer] RouterIntegration mixture logging enabled "
-                        f"(max_lines={integ._router_mix_log_max}; --same-print-router or SAME_PRINT_ROUTER=1)",
-                        flush=True,
-                    )
         model.eval()
 
     return tokenizer, model, image_processor, context_len

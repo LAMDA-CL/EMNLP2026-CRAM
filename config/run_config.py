@@ -14,7 +14,7 @@ TRAIN_DEFAULTS = {
     # True → training subprocess gets PYPRISM_LOG_LEVEL=DEBUG (see run.py / train.py). Does not change batch size.
     "debug": False,
     # hide_llava, olora, replay_lora, ...
-    "method": "replay_lora",
+    "method": "same",
     # UCIT: when True, append _sub to train/test/eval *.json paths (canonical names in config/benchmarks/UCIT.py).
     "use_sub_dataset": True,
 }
@@ -36,55 +36,20 @@ TRAIN_PRECISION = "8bit"
 #   "fp16" — float16
 #   "4bit" / "8bit" — bitsandbytes quantized LLM only (vision towers stay fp16/bf16)
 # InternVL zeroshot/VQA: avoid "4bit" (often ~0% accuracy); use "bf16" or "8bit".
-INFER_PRECISION = "8bit"
+INFER_PRECISION = "bf16"
 
 INFER_DEFAULTS = {
     "benchmark": "ucit",
     "gpus": "0,1",
     "backbone": "internvl",
-    "checkpoint_task": "0",
+    "checkpoint_task": "5",
     "checkpoint_suffix": "_internvl",
     "stage": "last",
-    "method": "replay_lora",
+    "method": "same",
     "temperature": "0",
     "use_sub_dataset": True,
 }
 
-
-
-
-
-
-# ===== Argument defaults (train) =====
-# TRAIN_DEFAULTS = {
-#     "benchmark": "ucit",
-#     "gpus": "0,1",
-#     "port": 29602,
-#     "backbone": "llava",
-#     # True → training subprocess gets PYPRISM_LOG_LEVEL=DEBUG (see run.py / train.py). Does not change batch size.
-#     "debug": False,
-#     # hide_llava, olora, replay_lora, ...
-#     "method": "same",
-#     # UCIT: when True, append _sub to train/test/eval *.json paths (canonical names in config/benchmarks/UCIT.py).
-#     "use_sub_dataset": True,
-# }
-
-# # Extra args appended at the end of the training command.
-# # Example: ["--save_steps", "100", "--evaluation_strategy", "steps"]
-# TRAIN_EXTRA_ARGS: list[str] = []
-
-# # ===== Argument defaults (infer) =====
-# INFER_DEFAULTS = {
-#     "benchmark": "ucit",
-#     "gpus": "0,1",
-#     "backbone": "llava",
-#     "checkpoint_task": "5",
-#     "checkpoint_suffix": "_llava",
-#     "stage": "last",
-#     "method": "same",
-#     "temperature": "0",
-#     "use_sub_dataset": True,
-# }
 
 
 BACKBONE_DEFAULT = "llava"

@@ -122,8 +122,6 @@ class InferenceEngine:
             backbone=getattr(args, "backbone", None),
             benchmark=getattr(args, "benchmark", None),
             task_num=getattr(args, "cl_task_num", None),
-            same_print_router=getattr(args, "same_print_router", False),
-            same_print_router_max=getattr(args, "same_print_router_max", None),
         )
         return tokenizer, model, image_processor, model_name
 

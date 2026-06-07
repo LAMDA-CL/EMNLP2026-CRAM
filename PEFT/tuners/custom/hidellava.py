@@ -33,7 +33,7 @@ from ..standard.lora import (
     Conv2d,
 )
 
-from ...import_utils import is_bnb_4bit_available, is_bnb_available
+from ...import_utils import is_bnb_4bit_available, is_bnb_available, linear8bitlt_init_kwargs
 
 if is_bnb_available():
     import bitsandbytes as bnb
@@ -155,13 +155,20 @@ class HiDeMOELoraModel(LoraModel):
             eightbit_kwargs.update(
                 {
                     "has_fp16_weights": target.state.has_fp16_weights,
-                    "memory_efficient_backward": target.state.memory_efficient_backward,
+                    "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                     "threshold": target.state.threshold,
                     "index": target.index,
+                    "layer": layer,
                 }
             )
-            new_module = Linear8bitLt(
-                adapter_name, target.in_features, target.out_features, bias=bias, **eightbit_kwargs
+            try:
+                from config.backbone.registry import get_last_lora_block_index
+
+                eightbit_kwargs["last_layer_idx"] = get_last_lora_block_index()
+            except ImportError:
+                eightbit_kwargs["last_layer_idx"] = None
+            new_module = HiDeMOELoraLinear8bitLt(
+                adapter_name, target.in_features, target.out_features, bias=bias, train_signal=training, **eightbit_kwargs
             )
         elif loaded_in_4bit and is_bnb_4bit_available() and isinstance(target, bnb.nn.Linear4bit):
             fourbit_kwargs = kwargs.copy()
@@ -517,4 +524,102 @@ class HiDeMOEExpert(nn.Module):
     
     def forward(self, x):
         return self.mlp(x)
+
+
+if is_bnb_available():
+
+    _HIDE_MOE_LINEAR_SHARED = (
+        "merge",
+        "unmerge",
+        "_parse_layer_index",
+        "_inference_use_predicted_expert",
+        "_lora_delta_one_expert",
+        "_lora_delta_fused_experts",
+    )
+
+    class HiDeMOELoraLinear8bitLt(bnb.nn.Linear8bitLt, HiDeMOELoraLayer):
+        """8-bit HiDe MoE-LoRA with CLIP-routed predicted_task_id at inference."""
+
+        def __init__(
+            self,
+            adapter_name: str,
+            in_features: int,
+            out_features: int,
+            r: int = 0,
+            lora_alpha: int = 1,
+            lora_dropout: float = 0.0,
+            train_signal: bool = False,
+            layer: int = 0,
+            last_layer_idx: Optional[int] = None,
+            **kwargs,
+        ):
+            init_lora_weights = kwargs.pop("init_lora_weights", True)
+            self.expert_num = kwargs.pop("expert_num", 8)
+            kwargs.pop("task_embedding_dim", None)
+            self.cur_task = kwargs.pop("cur_task", 0)
+            kwargs.pop("fan_in_fan_out", None)
+            bias = kwargs.pop("bias", True)
+
+            bnb.nn.Linear8bitLt.__init__(
+                self,
+                in_features,
+                out_features,
+                **linear8bitlt_init_kwargs(bias=bias, **kwargs),
+            )
+            HiDeMOELoraLayer.__init__(
+                self,
+                in_features=in_features,
+                out_features=out_features,
+                expert_num=self.expert_num,
+                cur_task=self.cur_task,
+                training=train_signal,
+                layer=layer,
+            )
+            self.layer = layer
+            self.last_layer_idx = last_layer_idx
+            self.training = train_signal
+            self.predicted_task_id = -1
+            self.lora_router = nn.ModuleDict(
+                {adapter_name: nn.Linear(self.in_features, self.expert_num, bias=False)}
+            )
+            self.weight.requires_grad = False
+            self.fan_in_fan_out = False
+            self.update_layer(adapter_name, r, lora_alpha, lora_dropout, init_lora_weights)
+            self.active_adapter = adapter_name
+
+        def forward(self, x: torch.Tensor, **kwargs):
+            previous_dtype = x.dtype
+            if self.active_adapter not in self.lora_A.keys():
+                return bnb.nn.Linear8bitLt.forward(self, x)
+            if self.disable_adapters:
+                if self.r[self.active_adapter] > 0 and self.merged:
+                    self.unmerge()
+                return bnb.nn.Linear8bitLt.forward(self, x)
+            if self.r[self.active_adapter] > 0:
+                result = bnb.nn.Linear8bitLt.forward(self, x)
+                result = result.clone()
+                x = x.to(self.lora_A[self.active_adapter].loraA[0].weight.dtype)
+                if self.training:
+                    task_id = self.cur_task
+                    lora_a_output = self.lora_A[self.active_adapter](x, task_id)
+                    lora_b_output = self.lora_B[self.active_adapter](lora_a_output, task_id)
+                    result += lora_b_output * self.scaling[self.active_adapter]
+                elif self._inference_use_predicted_expert():
+                    if self.predicted_task_id == -1:
+                        raise RuntimeError(
+                            f"HiDeMOELoraLinear8bitLt layer={self.layer!r}: inference on last layer requires "
+                            f"predicted_task_id >= 0, got {self.predicted_task_id}"
+                        )
+                    task_id = self.predicted_task_id
+                    lora_a_output = self.lora_A[self.active_adapter](x, task_id)
+                    lora_b_output = self.lora_B[self.active_adapter](lora_a_output, task_id)
+                    result += lora_b_output * self.scaling[self.active_adapter]
+                else:
+                    lora_b_output = self._lora_delta_fused_experts(x)
+                    result += lora_b_output * self.scaling[self.active_adapter]
+                return result.to(previous_dtype)
+            return bnb.nn.Linear8bitLt.forward(self, x)
+
+    for _name in _HIDE_MOE_LINEAR_SHARED:
+        setattr(HiDeMOELoraLinear8bitLt, _name, getattr(HiDeMOELoraLinear, _name))
 

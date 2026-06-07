@@ -136,7 +136,7 @@ class SameIntegration(RouterIntegration):
             lora_dropout=float(getattr(self.config, "lora_dropout", 0.05)),
             expert_num=self.task_num,
             cur_task=int(getattr(self.config, "cur_task", self.cur_task)),
-            tau_score=float(getattr(self.config, "tau_score", 0.1)),
+            tau_score=float(getattr(self.config, "tau_score", 1)),
             curvature_mu=float(getattr(self.config, "curvature_mu", 0.9)),
             window_size=int(getattr(self.config, "window_size", 3)),
             max_components=int(getattr(self.config, "max_components", 64)),
@@ -304,7 +304,5 @@ class SameIntegration(RouterIntegration):
             )
 
         ok = copied > 0 or anchor_lists_ok or aux_ok
-        if ok:
-            self.print_carryover_restore_summary(p, state, tag="[SAME]")
         return ok
 

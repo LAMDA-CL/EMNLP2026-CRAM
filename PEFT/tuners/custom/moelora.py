@@ -16,7 +16,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers.pytorch_utils import Conv1D
 
-from ...import_utils import is_bnb_4bit_available, is_bnb_available
+from ...import_utils import is_bnb_4bit_available, is_bnb_available, linear8bitlt_init_kwargs
 from ...utils import (
     TRANSFORMERS_MODELS_TO_LORA_TARGET_MODULES_MAPPING,
     PeftType,
@@ -146,12 +146,14 @@ class MoELoRAModel(LoraModel):
             eightbit_kwargs.update(
                 {
                     "has_fp16_weights": target.state.has_fp16_weights,
-                    "memory_efficient_backward": target.state.memory_efficient_backward,
+                    "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                     "threshold": target.state.threshold,
                     "index": target.index,
                 }
             )
-            new_module = Linear8bitLt(adapter_name, target.in_features, target.out_features, bias=bias, **eightbit_kwargs)
+            new_module = MoELoRALinear8bitLt(
+                adapter_name, target.in_features, target.out_features, bias=bias, train_signal=training, **eightbit_kwargs
+            )
         elif loaded_in_4bit and is_bnb_4bit_available() and isinstance(target, bnb.nn.Linear4bit):
             fourbit_kwargs = kwargs.copy()
             fourbit_kwargs.update(
@@ -426,3 +428,81 @@ class MoELoRAExpert(nn.Module):
 
     def forward(self, x):
         return self.mlp(x)
+
+
+if is_bnb_available():
+
+    _MOELORA_LINEAR_SHARED = ("merge", "unmerge")
+
+    class MoELoRALinear8bitLt(bnb.nn.Linear8bitLt, MoELoRALayer):
+        """8-bit MoE-LoRA with per-token softmax router gates."""
+
+        def __init__(
+            self,
+            adapter_name: str,
+            in_features: int,
+            out_features: int,
+            r: int = 0,
+            lora_alpha: int = 1,
+            lora_dropout: float = 0.0,
+            train_signal: bool = False,
+            layer_id: int = 0,
+            **kwargs,
+        ):
+            init_lora_weights = kwargs.pop("init_lora_weights", True)
+            self.expert_num = kwargs.pop("expert_num", 8)
+            kwargs.pop("task_embedding_dim", None)
+            self.cur_task = kwargs.pop("cur_task", 0)
+            kwargs.pop("fan_in_fan_out", None)
+            bias = kwargs.pop("bias", True)
+
+            bnb.nn.Linear8bitLt.__init__(
+                self,
+                in_features,
+                out_features,
+                **linear8bitlt_init_kwargs(bias=bias, **kwargs),
+            )
+            MoELoRALayer.__init__(
+                self,
+                in_features=in_features,
+                out_features=out_features,
+                expert_num=self.expert_num,
+                cur_task=self.cur_task,
+                training=train_signal,
+                layer_id=layer_id,
+            )
+            self.layer_id = layer_id
+            self.lora_router = nn.ModuleDict(
+                {adapter_name: nn.Linear(self.in_features, self.expert_num, bias=False)}
+            )
+            self.weight.requires_grad = False
+            self.fan_in_fan_out = False
+            self.update_layer(adapter_name, r, lora_alpha, lora_dropout, init_lora_weights)
+            self.active_adapter = adapter_name
+
+        def forward(self, x: torch.Tensor, **kwargs):
+            previous_dtype = x.dtype
+            if self.active_adapter not in self.lora_A.keys():
+                return bnb.nn.Linear8bitLt.forward(self, x)
+            if self.disable_adapters:
+                if self.r[self.active_adapter] > 0 and self.merged:
+                    self.unmerge()
+                return bnb.nn.Linear8bitLt.forward(self, x)
+            if self.r[self.active_adapter] > 0 and not self.merged:
+                result = bnb.nn.Linear8bitLt.forward(self, x)
+                result = result.clone()
+                lora_dtype = self.lora_A[self.active_adapter].loraA[0].weight.dtype
+                x_d = self.lora_dropout[self.active_adapter](x.to(lora_dtype))
+                router = self.lora_router[self.active_adapter]
+                lead_shape = x_d.shape[:-1]
+                flat = x_d.reshape(-1, x_d.size(-1)).to(dtype=router.weight.dtype)
+                router_logits = router(flat)
+                g = F.softmax(router_logits, dim=-1).view(*lead_shape, self.expert_num).to(dtype=result.dtype)
+                lora_a_out = self.lora_A[self.active_adapter](x_d, g)
+                lora_b_out = self.lora_B[self.active_adapter](lora_a_out, g)
+                result += lora_b_out.to(result.dtype) * self.scaling[self.active_adapter]
+                return result.to(previous_dtype)
+            return bnb.nn.Linear8bitLt.forward(self, x)
+
+    for _name in _MOELORA_LINEAR_SHARED:
+        setattr(MoELoRALinear8bitLt, _name, getattr(MoELoRALinear, _name))

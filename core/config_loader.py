@@ -3,14 +3,22 @@ from dataclasses import dataclass, field
 from typing import Any, Optional
 
 
-def merge_method_config_into(obj: Any, method: Optional[str] = None, benchmark: Optional[str] = None) -> None:
+def merge_method_config_into(
+    obj: Any,
+    method: Optional[str] = None,
+    benchmark: Optional[str] = None,
+    backbone: Optional[str] = None,
+) -> None:
     """
     Merge ``METHOD_CONFIG`` from ``config/methods/<method>.py`` into ``obj``.
-    If ``METHOD_CONFIG_BY_BENCHMARK`` exists, merge base dict then overlay the row for ``benchmark``.
+
+    Overlay order (later wins): ``METHOD_CONFIG`` → ``METHOD_CONFIG_BY_BACKBONE[backbone]``
+    → ``METHOD_CONFIG_BY_BENCHMARK[benchmark]``.
+
     Sets only missing attributes or attributes that are None (CLI / script wins).
     ``task_num`` / ``expert_num`` come from benchmarks via ``merge_benchmark_task_num_into``, not here.
 
-    ``benchmark`` defaults to ``getattr(obj, "benchmark", None)`` when omitted.
+    ``benchmark`` / ``backbone`` default to ``getattr(obj, ...)`` when omitted.
     """
     m = (method or getattr(obj, "method", None) or "").strip().lower()
     if not m or m == "base" or m == "zeroshot":
@@ -21,6 +29,21 @@ def merge_method_config_into(obj: Any, method: Optional[str] = None, benchmark: 
         if not isinstance(mc, dict):
             return
         mc = dict(mc)
+        bb_raw = backbone or getattr(obj, "backbone", None)
+        if bb_raw:
+            try:
+                from config.backbone.registry import resolve_backbone_id
+
+                bb = resolve_backbone_id(str(bb_raw))
+            except Exception:
+                bb = str(bb_raw).strip().lower()
+        else:
+            bb = ""
+        by_bb = getattr(mod, "METHOD_CONFIG_BY_BACKBONE", None)
+        if bb and isinstance(by_bb, dict):
+            patch_bb = by_bb.get(bb)
+            if isinstance(patch_bb, dict):
+                mc = {**mc, **patch_bb}
         bm = (benchmark or getattr(obj, "benchmark", None) or "").strip().lower()
         by_bm = getattr(mod, "METHOD_CONFIG_BY_BENCHMARK", None)
         if bm and isinstance(by_bm, dict):

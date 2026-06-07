@@ -175,7 +175,7 @@ class SMoLoraModel(LoraModel):
             eightbit_kwargs.update(
                 {
                     "has_fp16_weights": target.state.has_fp16_weights,
-                    "memory_efficient_backward": target.state.memory_efficient_backward,
+                    "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                     "threshold": target.state.threshold,
                     "index": target.index,
                 }

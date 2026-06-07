@@ -1,7 +1,7 @@
 from ..paths.common import CHECKPOINT_DIR
 
 # UCIT benchmark roots (edit for your machine)
-UCIT_ROOT = "/data2/mnt2/zhoudw/zh/UCIT"
+UCIT_ROOT = "/root/autodl-tmp/UCIT"
 UCIT_INSTRUCTION_DIR = f"{UCIT_ROOT}/instructions"
 UCIT_IMAGE_DIR = f"{UCIT_ROOT}/datasets"
 

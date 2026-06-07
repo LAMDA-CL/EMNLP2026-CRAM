@@ -57,12 +57,12 @@ TRAIN_BATCH_SIZES = {
         7: 12,
     },
     "ucit": {
-        0: 1,
-        1: 1,
-        2: 1,
-        3: 1,
-        4: 1,
-        5: 1,
+        0: 8,
+        1: 6,
+        2: 6,
+        3: 6,
+        4: 6,
+        5: 6,
     },
     "trigap": {
         0: 12,
@@ -71,6 +71,10 @@ TRAIN_BATCH_SIZES = {
         3: 8,
         4: 8,
         5: 8,
+        6: 8,
+        7: 8,
+        8: 8,
+        9: 8,
     },
 }
 
@@ -78,7 +82,6 @@ METHOD_CONFIG = {
     "lora_dropout": 0.05,
     "peft_target_modules": "ffn",
     # SAME spectral / curvature knobs (see PEFT.tuners.custom.same.SAMELinear)
-    "tau_score": 0.1,
     "curvature_mu": 0.9,
     "window_size": 3,
     "max_components": 64,
@@ -87,6 +90,15 @@ METHOD_CONFIG = {
     "exclude_module_path_segments": list(EXCLUDE_FOR_LLM_ONLY_INJECTION),
 }
 
+# Overlay after METHOD_CONFIG, before METHOD_CONFIG_BY_BENCHMARK (see merge_method_config_into).
+METHOD_CONFIG_BY_BACKBONE = {
+    "llava": {
+        "tau_score": 0.1,
+    },
+    "internvl": {
+        "tau_score": 0.1,
+    },
+}
 
 METHOD_CONFIG_BY_BENCHMARK = {
     "coin": {

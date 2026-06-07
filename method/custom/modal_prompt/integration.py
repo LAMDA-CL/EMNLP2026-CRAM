@@ -17,6 +17,7 @@ from einops import repeat
 
 from method.base.context import CLContext
 from method.base.integration import CLIntegration
+from method.base.peft_extension import register_peft_extension
 from method.base.routing_utils import extract_routing_image_features
 from method.factory import CLMethodFactory
 

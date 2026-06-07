@@ -22,11 +22,12 @@ TRAIN_FLAG_OVERRIDES = {
 
 TRAIN_EXTRA_ARGS: list[str] = []
 
-from utils.infer_paths import DEFAULT_TEXT_TOWER_PATH
+from utils.infer_paths import DEFAULT_ROUTING_VISION_TOWER_PATH, DEFAULT_TEXT_TOWER_PATH
 
 INFER_DEFAULTS = {
     "clmethod": "modal_prompt",
     "batch_size": 1,
+    "routing_vision_tower": DEFAULT_ROUTING_VISION_TOWER_PATH,
     "text_tower": DEFAULT_TEXT_TOWER_PATH,
 }
 

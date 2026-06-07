@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import importlib
+import inspect
 
 
 def is_bnb_available():
@@ -26,3 +27,19 @@ def is_bnb_4bit_available():
     import bitsandbytes as bnb
 
     return hasattr(bnb.nn, "Linear4bit")
+
+
+def linear8bitlt_init_kwargs(**kwargs) -> dict:
+    """Build kwargs for ``bnb.nn.Linear8bitLt.__init__`` (compatible with bnb >=0.43 and 0.49+)."""
+    out = {
+        "bias": kwargs.get("bias", True),
+        "has_fp16_weights": kwargs.get("has_fp16_weights", True),
+        "threshold": kwargs.get("threshold", 0.0),
+        "index": kwargs.get("index", None),
+    }
+    if is_bnb_available():
+        import bitsandbytes as bnb
+
+        if "memory_efficient_backward" in inspect.signature(bnb.nn.Linear8bitLt.__init__).parameters:
+            out["memory_efficient_backward"] = kwargs.get("memory_efficient_backward", False)
+    return out

@@ -164,21 +164,6 @@ def add_common_arguments(parser: argparse.ArgumentParser) -> None:
         help="显式指定 CL 的 task_num；若设置则优先于 --benchmark 推导",
     )
     parser.add_argument(
-        "--same-print-router",
-        action="store_true",
-        help=(
-            "When the CL integration is RouterIntegration (e.g. method=same), log the CLIP-based "
-            "expert_mix vector (and cosine sims) written to PEFT layers before each inference forward."
-        ),
-    )
-    parser.add_argument(
-        "--same-print-router-max",
-        type=int,
-        default=10_000,
-        metavar="N",
-        help="Max [SAME router infer] lines when --same-print-router is set (default 10000).",
-    )
-    parser.add_argument(
         "--load-8bit",
         action=argparse.BooleanOptionalAction,
         default=None,

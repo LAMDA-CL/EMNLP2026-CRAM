@@ -24,7 +24,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers.pytorch_utils import Conv1D
 
-from ...import_utils import is_bnb_4bit_available, is_bnb_available
+from ...import_utils import is_bnb_4bit_available, is_bnb_available, linear8bitlt_init_kwargs
 from ...utils import (
     CLAMP_QUANTILE,
     COMMON_LAYERS_PATTERN,
@@ -256,7 +256,7 @@ class LoraModel(torch.nn.Module):
             eightbit_kwargs.update(
                 {
                     "has_fp16_weights": target.state.has_fp16_weights,
-                    "memory_efficient_backward": target.state.memory_efficient_backward,
+                    "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                     "threshold": target.state.threshold,
                     "index": target.index,
                 }
@@ -1050,11 +1050,7 @@ if is_bnb_available():
                 self,
                 in_features,
                 out_features,
-                bias=kwargs.get("bias", True),
-                has_fp16_weights=kwargs.get("has_fp16_weights", True),
-                memory_efficient_backward=kwargs.get("memory_efficient_backward", False),
-                threshold=kwargs.get("threshold", 0.0),
-                index=kwargs.get("index", None),
+                **linear8bitlt_init_kwargs(**kwargs),
             )
             LoraLayer.__init__(self, in_features=in_features, out_features=out_features)
 
@@ -1070,6 +1066,7 @@ if is_bnb_available():
             if self.disable_adapters or self.active_adapter not in self.lora_A.keys():
                 return result
             elif self.r[self.active_adapter] > 0:
+                result = result.clone()
                 expected_dtype = result.dtype
                 lora_dtype = self.lora_A[self.active_adapter].weight.dtype
                 x_lora = self.lora_dropout[self.active_adapter](x.to(lora_dtype))

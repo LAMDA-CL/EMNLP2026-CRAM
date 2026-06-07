@@ -26,7 +26,7 @@ from ..standard.lora import (
     Embedding,
     Conv2d,
 )
-from ...import_utils import is_bnb_4bit_available, is_bnb_available
+from ...import_utils import is_bnb_4bit_available, is_bnb_available, linear8bitlt_init_kwargs
 
 if is_bnb_available():
     import bitsandbytes as bnb
@@ -151,7 +151,7 @@ class SAMEModel(LoraModel):
             eightbit_kwargs = kwargs.copy()
             eightbit_kwargs.update({
                 "has_fp16_weights": target.state.has_fp16_weights,
-                "memory_efficient_backward": target.state.memory_efficient_backward,
+                "memory_efficient_backward": getattr(target.state, "memory_efficient_backward", False),
                 "threshold": target.state.threshold,
                 "index": target.index,
             })
@@ -291,9 +291,6 @@ class SAMELayer(LoraLayer):
 
 
 
-_SAME_COV_PREV_HOOK_WARNED: bool = False
-
-
 def _same_pop_layer_kwargs(kwargs: dict) -> dict:
     return {
         "init_lora_weights": kwargs.pop("init_lora_weights", True),
@@ -303,7 +300,7 @@ def _same_pop_layer_kwargs(kwargs: dict) -> dict:
         "max_components": int(kwargs.pop("max_components", 64)),
         "window_size": int(kwargs.pop("window_size", 3)),
         "curvature_mu": float(kwargs.pop("curvature_mu", 0.9)),
-        "tau_score": float(kwargs.pop("tau_score", 0.1)),
+        "tau_score": float(kwargs.pop("tau_score", 1)),
         "cumulative_energy_ratio": float(kwargs.pop("cumulative_energy_ratio", 0.9)),
     }
 
@@ -352,6 +349,8 @@ def _same_forward_with_routing(layer, x: torch.Tensor, base_result: torch.Tensor
             g_phi_mean = g_phi.mean(dim=0).to(dtype=x.dtype)
             g_phi_mean = layer._get_masked_routing(g_phi_mean)
             final_routing = g_phi_mean.to(dtype=x.dtype)
+            if not _same_inside_activation_checkpoint_recompute():
+                layer._last_final_routing = final_routing.detach()
         else:
             router_logits = layer.lora_router[layer.active_adapter](x.view(-1, x.size(-1))) / layer.expert_num
             g_phi = F.softmax(router_logits, dim=-1)
@@ -528,24 +527,6 @@ class SAMELinear(nn.Linear, SAMELayer):
                                 f"SAME assert(0): cov_prev_valid_{adapter} is False but cov_*_prev "
                                 f"carry non-trivial data (layer={self.layer_id}, expert={expert_id}); "
                                 f"checkpoint / buffer state inconsistent."
-                            )
-                    global _SAME_COV_PREV_HOOK_WARNED
-                    if not _SAME_COV_PREV_HOOK_WARNED:
-                        _rk = 0
-                        try:
-                            import torch.distributed as dist
-
-                            if dist.is_available() and dist.is_initialized():
-                                _rk = int(dist.get_rank())
-                        except Exception:
-                            pass
-                        if _rk == 0:
-                            _SAME_COV_PREV_HOOK_WARNED = True
-                            print(
-                                "[SAME_HOOK] Skipping curvature block"
-                                f"because cov_prev_valid_{adapter}=False — e.g. layer={self.layer_id} "
-                                f"expert={expert_id}. Most hooks return here until Task0 snapshot + load restore True.",
-                                flush=True,
                             )
                     return grad
             elif not cov_prev_valid:
@@ -756,7 +737,6 @@ class SAMELinear(nn.Linear, SAMELayer):
             setattr(self, f"cov_prev_valid_{adapter}", torch.tensor(True))
         else:
             setattr(self, f"cov_prev_valid_{adapter}", torch.tensor(False))
-            print(f"[Layer {self.layer_id}] No valid covariance to save")
 
     def reset_for_new_task(self, adapter):
         setattr(self, f"cov_alpha_{adapter}", torch.tensor(0.0))
@@ -824,11 +804,7 @@ if is_bnb_available():
                 self,
                 in_features,
                 out_features,
-                bias=kwargs.get("bias", True),
-                has_fp16_weights=kwargs.get("has_fp16_weights", True),
-                memory_efficient_backward=kwargs.get("memory_efficient_backward", False),
-                threshold=kwargs.get("threshold", 0.0),
-                index=kwargs.get("index", None),
+                **linear8bitlt_init_kwargs(**kwargs),
             )
             SAMELayer.__init__(
                 self,

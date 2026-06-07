@@ -34,7 +34,7 @@ INFER_DEFAULTS = {
 
 TRAIN_BATCH_SIZES = {
     "coin": {i: 8 for i in range(8)},
-    "ucit": {i: 8 for i in range(6)},
+    "ucit": {i: 6 for i in range(6)},
 }
 
 METHOD_CONFIG = {

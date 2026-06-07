@@ -38,7 +38,7 @@ INFER_DEFAULTS = {
 # per_device_train_batch_size per task (original CL-MoE uses 16)
 TRAIN_BATCH_SIZES = {
     "coin": {i: 4 for i in range(8)},
-    "ucit": {i: 4 for i in range(6)},
+    "ucit": {i: 6 for i in range(6)},
 }
 
 METHOD_CONFIG = {

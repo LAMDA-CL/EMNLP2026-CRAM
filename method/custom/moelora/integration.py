@@ -1,9 +1,11 @@
 from __future__ import annotations
 
-from typing import Any, List
+from typing import Any, Dict, List
 
 import torch
+import torch.nn as nn
 
+from method.base.context import CLContext
 from method.base.integration import CLIntegration
 from method.base.peft_extension import register_peft_extension
 from backbone.shared.peft_llm_targets import collect_peft_target_linear_suffixes
@@ -73,3 +75,21 @@ class MoeloraIntegration(CLIntegration):
 
     def _find_target_modules(self, model) -> List[str]:
         return collect_peft_target_linear_suffixes(model, self.config)
+
+    def on_input_prep(self, model: nn.Module, args: tuple, kwargs: dict, context: CLContext) -> None:
+        return
+
+    def on_forward_start(self, model: nn.Module, context: CLContext) -> None:
+        return
+
+    def on_forward_end(self, model: nn.Module, outputs: Any, context: CLContext) -> Any:
+        return outputs
+
+    def on_task_end(self, model: nn.Module, context: CLContext, task_id: int) -> None:
+        return
+
+    def get_inference_config(self) -> Dict[str, Any]:
+        return {
+            "task_num": self.task_num,
+            "lora_r": int(getattr(self.config, "lora_r", 64)),
+        }

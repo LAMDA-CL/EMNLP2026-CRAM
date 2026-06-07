@@ -866,6 +866,8 @@ def cmd_train(args: argparse.Namespace) -> int:
 
     flag_overrides = dict(cfg.get("TRAIN_FLAG_OVERRIDES", {}))
     flag_overrides.update(method_cfg.get("TRAIN_FLAG_OVERRIDES", {}))
+    if getattr(args, "num_train_epochs", None) is not None:
+        flag_overrides["--num_train_epochs"] = str(args.num_train_epochs)
     extra_args = list(cfg.get("TRAIN_EXTRA_ARGS", [])) + list(method_cfg.get("TRAIN_EXTRA_ARGS", []))
     batch_sizes = method_cfg.get("TRAIN_BATCH_SIZES", {})
     gas_spec = method_cfg.get("TRAIN_GRADIENT_ACCUMULATION_STEPS")
@@ -1324,6 +1326,11 @@ def main() -> None:
         default=None,
         choices=["bf16", "fp16", "8bit", "4bit"],
         help="Training precision (default: config/run_config.py TRAIN_PRECISION, currently 8bit QLoRA).",
+    )
+    p_train.add_argument(
+        "--num-train-epochs",
+        default=None,
+        help="Override --num_train_epochs for this run (overrides config/methods/<method>.py).",
     )
     p_train.set_defaults(**{k: v for k, v in cfg["TRAIN_DEFAULTS"].items() if k != "handler"})
     p_train.set_defaults(train_flag_overrides=cfg["TRAIN_FLAG_OVERRIDES"])

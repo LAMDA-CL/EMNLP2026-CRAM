@@ -321,9 +321,8 @@ class Hide_llavaIntegration(CLIntegration):
 
     def _propagate_task_id(self, model, task_id: int):
         for module in model.modules():
-            if module.__class__.__name__ == 'HiDeMOELoraLinear':
-                if hasattr(module, 'predicted_task_id'):
-                    module.predicted_task_id = task_id
+            if hasattr(module, "predicted_task_id"):
+                module.predicted_task_id = task_id
 
         model._last_predicted_task_id = task_id
 

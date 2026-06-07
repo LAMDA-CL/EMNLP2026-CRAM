@@ -130,34 +130,6 @@ class RouterIntegration(CLIntegration):
                 getattr(config, "peft_routing_module_name", "SAMELinear"),
             )
         )
-        # Inference logging: CLIP-anchor mixture written to PEFT modules (see ``_batch_prepare``).
-        self._router_mix_log_enabled: bool = bool(getattr(config, "same_print_router", True))
-        self._router_mix_log_max: int = int(getattr(config, "same_print_router_max", 10_000))
-        self._router_mix_log_count: int = 0
-
-    def _maybe_log_router_mixture(
-        self,
-        model: Any,
-        *,
-        sims_t: Optional[torch.Tensor],
-        mix: torch.Tensor,
-        tag: str,
-    ) -> None:
-        if not self._router_mix_log_enabled:
-            return
-        # Only suppress during training steps (grad on). Under ``torch.inference_mode()`` /
-        # ``no_grad()``, still log so inference isn't silent if ``model.training`` was left True.
-        if getattr(model, "training", False) and torch.is_grad_enabled():
-            return
-        self._router_mix_log_count += 1
-        if self._router_mix_log_count > self._router_mix_log_max:
-            return
-        mv = mix.detach().float().cpu().tolist()
-        parts = [f"[RouterIntegration:{tag}] expert_mix={mv}"]
-        if sims_t is not None:
-            sv = sims_t.detach().float().cpu().tolist()
-            parts.append(f"clip_cos_sims={sv}")
-        print(" | ".join(parts), flush=True)
 
     def initialize_model(self, model: Any) -> None:
         self._model_ref = model
@@ -456,21 +428,10 @@ class RouterIntegration(CLIntegration):
     ) -> None:
         clip_tokenizer, text_tower = self._clip_tokenizer_and_text_tower(model)
         if clip_tokenizer is None or text_tower is None:
-            if self._router_mix_log_enabled and not getattr(
-                self, "_same_router_missing_clip_warned", False
-            ):
-                self._same_router_missing_clip_warned = True
-                print(
-                    "[infer][SAME] Router mixture logging skipped: missing "
-                    f"clip_tokenizer={clip_tokenizer is not None}, "
-                    f"text_tower={text_tower is not None}",
-                    flush=True,
-                )
             return
 
         if input_ids is None or (hasattr(input_ids, "shape") and input_ids.shape[1] <= 1):
             if self._prior_expert_vec is not None:
-                self._maybe_log_router_mixture(model, sims_t=None, mix=self._prior_expert_vec, tag="prior_shortseq")
                 self._write_expert_mix_to_modules(model, self._prior_expert_vec)
             return
 
@@ -493,7 +454,6 @@ class RouterIntegration(CLIntegration):
 
         sims_t = self._compute_cosine_similarities(image_feat, text_feat, device)
         mix = self._similarities_to_mixture(sims_t)
-        self._maybe_log_router_mixture(model, sims_t=sims_t, mix=mix, tag="clip_routing")
         self._write_expert_mix_to_modules(model, mix)
         self._prior_expert_vec = mix.detach()
 
@@ -510,11 +470,15 @@ class RouterIntegration(CLIntegration):
         self._batch_prepare(model, images, input_ids, context)
         return True
 
+    def _matches_peft_expert_layer(self, module: Any) -> bool:
+        name = module.__class__.__name__
+        target = self.peft_expert_layer_name
+        return name == target or name.startswith(f"{target}")
+
     def _write_expert_mix_to_modules(self, model: Any, mix: torch.Tensor) -> None:
         mix = mix.detach()
-        target = self.peft_expert_layer_name
         for module in model.modules():
-            if module.__class__.__name__ != target:
+            if not self._matches_peft_expert_layer(module):
                 continue
             target_len = int(getattr(module, "expert_num", mix.numel()))
             vec = mix

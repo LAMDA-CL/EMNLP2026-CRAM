@@ -42,14 +42,7 @@ TRAIN_BATCH_SIZES = {
         6: 8,
         7: 8,
     },
-    "ucit": {
-        0: 1,
-        1: 1,
-        2: 1,
-        3: 1,
-        4: 1,
-        5: 1,
-    },
+    "ucit": {i: 6 for i in range(6)},
 }
 
 METHOD_CONFIG = {
@@ -67,8 +60,8 @@ METHOD_CONFIG_BY_BENCHMARK = {
         "lora_alpha": 128,
     },
     "ucit": {
-        "lora_r": 8,
-        "lora_alpha": 16,
+        "lora_r": 48,
+        "lora_alpha": 96,
     },
     "trigap": {
         "lora_r": 80,
