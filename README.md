@@ -111,17 +111,17 @@ You can add custom benchmarks under `config/benchmarks/` and register them in `c
 
 ### Environment setup (one command)
 
-The default one-shot setup below is **tested on RTX 5090** (Blackwell, **CUDA 12.8+**, torch 2.8 + cu128). We have also run PRISM on other GPUs such as **RTX 3090**, **A100**, and **RTX Pro 6000**; you may need to adjust PyTorch, flash-attn, and related library versions to match your driver and hardware.
+**Requirements:** **Ubuntu 18.04**, **Python 3.10**, **NVIDIA RTX 5090**.
 
-**Requirements:** Linux, **Python 3.10**, NVIDIA GPU.
-
-From the repository root:
+If you are on **Ubuntu 18.04** with **NVIDIA RTX 5090** (our tested setup), a single command sets up everything from the repository root:
 
 ```bash
 bash scripts/setup_env.sh
 ```
 
-This creates conda env **`prism`** (if missing), installs the default 5090 stack, training/eval dependencies, flash-attn, and runs `pip install -e .`. See [`requirements/README.md`](requirements/README.md) for options (e.g. `TORCH_REQUIREMENTS=requirements/torch-cu118.txt` for older CUDA stacks, `FLASH_ATTN_WHEEL`, `SKIP_FLASH_ATTN`).
+This creates conda env **`prism`** (if missing), installs torch 2.8 + cu128, training/eval dependencies, flash-attn, and runs `pip install -e .`.
+
+For other GPUs or CUDA versions, you may need to adjust PyTorch, flash-attn, and related libraries. See [`requirements/README.md`](requirements/README.md) for options (e.g. `TORCH_REQUIREMENTS=requirements/torch-cu118.txt` for older CUDA stacks, `FLASH_ATTN_WHEEL`, `SKIP_FLASH_ATTN`).
 
 Activate and verify:
 
