@@ -111,9 +111,7 @@ You can add custom benchmarks under `config/benchmarks/` and register them in `c
 
 ### Environment setup (one command)
 
-**Requirements:** **Ubuntu 18.04**, **Python 3.10**, **NVIDIA RTX 5090**.
-
-If you are on **Ubuntu 18.04** with **NVIDIA RTX 5090** (our tested setup), a single command sets up everything from the repository root:
+If you are on **NVIDIA RTX 5090** GPU(s) (our tested setup), a single command sets up everything from the repository root:
 
 ```bash
 bash scripts/setup_env.sh
