@@ -38,10 +38,14 @@ def should_load_routing_vision_tower(
     routing_vision_tower: Optional[str],
     mllm_vision_tower: Optional[str],
 ) -> bool:
-    """Skip a second tower when routing uses the same weights/path as the MLLM vision encoder."""
-    if not _normalize_tower_path(routing_vision_tower):
-        return False
-    return not tower_paths_equal(routing_vision_tower, mllm_vision_tower)
+    """Load routing tower whenever configured.
+
+    Even when ``routing_vision_tower`` and ``mllm_vision_tower`` point at the same
+    CLIP snapshot, training uses ``RoutingVisionTower`` (768-d ``image_embeds``) while
+    the MLLM encoder returns patch hidden states (e.g. 1024-d). Reusing the MLLM
+    tower for routing breaks HiDe anchor cosine similarity at inference.
+    """
+    return bool(_normalize_tower_path(routing_vision_tower))
 
 
 _NAME_TO_TOWER_PATH = {

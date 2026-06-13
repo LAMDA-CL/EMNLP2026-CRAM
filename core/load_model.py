@@ -603,11 +603,6 @@ def _resolve_infer_towers(
     routing = routing_vision_tower if routing_vision_tower is not None else defaults.get("routing_vision_tower")
     text = text_tower if text_tower is not None else defaults.get("text_tower")
     if routing and not should_load_routing_vision_tower(routing, vision_tower):
-        print(
-            "[infer] routing_vision_tower matches MLLM vision tower; "
-            "reuse MLLM encoder for routing (no extra load).",
-            flush=True,
-        )
         routing = None
     return routing, text
 
