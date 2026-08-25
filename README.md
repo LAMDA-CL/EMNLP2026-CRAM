@@ -2,7 +2,7 @@
 
 <div align="center">
     <div>
-        <a href='https://github.com/JuntaoTang' target='_blank'>Jun-Tao Tang</a>&emsp;
+        <a href='https://juntaotang.github.io/' target='_blank'>Jun-Tao Tang</a>&emsp;
         <a href='https://www.lamda.nju.edu.cn/wenzh/' target='_blank'>Zhen-Hao Xie</a>&emsp;
         <a href='https://hhdnp.github.io/' target='_blank'>Yu-Cheng Shi</a>&emsp;
         <a href='http://www.lamda.nju.edu.cn/zhoudw' target='_blank'>Da-Wei Zhou</a>
@@ -27,7 +27,7 @@
 
 </div>
 
-The code repository for "[CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2606.02502)" (EMNLP 2026). If you use any content of this repo for your work, please cite the following bib entry:
+The code repository for "[CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2606.02502)" (EMNLP 2026 Main Conference Paper). If you use any content of this repo for your work, please cite the following bib entry:
 
 ```bibtex
 @inproceedings{tang2026cram,
