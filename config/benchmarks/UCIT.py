@@ -1,7 +1,7 @@
 from ..paths.common import CHECKPOINT_DIR
 
 # UCIT benchmark roots (edit for your machine)
-UCIT_ROOT = "/root/autodl-tmp/UCIT"
+UCIT_ROOT = "/data7/mcit/UCIT"
 UCIT_INSTRUCTION_DIR = f"{UCIT_ROOT}/instructions"
 UCIT_IMAGE_DIR = f"{UCIT_ROOT}/datasets"
 
@@ -112,7 +112,7 @@ UCIT_TASKS = [
         "name": "Flickr30k",
         "train_data_path": f"{UCIT_INSTRUCTION_DIR}/Flickr30k/train_brief_4w.json",
         "test_data_path": f"{UCIT_INSTRUCTION_DIR}/Flickr30k/test_3000.json",
-        "eval_annotation_path": f"{UCIT_INSTRUCTION_DIR}/Flickr30k/test_coco_type.json",
+        "eval_annotation_path": f"{UCIT_INSTRUCTION_DIR}/Flickr30k/val_coco_type_3000.json",
         "output_dir": f"{CHECKPOINT_DIR}/UCIT/Task5_llava",
         "batch_size": 12,
         "previous_task": f"{CHECKPOINT_DIR}/UCIT/Task4_llava",

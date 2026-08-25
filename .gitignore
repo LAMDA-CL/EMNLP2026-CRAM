@@ -1,12 +1,13 @@
 result/
 log/
 logs/
+output/
 */result/
 */log/
 */logs/
+*/output/
 checkpoints/
 */checkpoints/
-**/results/
 
 *.whl
 *.WHL
@@ -23,6 +24,10 @@ checkpoints/
 
 *.jsonl
 *.JSONL
+
+# Keep released eval outputs (override *.txt / *.jsonl above)
+!results/
+!results/**
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

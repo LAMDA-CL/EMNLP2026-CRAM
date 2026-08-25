@@ -1,0 +1,10 @@
+UCIT  test_3000  last checkpoint after Task 5
+Caption Average = mean(Bleu_1, Bleu_2, Bleu_3, Bleu_4, METEOR, ROUGE_L, CIDEr)
+
+Task        Metric     Score
+ImageNet-R  Acc        87.23%
+ArxivQA     Acc        92.17%
+VizWiz      Average    60.55
+IconQA      Acc        80.43%
+CLEVR       Acc        70.67%
+Flickr30k   Average    57.35

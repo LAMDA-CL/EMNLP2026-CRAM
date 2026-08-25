@@ -10,11 +10,11 @@ TRAIN_DEFAULTS = {
     "benchmark": "ucit",
     "gpus": "0,1",
     "port": 29602,
-    "backbone": "internvl",
+    "backbone": "llava",
     # True → training subprocess gets PYPRISM_LOG_LEVEL=DEBUG (see run.py / train.py). Does not change batch size.
     "debug": False,
     # hide_llava, olora, replay_lora, ...
-    "method": "same",
+    "method": "cram",
     # UCIT: when True, append _sub to train/test/eval *.json paths (canonical names in config/benchmarks/UCIT.py).
     "use_sub_dataset": False,
 }
@@ -41,11 +41,11 @@ INFER_PRECISION = "bf16"
 INFER_DEFAULTS = {
     "benchmark": "ucit",
     "gpus": "0,1",
-    "backbone": "internvl",
+    "backbone": "llava",
     "checkpoint_task": "5",
-    "checkpoint_suffix": "_internvl",
+    "checkpoint_suffix": "_llava",
     "stage": "last",
-    "method": "same",
+    "method": "cram",
     "temperature": "0",
     "use_sub_dataset": False,
 }

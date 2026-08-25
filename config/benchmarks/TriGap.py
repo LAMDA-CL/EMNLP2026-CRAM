@@ -1,7 +1,7 @@
 from ..paths.common import CHECKPOINT_DIR
 
-TRIGAP_INSTRUCTION_DIR = "/root/autodl-tmp/TriGap/instructions"
-TRIGAP_IMAGE_DIR = "/root/autodl-tmp/TriGap/datasets"
+TRIGAP_INSTRUCTION_DIR = "/data7/mcit/data/TriGap/instructions"
+TRIGAP_IMAGE_DIR = "/data7/mcit/data/TriGap/images"
 
 TRIGAP_TASKS = [
     {
