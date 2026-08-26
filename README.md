@@ -72,7 +72,7 @@ python run.py infer 0 1 2 3 4 5 --method cram --benchmark ucit
 
 ## Results
 
-We release the full model outputs on every UCIT task under [`results/llava/UCIT/cram/`](results/llava/UCIT/cram/).
+We release the full model outputs on every UCIT and TriGap task under [`results/llava/UCIT/cram/`](results/llava/UCIT/cram/) and [`results/llava/TriGap/cram/`](results/llava/TriGap/cram/).
 
 ## Acknowledgement
 

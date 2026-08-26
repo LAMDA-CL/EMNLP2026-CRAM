@@ -1,0 +1,10002 @@
+[
+    {
+        "pred": "3.85",
+        "ground_truth": "3.72"
+    },
+    {
+        "pred": "7.7",
+        "ground_truth": "7.1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "100000000",
+        "ground_truth": "8092208"
+    },
+    {
+        "pred": "Business owners",
+        "ground_truth": "Russia"
+    },
+    {
+        "pred": "15.2",
+        "ground_truth": "18.3"
+    },
+    {
+        "pred": "77",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "-1.6"
+    },
+    {
+        "pred": "46",
+        "ground_truth": "43"
+    },
+    {
+        "pred": "34.94",
+        "ground_truth": "33.94"
+    },
+    {
+        "pred": "5.1",
+        "ground_truth": "4.2"
+    },
+    {
+        "pred": "93",
+        "ground_truth": "94"
+    },
+    {
+        "pred": "1970",
+        "ground_truth": "1978"
+    },
+    {
+        "pred": "[Italy, China]",
+        "ground_truth": "[Australia, Italy]"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "76",
+        "ground_truth": "70"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "BlackRock Investment Management (UK) Limited",
+        "ground_truth": "BlackRock Investment Management (UK) Limited"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "28.3"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "90.76",
+        "ground_truth": "90.77"
+    },
+    {
+        "pred": "4.82",
+        "ground_truth": "46.22"
+    },
+    {
+        "pred": "Russia",
+        "ground_truth": "Russian Federation"
+    },
+    {
+        "pred": "2700.8",
+        "ground_truth": "2819.63"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "1.68",
+        "ground_truth": "1.86"
+    },
+    {
+        "pred": "The pink bar represents the international flight.",
+        "ground_truth": "Pink"
+    },
+    {
+        "pred": "9.3",
+        "ground_truth": "9.2"
+    },
+    {
+        "pred": "mexico",
+        "ground_truth": "Mexico"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "Grocery"
+    },
+    {
+        "pred": "Kia",
+        "ground_truth": "Kit (Nike)"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "2004"
+    },
+    {
+        "pred": "0.08",
+        "ground_truth": "0.08"
+    },
+    {
+        "pred": "15.08",
+        "ground_truth": "14.84"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "35"
+    },
+    {
+        "pred": "20.44",
+        "ground_truth": "21.43"
+    },
+    {
+        "pred": "7.2",
+        "ground_truth": "7.3"
+    },
+    {
+        "pred": "8",
+        "ground_truth": "92"
+    },
+    {
+        "pred": "1.28",
+        "ground_truth": "1.18"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "1.3%",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "26000",
+        "ground_truth": "112249"
+    },
+    {
+        "pred": "0.08",
+        "ground_truth": "9.1"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "87.27",
+        "ground_truth": "87.2"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "65+ years",
+        "ground_truth": "40-59 years"
+    },
+    {
+        "pred": "0-19 years",
+        "ground_truth": "9 years and younger"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "Pink"
+    },
+    {
+        "pred": "Aftonbladet.se",
+        "ground_truth": "na-kd.com"
+    },
+    {
+        "pred": "13.33",
+        "ground_truth": "15.31"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2022"
+    },
+    {
+        "pred": "31.7",
+        "ground_truth": "31.7"
+    },
+    {
+        "pred": "3.43",
+        "ground_truth": "3.56"
+    },
+    {
+        "pred": "venezuela",
+        "ground_truth": "Benin"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "98"
+    },
+    {
+        "pred": "Kharkiv",
+        "ground_truth": "Kyiv"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "0.19",
+        "ground_truth": "0.034"
+    },
+    {
+        "pred": "175800",
+        "ground_truth": "537689"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "41.11",
+        "ground_truth": "43.13"
+    },
+    {
+        "pred": "British Columbia",
+        "ground_truth": "British Columbia"
+    },
+    {
+        "pred": "29.6",
+        "ground_truth": "19.4"
+    },
+    {
+        "pred": "Leaders and Directors",
+        "ground_truth": "Tech"
+    },
+    {
+        "pred": "14276",
+        "ground_truth": "14766"
+    },
+    {
+        "pred": "28800",
+        "ground_truth": "20656"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "440.6",
+        "ground_truth": "406.6"
+    },
+    {
+        "pred": "[2009, 2010]",
+        "ground_truth": "[2003,2009]"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "17.1",
+        "ground_truth": "17.6"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "Copa Airlines",
+        "ground_truth": "Copa Airlines"
+    },
+    {
+        "pred": "17.9",
+        "ground_truth": "17.19"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "141",
+        "ground_truth": "143"
+    },
+    {
+        "pred": "19.77",
+        "ground_truth": "19.27"
+    },
+    {
+        "pred": "160.22",
+        "ground_truth": "165.82"
+    },
+    {
+        "pred": "12800",
+        "ground_truth": "944"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Female",
+        "ground_truth": "Male"
+    },
+    {
+        "pred": "Jimmy Choo",
+        "ground_truth": "Michael Kors"
+    },
+    {
+        "pred": "3.1",
+        "ground_truth": "1.4"
+    },
+    {
+        "pred": "4.9",
+        "ground_truth": "51.1"
+    },
+    {
+        "pred": "108000",
+        "ground_truth": "14005615"
+    },
+    {
+        "pred": "7.2",
+        "ground_truth": "6.7"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "2004"
+    },
+    {
+        "pred": "46",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "10.0",
+        "ground_truth": "44.6"
+    },
+    {
+        "pred": "17.08",
+        "ground_truth": "15.61"
+    },
+    {
+        "pred": "280.8",
+        "ground_truth": "207.1"
+    },
+    {
+        "pred": "56",
+        "ground_truth": "55"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "Telia Company AB",
+        "ground_truth": "Telia Company AB"
+    },
+    {
+        "pred": "Bus",
+        "ground_truth": "Metro / small bus*"
+    },
+    {
+        "pred": "12288.8",
+        "ground_truth": "12379.83"
+    },
+    {
+        "pred": "8999",
+        "ground_truth": "10519"
+    },
+    {
+        "pred": "123.9",
+        "ground_truth": "108.91"
+    },
+    {
+        "pred": "Lisbon",
+        "ground_truth": "Lisbon"
+    },
+    {
+        "pred": "44.5",
+        "ground_truth": "42.5"
+    },
+    {
+        "pred": "111.11",
+        "ground_truth": "151.85"
+    },
+    {
+        "pred": "474",
+        "ground_truth": "471"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2007"
+    },
+    {
+        "pred": "10918",
+        "ground_truth": "9181"
+    },
+    {
+        "pred": "14.5",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "72.4",
+        "ground_truth": "74.4"
+    },
+    {
+        "pred": "183144",
+        "ground_truth": "77658792"
+    },
+    {
+        "pred": "73.1",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "38",
+        "ground_truth": "36"
+    },
+    {
+        "pred": "46.1",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "very poor",
+        "ground_truth": "I do not know"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "21.5"
+    },
+    {
+        "pred": "25.08",
+        "ground_truth": "25.06"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "Madrid",
+        "ground_truth": "Melilla"
+    },
+    {
+        "pred": "14.1",
+        "ground_truth": "14.8"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "35"
+    },
+    {
+        "pred": "1:1",
+        "ground_truth": "2.2258"
+    },
+    {
+        "pred": "3.3",
+        "ground_truth": "3.4"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "56"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "40"
+    },
+    {
+        "pred": "Brazil",
+        "ground_truth": "Brazil"
+    },
+    {
+        "pred": "6.1",
+        "ground_truth": "5.03"
+    },
+    {
+        "pred": "20.6",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "21.9",
+        "ground_truth": "29.3"
+    },
+    {
+        "pred": "10.7",
+        "ground_truth": "71.08"
+    },
+    {
+        "pred": "80.33",
+        "ground_truth": "69.88"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "14.8",
+        "ground_truth": "17.8"
+    },
+    {
+        "pred": "0.55",
+        "ground_truth": "0.2"
+    },
+    {
+        "pred": "UniCredit",
+        "ground_truth": "UniCredit"
+    },
+    {
+        "pred": "70",
+        "ground_truth": "Mexico"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "81.3",
+        "ground_truth": "80.1"
+    },
+    {
+        "pred": "5.6",
+        "ground_truth": "4.9"
+    },
+    {
+        "pred": "10444",
+        "ground_truth": "4863"
+    },
+    {
+        "pred": "19.05%",
+        "ground_truth": "69"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "41.1",
+        "ground_truth": "46.1"
+    },
+    {
+        "pred": "Niger",
+        "ground_truth": "Niger"
+    },
+    {
+        "pred": "1.61",
+        "ground_truth": "1.48"
+    },
+    {
+        "pred": "81.78",
+        "ground_truth": "84.94"
+    },
+    {
+        "pred": "Ikea AB",
+        "ground_truth": "Moderna"
+    },
+    {
+        "pred": "178",
+        "ground_truth": "178"
+    },
+    {
+        "pred": "26.4",
+        "ground_truth": "25.4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "1965",
+        "ground_truth": "1990"
+    },
+    {
+        "pred": "42.3",
+        "ground_truth": "41.5"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "Satisfied",
+        "ground_truth": "Overall quality of life"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "Tablets",
+        "ground_truth": "Tablets"
+    },
+    {
+        "pred": "35595",
+        "ground_truth": "39625"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "63",
+        "ground_truth": "68"
+    },
+    {
+        "pred": "0.41",
+        "ground_truth": "0.33333333"
+    },
+    {
+        "pred": "25528",
+        "ground_truth": "26276"
+    },
+    {
+        "pred": "4.44",
+        "ground_truth": "5.44"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "25.19"
+    },
+    {
+        "pred": "3090",
+        "ground_truth": "3069"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "89",
+        "ground_truth": "89"
+    },
+    {
+        "pred": "312.22",
+        "ground_truth": "192.62"
+    },
+    {
+        "pred": "5.6",
+        "ground_truth": "5.5"
+    },
+    {
+        "pred": "10.1",
+        "ground_truth": "0.57"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "32.2",
+        "ground_truth": "39.2"
+    },
+    {
+        "pred": "1.87",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "7277",
+        "ground_truth": "7870"
+    },
+    {
+        "pred": "145",
+        "ground_truth": "105"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "42.25"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "23.59",
+        "ground_truth": "23.7"
+    },
+    {
+        "pred": "$1,000,000",
+        "ground_truth": "187863.67"
+    },
+    {
+        "pred": "Favor",
+        "ground_truth": "Favor"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "Female",
+        "ground_truth": "Female"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Heart disease",
+        "ground_truth": "Heart disease"
+    },
+    {
+        "pred": "1.35",
+        "ground_truth": "1.88"
+    },
+    {
+        "pred": "34",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "441",
+        "ground_truth": "451"
+    },
+    {
+        "pred": "2016",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "red"
+    },
+    {
+        "pred": "244",
+        "ground_truth": "244"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2.87"
+    },
+    {
+        "pred": "Tampere",
+        "ground_truth": "Tampere"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "14.9",
+        "ground_truth": "11.8"
+    },
+    {
+        "pred": "2.7",
+        "ground_truth": "2.77"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Sudan",
+        "ground_truth": "Sudan"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "42"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1.216666667"
+    },
+    {
+        "pred": "Ages 18-29",
+        "ground_truth": "65+"
+    },
+    {
+        "pred": "56.4",
+        "ground_truth": "57.04"
+    },
+    {
+        "pred": "13",
+        "ground_truth": "141"
+    },
+    {
+        "pred": "120.22",
+        "ground_truth": "124.65"
+    },
+    {
+        "pred": "Australia and china",
+        "ground_truth": "[Austria, Chile]"
+    },
+    {
+        "pred": "Laughlin",
+        "ground_truth": "Leigh Griffiths"
+    },
+    {
+        "pred": "188.2",
+        "ground_truth": "189.2"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "31149",
+        "ground_truth": "31846"
+    },
+    {
+        "pred": "fab.de",
+        "ground_truth": "fab.de"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "79",
+        "ground_truth": "78"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "771.07",
+        "ground_truth": "774.71"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "44.2",
+        "ground_truth": "46.3"
+    },
+    {
+        "pred": "86.3",
+        "ground_truth": "48.8"
+    },
+    {
+        "pred": "15.5",
+        "ground_truth": "17.05"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "Todd Helton",
+        "ground_truth": "Todd Helton"
+    },
+    {
+        "pred": "22.7",
+        "ground_truth": "28.7"
+    },
+    {
+        "pred": "33",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "1.44",
+        "ground_truth": "11.4"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "114.3",
+        "ground_truth": "117.94"
+    },
+    {
+        "pred": "13",
+        "ground_truth": "Definitely yes"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "16.7"
+    },
+    {
+        "pred": "1.03",
+        "ground_truth": "1.98"
+    },
+    {
+        "pred": "Amazon Studios",
+        "ground_truth": "Amazon"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "353.76",
+        "ground_truth": "347.82"
+    },
+    {
+        "pred": "106",
+        "ground_truth": "106"
+    },
+    {
+        "pred": "India",
+        "ground_truth": "Chinese Taipei"
+    },
+    {
+        "pred": "381.5",
+        "ground_truth": "479.5"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "559.9",
+        "ground_truth": "856.36"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "200"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2006"
+    },
+    {
+        "pred": "69",
+        "ground_truth": "56"
+    },
+    {
+        "pred": "Simulation",
+        "ground_truth": "Simulation"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "68"
+    },
+    {
+        "pred": "0.04",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "16686",
+        "ground_truth": "16166"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "0.6"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "1.6",
+        "ground_truth": "3.38"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "3.11",
+        "ground_truth": "3.13"
+    },
+    {
+        "pred": "20499",
+        "ground_truth": "20616"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "44.3",
+        "ground_truth": "43.4"
+    },
+    {
+        "pred": "53",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "[India, Philippines]",
+        "ground_truth": "[Thailand, South Korea]"
+    },
+    {
+        "pred": "100000",
+        "ground_truth": "46832"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.19"
+    },
+    {
+        "pred": "2241",
+        "ground_truth": "2714"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2012"
+    },
+    {
+        "pred": "1200",
+        "ground_truth": "1200"
+    },
+    {
+        "pred": "20.5",
+        "ground_truth": "31.7"
+    },
+    {
+        "pred": "14500",
+        "ground_truth": "3376.81"
+    },
+    {
+        "pred": "86.44",
+        "ground_truth": "90.04"
+    },
+    {
+        "pred": "95",
+        "ground_truth": "95"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "[55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55,",
+        "ground_truth": "70"
+    },
+    {
+        "pred": "79.3",
+        "ground_truth": "75.6"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "104"
+    },
+    {
+        "pred": "100000",
+        "ground_truth": "542533"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "Dissatisfied"
+    },
+    {
+        "pred": "18-24",
+        "ground_truth": "35 to 44"
+    },
+    {
+        "pred": "33.6",
+        "ground_truth": "2.4"
+    },
+    {
+        "pred": "0.69",
+        "ground_truth": "0.69"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "September 2012"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "TV",
+        "ground_truth": "TV"
+    },
+    {
+        "pred": "Eritrea",
+        "ground_truth": "South Sudan"
+    },
+    {
+        "pred": "555",
+        "ground_truth": "581"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "76",
+        "ground_truth": "67"
+    },
+    {
+        "pred": "berlin",
+        "ground_truth": "Benin"
+    },
+    {
+        "pred": "George Brett",
+        "ground_truth": "George Brett"
+    },
+    {
+        "pred": "Trelleborg AB",
+        "ground_truth": "Folksam"
+    },
+    {
+        "pred": "0.5",
+        "ground_truth": "6.6"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "10.2"
+    },
+    {
+        "pred": "White",
+        "ground_truth": "Blue"
+    },
+    {
+        "pred": "canada",
+        "ground_truth": "LAAP*"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "35"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "56"
+    },
+    {
+        "pred": "190.5",
+        "ground_truth": "195.5"
+    },
+    {
+        "pred": "Zalando",
+        "ground_truth": "Ted Baker"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "navy blue"
+    },
+    {
+        "pred": "17.7",
+        "ground_truth": "10.1"
+    },
+    {
+        "pred": "700.3",
+        "ground_truth": "718.69"
+    },
+    {
+        "pred": "2822",
+        "ground_truth": "2281"
+    },
+    {
+        "pred": "165.6",
+        "ground_truth": "165"
+    },
+    {
+        "pred": "1.77",
+        "ground_truth": "1.73"
+    },
+    {
+        "pred": "322678",
+        "ground_truth": "362038"
+    },
+    {
+        "pred": "5.78",
+        "ground_truth": "5.8"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "19",
+        "ground_truth": "199"
+    },
+    {
+        "pred": "Heart disease",
+        "ground_truth": "Heart disease"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "-3"
+    },
+    {
+        "pred": "Sofia Vergara",
+        "ground_truth": "Sofia Vergara"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2009"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "7.76"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "4.8"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "Computer Science",
+        "ground_truth": "Computer Science"
+    },
+    {
+        "pred": "10874",
+        "ground_truth": "18019"
+    },
+    {
+        "pred": "Harry Kane",
+        "ground_truth": "Harry Kane"
+    },
+    {
+        "pred": "indonesia",
+        "ground_truth": "Indonesia"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "29.2",
+        "ground_truth": "28.1"
+    },
+    {
+        "pred": "27.2",
+        "ground_truth": "21.6"
+    },
+    {
+        "pred": "18.9",
+        "ground_truth": "19.4"
+    },
+    {
+        "pred": "19.7",
+        "ground_truth": "19.7"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6.23"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "4.12",
+        "ground_truth": "5.12"
+    },
+    {
+        "pred": "9.78",
+        "ground_truth": "9.47"
+    },
+    {
+        "pred": "Mongolia",
+        "ground_truth": "Mongolia"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "2.13"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "21.6"
+    },
+    {
+        "pred": "1.4",
+        "ground_truth": "1.14"
+    },
+    {
+        "pred": "9.2",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "Costa Coffee",
+        "ground_truth": "Greggs"
+    },
+    {
+        "pred": "93776",
+        "ground_truth": "113702"
+    },
+    {
+        "pred": "8.8",
+        "ground_truth": "9.3"
+    },
+    {
+        "pred": "18.33",
+        "ground_truth": "18.38"
+    },
+    {
+        "pred": "Northern Europe",
+        "ground_truth": "Eastern Europe"
+    },
+    {
+        "pred": "144",
+        "ground_truth": "1408"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "Purple"
+    },
+    {
+        "pred": "12.23",
+        "ground_truth": "12.23"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "100.5",
+        "ground_truth": "87.89"
+    },
+    {
+        "pred": "6000",
+        "ground_truth": "5230"
+    },
+    {
+        "pred": "1:2",
+        "ground_truth": "0.633333333"
+    },
+    {
+        "pred": "0.33",
+        "ground_truth": "0.32"
+    },
+    {
+        "pred": "2012/13",
+        "ground_truth": "2010/11"
+    },
+    {
+        "pred": "Credit cards",
+        "ground_truth": "Credit cards"
+    },
+    {
+        "pred": "2020/21",
+        "ground_truth": "2020/2021"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "5141",
+        "ground_truth": "5857"
+    },
+    {
+        "pred": "2760",
+        "ground_truth": "2818"
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "Conservative",
+        "ground_truth": "Conservative"
+    },
+    {
+        "pred": "239",
+        "ground_truth": "252"
+    },
+    {
+        "pred": "2014",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "11.4",
+        "ground_truth": "48.25"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "39"
+    },
+    {
+        "pred": "1998",
+        "ground_truth": "1999"
+    },
+    {
+        "pred": "442232",
+        "ground_truth": "470862"
+    },
+    {
+        "pred": "2.41",
+        "ground_truth": "3.39"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "Low income",
+        "ground_truth": "Data not reported"
+    },
+    {
+        "pred": "424",
+        "ground_truth": "462"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "203"
+    },
+    {
+        "pred": "614.6",
+        "ground_truth": "676.4"
+    },
+    {
+        "pred": "17.72",
+        "ground_truth": "17.82"
+    },
+    {
+        "pred": "1:1",
+        "ground_truth": "1.015645372"
+    },
+    {
+        "pred": "11.4",
+        "ground_truth": "11.94"
+    },
+    {
+        "pred": "17.6",
+        "ground_truth": "17.6"
+    },
+    {
+        "pred": "544244",
+        "ground_truth": "444428"
+    },
+    {
+        "pred": "United States",
+        "ground_truth": "France"
+    },
+    {
+        "pred": "47.6",
+        "ground_truth": "43.75"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2011"
+    },
+    {
+        "pred": "Red",
+        "ground_truth": "Red"
+    },
+    {
+        "pred": "379992",
+        "ground_truth": "377975"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "6.7"
+    },
+    {
+        "pred": "51.11",
+        "ground_truth": "51.11"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "742.07"
+    },
+    {
+        "pred": "1.9",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "Increase my purchasing confidence",
+        "ground_truth": "Helps me identify trending products"
+    },
+    {
+        "pred": "Moldova",
+        "ground_truth": "Mongolia"
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "969.26"
+    },
+    {
+        "pred": "355.8",
+        "ground_truth": "348.8"
+    },
+    {
+        "pred": "57.17",
+        "ground_truth": "59.17"
+    },
+    {
+        "pred": "43650",
+        "ground_truth": "39146"
+    },
+    {
+        "pred": "Too little",
+        "ground_truth": "Too little"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "28.6"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "74"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.1"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "45.55",
+        "ground_truth": "40.58"
+    },
+    {
+        "pred": "34.4",
+        "ground_truth": "34.6"
+    },
+    {
+        "pred": "Poll workers in your local area",
+        "ground_truth": "Poll workers in your community"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "40.3",
+        "ground_truth": "40.3"
+    },
+    {
+        "pred": "0.81",
+        "ground_truth": "0.28"
+    },
+    {
+        "pred": "3189.8",
+        "ground_truth": "2914.18"
+    },
+    {
+        "pred": "60.2",
+        "ground_truth": "56.6"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "61"
+    },
+    {
+        "pred": "11.9",
+        "ground_truth": "8.4"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "0.9375"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "45.83"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "10000",
+        "ground_truth": "14600"
+    },
+    {
+        "pred": "6.1",
+        "ground_truth": "5.9"
+    },
+    {
+        "pred": "EssilorLuxottica",
+        "ground_truth": "EssilorLuxottica"
+    },
+    {
+        "pred": "1.24",
+        "ground_truth": "7.53"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "Gray"
+    },
+    {
+        "pred": "Volkswagen leads the passenger car market in Switzerland.",
+        "ground_truth": "Volkswagen"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "25.2",
+        "ground_truth": "28.52"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Free State",
+        "ground_truth": "Free State"
+    },
+    {
+        "pred": "11.8",
+        "ground_truth": "11.9"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "33",
+        "ground_truth": "64"
+    },
+    {
+        "pred": "14.4",
+        "ground_truth": "59.9"
+    },
+    {
+        "pred": "600",
+        "ground_truth": "620.2"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "47.7",
+        "ground_truth": "41.78"
+    },
+    {
+        "pred": "14.4",
+        "ground_truth": "32.5"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "Chemistry",
+        "ground_truth": "Chemistry"
+    },
+    {
+        "pred": "2.9",
+        "ground_truth": "4.1"
+    },
+    {
+        "pred": "51919",
+        "ground_truth": "57139"
+    },
+    {
+        "pred": "771.66",
+        "ground_truth": "767.16"
+    },
+    {
+        "pred": "21.3",
+        "ground_truth": "52.3"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "505"
+    },
+    {
+        "pred": "19.32",
+        "ground_truth": "19407.2"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "35.3",
+        "ground_truth": "448.8"
+    },
+    {
+        "pred": "3.3",
+        "ground_truth": "3.92"
+    },
+    {
+        "pred": "7.25",
+        "ground_truth": "6.26"
+    },
+    {
+        "pred": "4.3",
+        "ground_truth": "55.01"
+    },
+    {
+        "pred": "38115",
+        "ground_truth": "37190"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "18.33",
+        "ground_truth": "18.09"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "10.3"
+    },
+    {
+        "pred": "79993",
+        "ground_truth": "977633"
+    },
+    {
+        "pred": "48",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "27.32",
+        "ground_truth": "27.23"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "5414",
+        "ground_truth": "8544"
+    },
+    {
+        "pred": "5632.5",
+        "ground_truth": "6085.7"
+    },
+    {
+        "pred": "5.3",
+        "ground_truth": "3.89"
+    },
+    {
+        "pred": "1300000",
+        "ground_truth": "1038000"
+    },
+    {
+        "pred": "99",
+        "ground_truth": "99"
+    },
+    {
+        "pred": "Universal",
+        "ground_truth": "Fox"
+    },
+    {
+        "pred": "55%",
+        "ground_truth": "56.6"
+    },
+    {
+        "pred": "WhatsApp",
+        "ground_truth": "WhatsApp"
+    },
+    {
+        "pred": "Codelco",
+        "ground_truth": "Codelco"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Germany",
+        "ground_truth": "Germany"
+    },
+    {
+        "pred": "28.3",
+        "ground_truth": "19.81"
+    },
+    {
+        "pred": "42",
+        "ground_truth": "0.3"
+    },
+    {
+        "pred": "712",
+        "ground_truth": "659"
+    },
+    {
+        "pred": "88.22",
+        "ground_truth": "57.05"
+    },
+    {
+        "pred": "128.2",
+        "ground_truth": "1273.27"
+    },
+    {
+        "pred": "Workshop conducted by my colleagues",
+        "ground_truth": "Professional conferences"
+    },
+    {
+        "pred": "4222",
+        "ground_truth": "4762"
+    },
+    {
+        "pred": "9966.6",
+        "ground_truth": "9905.6"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "10.1",
+        "ground_truth": "7.9"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "1186794",
+        "ground_truth": "1065731"
+    },
+    {
+        "pred": "123.25",
+        "ground_truth": "130.57"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "2.3",
+        "ground_truth": "3.6"
+    },
+    {
+        "pred": "28",
+        "ground_truth": "375"
+    },
+    {
+        "pred": "18-29 years",
+        "ground_truth": "16-19 years"
+    },
+    {
+        "pred": "6.1",
+        "ground_truth": "5.1"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "Ireland",
+        "ground_truth": "Canada"
+    },
+    {
+        "pred": "September 2020",
+        "ground_truth": "March 2021"
+    },
+    {
+        "pred": "44.53",
+        "ground_truth": "44.94"
+    },
+    {
+        "pred": "22444",
+        "ground_truth": "20444"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "5.8",
+        "ground_truth": "3.3"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2.33"
+    },
+    {
+        "pred": "7.2",
+        "ground_truth": "6.8"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "9.66"
+    },
+    {
+        "pred": "3233",
+        "ground_truth": "3521"
+    },
+    {
+        "pred": "100.78",
+        "ground_truth": "101.88"
+    },
+    {
+        "pred": "24747",
+        "ground_truth": "257455"
+    },
+    {
+        "pred": "1188.1",
+        "ground_truth": "1842.1"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "130.5",
+        "ground_truth": "468.08"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "Sao Tome and Principe",
+        "ground_truth": "Gabon"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "KwaZulu-Natal",
+        "ground_truth": "Western Cape"
+    },
+    {
+        "pred": "2.6",
+        "ground_truth": "3.6"
+    },
+    {
+        "pred": "Keep",
+        "ground_truth": "Leave"
+    },
+    {
+        "pred": "[2003, 2007]",
+        "ground_truth": "[2003, 2004]"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "light blue"
+    },
+    {
+        "pred": "19.43",
+        "ground_truth": "19.14"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "77"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "5.1",
+        "ground_truth": "4.7"
+    },
+    {
+        "pred": "668",
+        "ground_truth": "685"
+    },
+    {
+        "pred": "May 2020",
+        "ground_truth": "May 2020"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "39"
+    },
+    {
+        "pred": "20.8",
+        "ground_truth": "47.68"
+    },
+    {
+        "pred": "0.65",
+        "ground_truth": "0.27"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "1889.9",
+        "ground_truth": "1125"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "2.54"
+    },
+    {
+        "pred": "111",
+        "ground_truth": "92.02"
+    },
+    {
+        "pred": "Brazil",
+        "ground_truth": "Brazil"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "16.5",
+        "ground_truth": "16.5"
+    },
+    {
+        "pred": "413.07",
+        "ground_truth": "377.72"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "1038000",
+        "ground_truth": "9464482"
+    },
+    {
+        "pred": "61.3",
+        "ground_truth": "55.85"
+    },
+    {
+        "pred": "31.5",
+        "ground_truth": "50.6"
+    },
+    {
+        "pred": "23",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "1.45",
+        "ground_truth": "3.9"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "13.32",
+        "ground_truth": "13.31"
+    },
+    {
+        "pred": "13949",
+        "ground_truth": "13746"
+    },
+    {
+        "pred": "10.86",
+        "ground_truth": "25.29"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "Paris-Charles de Gaulle",
+        "ground_truth": "Paris-Charles-de-Gaulle"
+    },
+    {
+        "pred": "1.4",
+        "ground_truth": "58"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2007"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "47",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "54545",
+        "ground_truth": "47158"
+    },
+    {
+        "pred": "Spain",
+        "ground_truth": "Spain"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "67.6"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "87.5"
+    },
+    {
+        "pred": "Ireland",
+        "ground_truth": "Ireland"
+    },
+    {
+        "pred": "169.6",
+        "ground_truth": "168.1"
+    },
+    {
+        "pred": "28.32",
+        "ground_truth": "30.22"
+    },
+    {
+        "pred": "13.5 years",
+        "ground_truth": "399075"
+    },
+    {
+        "pred": "western europe",
+        "ground_truth": "Eastern Europe"
+    },
+    {
+        "pred": "11222",
+        "ground_truth": "11277"
+    },
+    {
+        "pred": "11.1",
+        "ground_truth": "17.2"
+    },
+    {
+        "pred": "54",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "144.54",
+        "ground_truth": "131.45"
+    },
+    {
+        "pred": "Bad",
+        "ground_truth": "Bad"
+    },
+    {
+        "pred": "284.6",
+        "ground_truth": "356.4"
+    },
+    {
+        "pred": "Facebook",
+        "ground_truth": "YouTube"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "35.25%",
+        "ground_truth": "33.33"
+    },
+    {
+        "pred": "203.4",
+        "ground_truth": "238.4"
+    },
+    {
+        "pred": "719999",
+        "ground_truth": "716883"
+    },
+    {
+        "pred": "56.09",
+        "ground_truth": "55.88"
+    },
+    {
+        "pred": "0.01",
+        "ground_truth": "12.03"
+    },
+    {
+        "pred": "31777",
+        "ground_truth": "31731"
+    },
+    {
+        "pred": "23",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "0",
+        "ground_truth": "0.475"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "Honshu",
+        "ground_truth": "Honshu"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "4.12",
+        "ground_truth": "3.31"
+    },
+    {
+        "pred": "1640",
+        "ground_truth": "1675"
+    },
+    {
+        "pred": "Joe Biden",
+        "ground_truth": "Jimmy Fallon"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "[Russia, Australia]",
+        "ground_truth": "[Germany,United States]"
+    },
+    {
+        "pred": "127",
+        "ground_truth": "43"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "20.72",
+        "ground_truth": "21.27"
+    },
+    {
+        "pred": "533.3",
+        "ground_truth": "534.3"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "53.23"
+    },
+    {
+        "pred": "Medicaid",
+        "ground_truth": "Medicaid"
+    },
+    {
+        "pred": "burundi",
+        "ground_truth": "Burundi"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "29.9",
+        "ground_truth": "31.3"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "0.5"
+    },
+    {
+        "pred": "31.77",
+        "ground_truth": "51.14"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "131"
+    },
+    {
+        "pred": "King Bach",
+        "ground_truth": "Nash Grier"
+    },
+    {
+        "pred": "42",
+        "ground_truth": "42"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "42"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.05"
+    },
+    {
+        "pred": "111",
+        "ground_truth": "930"
+    },
+    {
+        "pred": "23.44",
+        "ground_truth": "29.44"
+    },
+    {
+        "pred": "25.5",
+        "ground_truth": "22.675"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "50"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "10444",
+        "ground_truth": "4863"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "12000",
+        "ground_truth": "850"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "Deaths from HIV/AIDS"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "61"
+    },
+    {
+        "pred": "89.8",
+        "ground_truth": "48.8"
+    },
+    {
+        "pred": "7.93",
+        "ground_truth": "6.13"
+    },
+    {
+        "pred": "141.7",
+        "ground_truth": "114.7"
+    },
+    {
+        "pred": "Bertolli",
+        "ground_truth": "Monini"
+    },
+    {
+        "pred": "6839",
+        "ground_truth": "7290"
+    },
+    {
+        "pred": "Orange",
+        "ground_truth": "orange"
+    },
+    {
+        "pred": "Joe Biden",
+        "ground_truth": "80"
+    },
+    {
+        "pred": "690.3",
+        "ground_truth": "849.87"
+    },
+    {
+        "pred": "0.8",
+        "ground_truth": "0.4"
+    },
+    {
+        "pred": "belgium",
+        "ground_truth": "Lithuania"
+    },
+    {
+        "pred": "Facebook Messenger",
+        "ground_truth": "WhatsApp"
+    },
+    {
+        "pred": "51.8",
+        "ground_truth": "11.99"
+    },
+    {
+        "pred": "Chili's",
+        "ground_truth": "MTV"
+    },
+    {
+        "pred": "7.9",
+        "ground_truth": "7.9"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "0.08"
+    },
+    {
+        "pred": "1.68",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "Carrefour",
+        "ground_truth": "Lidl"
+    },
+    {
+        "pred": "Manufacturing",
+        "ground_truth": "Mining"
+    },
+    {
+        "pred": "22.8",
+        "ground_truth": "23.8"
+    },
+    {
+        "pred": "61.7",
+        "ground_truth": "64.9"
+    },
+    {
+        "pred": "20.44",
+        "ground_truth": "21.43"
+    },
+    {
+        "pred": "31.17",
+        "ground_truth": "32.18"
+    },
+    {
+        "pred": "1.57",
+        "ground_truth": "3.86"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "0.02"
+    },
+    {
+        "pred": "37106.6",
+        "ground_truth": "35804.6"
+    },
+    {
+        "pred": "Mercadona",
+        "ground_truth": "Mercadona"
+    },
+    {
+        "pred": "1200",
+        "ground_truth": "1923.63"
+    },
+    {
+        "pred": "red",
+        "ground_truth": "gray"
+    },
+    {
+        "pred": "Asia",
+        "ground_truth": "Asia"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "41",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "1000.8",
+        "ground_truth": "883.42"
+    },
+    {
+        "pred": "Kevin De Bruyne",
+        "ground_truth": "Kevin De Bruyne"
+    },
+    {
+        "pred": "72%",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "10.05",
+        "ground_truth": "7.23"
+    },
+    {
+        "pred": "970.77",
+        "ground_truth": "987.75"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "Germany",
+        "ground_truth": "Ireland"
+    },
+    {
+        "pred": "3878",
+        "ground_truth": "9562"
+    },
+    {
+        "pred": "65+",
+        "ground_truth": "65+"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "Hokkaido",
+        "ground_truth": "Hokkaido"
+    },
+    {
+        "pred": "9285.2",
+        "ground_truth": "9527"
+    },
+    {
+        "pred": "non alcoholic",
+        "ground_truth": "Alcohol"
+    },
+    {
+        "pred": "11272",
+        "ground_truth": "11767"
+    },
+    {
+        "pred": "53.5",
+        "ground_truth": "51.9"
+    },
+    {
+        "pred": "755",
+        "ground_truth": "733"
+    },
+    {
+        "pred": "0.04",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "Snapchat",
+        "ground_truth": "Periscope"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "17545",
+        "ground_truth": "17858"
+    },
+    {
+        "pred": "2.3",
+        "ground_truth": "27.5"
+    },
+    {
+        "pred": "16.74",
+        "ground_truth": "16.47"
+    },
+    {
+        "pred": "Solomon Islands",
+        "ground_truth": "Solomon Islands"
+    },
+    {
+        "pred": "400.4",
+        "ground_truth": "400.4"
+    },
+    {
+        "pred": "7.5",
+        "ground_truth": "73.3"
+    },
+    {
+        "pred": "2.1",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "47.1",
+        "ground_truth": "44.7"
+    },
+    {
+        "pred": "0.01",
+        "ground_truth": "0.08"
+    },
+    {
+        "pred": "Too many",
+        "ground_truth": "Just the right number"
+    },
+    {
+        "pred": "15.9",
+        "ground_truth": "15.9"
+    },
+    {
+        "pred": "10000",
+        "ground_truth": "39.31"
+    },
+    {
+        "pred": "London",
+        "ground_truth": "London"
+    },
+    {
+        "pred": "5.32",
+        "ground_truth": "5.23"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "3155",
+        "ground_truth": "1502"
+    },
+    {
+        "pred": "romania",
+        "ground_truth": "Portugal"
+    },
+    {
+        "pred": "58.25",
+        "ground_truth": "50.25"
+    },
+    {
+        "pred": "Codelco",
+        "ground_truth": "Glencore"
+    },
+    {
+        "pred": "Poli",
+        "ground_truth": "Moschino"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "49"
+    },
+    {
+        "pred": "24",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "Telia Company AB",
+        "ground_truth": "Telia Company AB"
+    },
+    {
+        "pred": "Romelu Lukaku",
+        "ground_truth": "Eden Hazard"
+    },
+    {
+        "pred": "57",
+        "ground_truth": "57"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "1985"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "product sales",
+        "ground_truth": "Service"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Chinese",
+        "ground_truth": "Chinese"
+    },
+    {
+        "pred": "54",
+        "ground_truth": "78"
+    },
+    {
+        "pred": "17.7",
+        "ground_truth": "57.7"
+    },
+    {
+        "pred": "15.8",
+        "ground_truth": "18.1"
+    },
+    {
+        "pred": "1.81",
+        "ground_truth": "1.8"
+    },
+    {
+        "pred": "226",
+        "ground_truth": "257"
+    },
+    {
+        "pred": "41.2",
+        "ground_truth": "41.8"
+    },
+    {
+        "pred": "Bridgestone",
+        "ground_truth": "Bridgestone (Japan)"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "Bar",
+        "ground_truth": "[1.34, 1.37]"
+    },
+    {
+        "pred": "209.1",
+        "ground_truth": "336.73"
+    },
+    {
+        "pred": "4,800",
+        "ground_truth": "113"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "99",
+        "ground_truth": "96"
+    },
+    {
+        "pred": "37.89",
+        "ground_truth": "37.91"
+    },
+    {
+        "pred": "130674",
+        "ground_truth": "519462"
+    },
+    {
+        "pred": "38",
+        "ground_truth": "431"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.63"
+    },
+    {
+        "pred": "190787",
+        "ground_truth": "509473"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "56"
+    },
+    {
+        "pred": "1092.22",
+        "ground_truth": "1198.22"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "74.6"
+    },
+    {
+        "pred": "[2010, 2011]",
+        "ground_truth": "[2013, 2016]"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "9.3",
+        "ground_truth": "9.38"
+    },
+    {
+        "pred": "2.4",
+        "ground_truth": "3.9"
+    },
+    {
+        "pred": "LinkedIn",
+        "ground_truth": "LinkedIn"
+    },
+    {
+        "pred": "44.71%",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "Better off"
+    },
+    {
+        "pred": "1.33",
+        "ground_truth": "1.53"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2007-2008"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "Italy",
+        "ground_truth": "Slovakia"
+    },
+    {
+        "pred": "131.6",
+        "ground_truth": "140.9"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "12656",
+        "ground_truth": "12546"
+    },
+    {
+        "pred": "0.71",
+        "ground_truth": "0.6"
+    },
+    {
+        "pred": "44.5",
+        "ground_truth": "2.5"
+    },
+    {
+        "pred": "212422",
+        "ground_truth": "247441"
+    },
+    {
+        "pred": "27.1",
+        "ground_truth": "28.49"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3.24"
+    },
+    {
+        "pred": "293",
+        "ground_truth": "319"
+    },
+    {
+        "pred": "0.8",
+        "ground_truth": "6.89"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "2.4"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "119",
+        "ground_truth": "13942"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "101.5",
+        "ground_truth": "70.8"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "14.5"
+    },
+    {
+        "pred": "4.9",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "46.6",
+        "ground_truth": "46.6"
+    },
+    {
+        "pred": "187.7",
+        "ground_truth": "171.8"
+    },
+    {
+        "pred": "Mexico",
+        "ground_truth": "Italy"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "0.431818182"
+    },
+    {
+        "pred": "Recipes",
+        "ground_truth": "Crafts"
+    },
+    {
+        "pred": "27.7",
+        "ground_truth": "37.1"
+    },
+    {
+        "pred": "6.6",
+        "ground_truth": "8.6"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "41.87",
+        "ground_truth": "42.83"
+    },
+    {
+        "pred": "120",
+        "ground_truth": "150"
+    },
+    {
+        "pred": "208818",
+        "ground_truth": "2582603"
+    },
+    {
+        "pred": "Alcohol",
+        "ground_truth": "North America"
+    },
+    {
+        "pred": "Facebook",
+        "ground_truth": "Facebook"
+    },
+    {
+        "pred": "india",
+        "ground_truth": "Belize"
+    },
+    {
+        "pred": "5.1",
+        "ground_truth": "4.5"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "51",
+        "ground_truth": "43"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "64"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "49000",
+        "ground_truth": "46337"
+    },
+    {
+        "pred": "Same",
+        "ground_truth": "Same"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "0"
+    },
+    {
+        "pred": "787",
+        "ground_truth": "827"
+    },
+    {
+        "pred": "25.6",
+        "ground_truth": "9.9"
+    },
+    {
+        "pred": "Telia Company AB",
+        "ground_truth": "Telia Company AB"
+    },
+    {
+        "pred": "19",
+        "ground_truth": "26"
+    },
+    {
+        "pred": "India",
+        "ground_truth": "Montenegro"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "343273",
+        "ground_truth": "55759"
+    },
+    {
+        "pred": "180",
+        "ground_truth": "120"
+    },
+    {
+        "pred": "7",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "81.7",
+        "ground_truth": "80.7"
+    },
+    {
+        "pred": "40000",
+        "ground_truth": "42755"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "Pink"
+    },
+    {
+        "pred": "24, 32, 33, 42, 47",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "Thailand",
+        "ground_truth": "Thailand"
+    },
+    {
+        "pred": "112.8",
+        "ground_truth": "111.55"
+    },
+    {
+        "pred": "Facebook Messenger",
+        "ground_truth": "Facebook Messenger*"
+    },
+    {
+        "pred": "41.1",
+        "ground_truth": "40.1"
+    },
+    {
+        "pred": "47414",
+        "ground_truth": "37392"
+    },
+    {
+        "pred": "2211",
+        "ground_truth": "2411"
+    },
+    {
+        "pred": "Philippines",
+        "ground_truth": "Philippines"
+    },
+    {
+        "pred": "27.88",
+        "ground_truth": "28.23"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "13.4",
+        "ground_truth": "4.1"
+    },
+    {
+        "pred": "10.4",
+        "ground_truth": "45.28"
+    },
+    {
+        "pred": "democrats",
+        "ground_truth": "Tend to favor one side"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "70"
+    },
+    {
+        "pred": "1.2",
+        "ground_truth": "5.2"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "100.00%",
+        "ground_truth": "85.55"
+    },
+    {
+        "pred": "Hispanic/Latino",
+        "ground_truth": "Female"
+    },
+    {
+        "pred": "53",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "79",
+        "ground_truth": "68"
+    },
+    {
+        "pred": "101",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "23.9",
+        "ground_truth": "23.025"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "9.3"
+    },
+    {
+        "pred": "18",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "665",
+        "ground_truth": "645"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "66",
+        "ground_truth": "85"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "11.7"
+    },
+    {
+        "pred": "438000",
+        "ground_truth": "676411"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "154",
+        "ground_truth": "189"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "39.5"
+    },
+    {
+        "pred": "1.55",
+        "ground_truth": "0.43"
+    },
+    {
+        "pred": "March",
+        "ground_truth": "March"
+    },
+    {
+        "pred": "22.9",
+        "ground_truth": "25.9"
+    },
+    {
+        "pred": "397",
+        "ground_truth": "397"
+    },
+    {
+        "pred": "655",
+        "ground_truth": "235"
+    },
+    {
+        "pred": "1899",
+        "ground_truth": "2111"
+    },
+    {
+        "pred": "costa rica",
+        "ground_truth": "Greece"
+    },
+    {
+        "pred": "12.22",
+        "ground_truth": "13.12"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "27",
+        "ground_truth": "27"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "5.5",
+        "ground_truth": "5.11"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "gray"
+    },
+    {
+        "pred": "56616.4",
+        "ground_truth": "55382.5"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "35"
+    },
+    {
+        "pred": "63.2",
+        "ground_truth": "59.8"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "77"
+    },
+    {
+        "pred": "18-24",
+        "ground_truth": "25-34"
+    },
+    {
+        "pred": "7",
+        "ground_truth": "83.29"
+    },
+    {
+        "pred": "143.71",
+        "ground_truth": "176.19"
+    },
+    {
+        "pred": "322.1",
+        "ground_truth": "320.66"
+    },
+    {
+        "pred": "1311",
+        "ground_truth": "25111"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "100 - 500 euros"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "7.1"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "1.27",
+        "ground_truth": "1.84"
+    },
+    {
+        "pred": "464000",
+        "ground_truth": "656920"
+    },
+    {
+        "pred": "225.5",
+        "ground_truth": "249.5"
+    },
+    {
+        "pred": "33",
+        "ground_truth": "216"
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "DuckDuckGo",
+        "ground_truth": "DuckDuckGo"
+    },
+    {
+        "pred": "2009",
+        "ground_truth": "2007"
+    },
+    {
+        "pred": "56",
+        "ground_truth": "68"
+    },
+    {
+        "pred": "south america",
+        "ground_truth": "East Asia and Pacific"
+    },
+    {
+        "pred": "10.3",
+        "ground_truth": "8.8"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1.111111111"
+    },
+    {
+        "pred": "17.1",
+        "ground_truth": "32.3"
+    },
+    {
+        "pred": "220",
+        "ground_truth": "220"
+    },
+    {
+        "pred": "Independent",
+        "ground_truth": "Independent"
+    },
+    {
+        "pred": "Years",
+        "ground_truth": "Year"
+    },
+    {
+        "pred": "11.11%",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "6.78",
+        "ground_truth": "6.78"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "252.65"
+    },
+    {
+        "pred": "14.5",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "0.3"
+    },
+    {
+        "pred": "120000",
+        "ground_truth": "102650"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "60"
+    },
+    {
+        "pred": "47",
+        "ground_truth": "49"
+    },
+    {
+        "pred": "18987",
+        "ground_truth": "19871"
+    },
+    {
+        "pred": "Randy Smith",
+        "ground_truth": "Randy Smith"
+    },
+    {
+        "pred": "441.04",
+        "ground_truth": "446.13"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "8.3"
+    },
+    {
+        "pred": "220",
+        "ground_truth": "282"
+    },
+    {
+        "pred": "1.2",
+        "ground_truth": "16.59"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "1975"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "9.29"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "france",
+        "ground_truth": "U.S."
+    },
+    {
+        "pred": "26",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "59",
+        "ground_truth": "59"
+    },
+    {
+        "pred": "2.3",
+        "ground_truth": "2.5"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "Rice",
+        "ground_truth": "Rice"
+    },
+    {
+        "pred": "589.8",
+        "ground_truth": "810"
+    },
+    {
+        "pred": "0.72619",
+        "ground_truth": "5.546"
+    },
+    {
+        "pred": "Austria",
+        "ground_truth": "Germany"
+    },
+    {
+        "pred": "1.54",
+        "ground_truth": "1.81"
+    },
+    {
+        "pred": "adobe",
+        "ground_truth": "PDF"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "0.06",
+        "ground_truth": "6.85"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "60646",
+        "ground_truth": "60668"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "3.1",
+        "ground_truth": "5.8"
+    },
+    {
+        "pred": "12727",
+        "ground_truth": "12721"
+    },
+    {
+        "pred": "Berkshire Hathaway Inc.",
+        "ground_truth": "Berkshire Hathaway Inc"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "68.22",
+        "ground_truth": "82.21"
+    },
+    {
+        "pred": "0.06",
+        "ground_truth": "65"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "1984",
+        "ground_truth": "1992"
+    },
+    {
+        "pred": "Rx glasses",
+        "ground_truth": "Rx eyeglasses"
+    },
+    {
+        "pred": "6785",
+        "ground_truth": "6404"
+    },
+    {
+        "pred": "Machinery",
+        "ground_truth": "Philosophy"
+    },
+    {
+        "pred": "Usa, germany, dominican republic",
+        "ground_truth": "[Germany, Bolivia, Dominican Republic]"
+    },
+    {
+        "pred": "Hindu",
+        "ground_truth": "Hindus"
+    },
+    {
+        "pred": "65.5",
+        "ground_truth": "83.5"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "2.5"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Stanley Black & Decker",
+        "ground_truth": "Stanley Black & Decker"
+    },
+    {
+        "pred": "Spotify Premium",
+        "ground_truth": "YouTube"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2006/07"
+    },
+    {
+        "pred": "1:1",
+        "ground_truth": "0.5"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "Favorable"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "85"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2014",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "20.45",
+        "ground_truth": "20.81"
+    },
+    {
+        "pred": "Hong kong",
+        "ground_truth": "Hong Kong"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "28800",
+        "ground_truth": "19098"
+    },
+    {
+        "pred": "6.9",
+        "ground_truth": "10.7"
+    },
+    {
+        "pred": "London",
+        "ground_truth": "Bielefeld-Detmold"
+    },
+    {
+        "pred": "10090",
+        "ground_truth": "10901"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "2.51",
+        "ground_truth": "1.82"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "27.22"
+    },
+    {
+        "pred": "12.4",
+        "ground_truth": "32.03"
+    },
+    {
+        "pred": "238800",
+        "ground_truth": "377043.2"
+    },
+    {
+        "pred": "36.4",
+        "ground_truth": "101"
+    },
+    {
+        "pred": "10.3",
+        "ground_truth": "0.05"
+    },
+    {
+        "pred": "198",
+        "ground_truth": "167"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "U.S. adults",
+        "ground_truth": "Rep/Lean Rep"
+    },
+    {
+        "pred": "447.77",
+        "ground_truth": "460.72"
+    },
+    {
+        "pred": "54.5",
+        "ground_truth": "54.5"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "10.1",
+        "ground_truth": "10.94"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "39.9",
+        "ground_truth": "30.1"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "Navy blue"
+    },
+    {
+        "pred": "845355",
+        "ground_truth": "841961"
+    },
+    {
+        "pred": "2899",
+        "ground_truth": "2601"
+    },
+    {
+        "pred": "Cosmetics",
+        "ground_truth": "Beauty and cosmetics"
+    },
+    {
+        "pred": "18.87",
+        "ground_truth": "11.87"
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "India",
+        "ground_truth": "Canada"
+    },
+    {
+        "pred": "173.4",
+        "ground_truth": "64.6"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "0.8",
+        "ground_truth": "4.3"
+    },
+    {
+        "pred": "Orange",
+        "ground_truth": "Teal Blue"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "75.5",
+        "ground_truth": "75"
+    },
+    {
+        "pred": "Belize",
+        "ground_truth": "Papua New Guinea"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "average cost",
+        "ground_truth": "Public institutions"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "151"
+    },
+    {
+        "pred": "71.5",
+        "ground_truth": "74.6"
+    },
+    {
+        "pred": "2177.7",
+        "ground_truth": "2117.4"
+    },
+    {
+        "pred": "30.5",
+        "ground_truth": "15"
+    },
+    {
+        "pred": "CIC Nord-Ouest",
+        "ground_truth": "CIC Lyonnaise de Banque"
+    },
+    {
+        "pred": "714.2",
+        "ground_truth": "669.2"
+    },
+    {
+        "pred": "10899",
+        "ground_truth": "16230"
+    },
+    {
+        "pred": "15.2",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "Italy",
+        "ground_truth": "France"
+    },
+    {
+        "pred": "1.72",
+        "ground_truth": "2.27"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "69"
+    },
+    {
+        "pred": "Carrefour",
+        "ground_truth": "Carrefour"
+    },
+    {
+        "pred": "323",
+        "ground_truth": "442"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "green line"
+    },
+    {
+        "pred": "Taliban",
+        "ground_truth": "Boko Haram"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "0.03"
+    },
+    {
+        "pred": "14.11",
+        "ground_truth": "41.11"
+    },
+    {
+        "pred": "New Zealand",
+        "ground_truth": "New Zealand"
+    },
+    {
+        "pred": "1.4",
+        "ground_truth": "12.4"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "43",
+        "ground_truth": "48"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "Temperature",
+        "ground_truth": "Estimated revenue in billion U.S. dollars"
+    },
+    {
+        "pred": "260",
+        "ground_truth": "250"
+    },
+    {
+        "pred": "Ontario",
+        "ground_truth": "Ontario"
+    },
+    {
+        "pred": "Haryana",
+        "ground_truth": "New York"
+    },
+    {
+        "pred": "500.8",
+        "ground_truth": "439.37"
+    },
+    {
+        "pred": "August 2020",
+        "ground_truth": "October"
+    },
+    {
+        "pred": "1457143",
+        "ground_truth": "1625942"
+    },
+    {
+        "pred": "53999",
+        "ground_truth": "55937"
+    },
+    {
+        "pred": "[51, 55]",
+        "ground_truth": "46"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Turkey and venezuela",
+        "ground_truth": "[Slovenia, Turkey]"
+    },
+    {
+        "pred": "0.41",
+        "ground_truth": "2.625"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "Red"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "U.S."
+    },
+    {
+        "pred": "20",
+        "ground_truth": "32.5"
+    },
+    {
+        "pred": "5.3",
+        "ground_truth": "5.25"
+    },
+    {
+        "pred": "70",
+        "ground_truth": "70"
+    },
+    {
+        "pred": "Neonatal, infant and child mortality rates, Bahrain, 1990 to 2011",
+        "ground_truth": "Child (before age 5)"
+    },
+    {
+        "pred": "16686",
+        "ground_truth": "16166"
+    },
+    {
+        "pred": "322",
+        "ground_truth": "362"
+    },
+    {
+        "pred": "1132",
+        "ground_truth": "1342"
+    },
+    {
+        "pred": "canada",
+        "ground_truth": "Canada"
+    },
+    {
+        "pred": "1.66",
+        "ground_truth": "1.82"
+    },
+    {
+        "pred": "16292",
+        "ground_truth": "18278"
+    },
+    {
+        "pred": "41.5",
+        "ground_truth": "39.9"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "7.65"
+    },
+    {
+        "pred": "5717",
+        "ground_truth": "5857"
+    },
+    {
+        "pred": "7482",
+        "ground_truth": "7982"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "Netflix",
+        "ground_truth": "Netflix"
+    },
+    {
+        "pred": "White",
+        "ground_truth": "black"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "26"
+    },
+    {
+        "pred": "900",
+        "ground_truth": "509"
+    },
+    {
+        "pred": "5.78",
+        "ground_truth": "5.9"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "Alaska Airlines",
+        "ground_truth": "American Airlines"
+    },
+    {
+        "pred": "32.2",
+        "ground_truth": "35.3"
+    },
+    {
+        "pred": "414",
+        "ground_truth": "404"
+    },
+    {
+        "pred": "39999",
+        "ground_truth": "32702"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "143"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "14.33"
+    },
+    {
+        "pred": "Land Rover",
+        "ground_truth": "Land Rover"
+    },
+    {
+        "pred": "12.5",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "Jimmy Kimmel",
+        "ground_truth": "Jimmy Fallon"
+    },
+    {
+        "pred": "39.1",
+        "ground_truth": "29.4"
+    },
+    {
+        "pred": "Syria",
+        "ground_truth": "Syria"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "2007/08",
+        "ground_truth": "2015/16"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "31528",
+        "ground_truth": "15702"
+    },
+    {
+        "pred": "Sweden",
+        "ground_truth": "Sudan"
+    },
+    {
+        "pred": "141",
+        "ground_truth": "109"
+    },
+    {
+        "pred": "Madrid",
+        "ground_truth": "Catalonia"
+    },
+    {
+        "pred": "264",
+        "ground_truth": "264"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2005"
+    },
+    {
+        "pred": "150",
+        "ground_truth": "384"
+    },
+    {
+        "pred": "['Coffee', 'Coffee-related products']",
+        "ground_truth": "2-10 times a day"
+    },
+    {
+        "pred": "1.44",
+        "ground_truth": "1.14"
+    },
+    {
+        "pred": "France",
+        "ground_truth": "Germany"
+    },
+    {
+        "pred": "93",
+        "ground_truth": "98"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2001"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "317"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "belarus",
+        "ground_truth": "Belarus"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "Hal Greer",
+        "ground_truth": "Hal Greer"
+    },
+    {
+        "pred": "647",
+        "ground_truth": "694"
+    },
+    {
+        "pred": "1004",
+        "ground_truth": "924"
+    },
+    {
+        "pred": "1300.83",
+        "ground_truth": "756.36"
+    },
+    {
+        "pred": "11.5",
+        "ground_truth": "9.4"
+    },
+    {
+        "pred": "13000",
+        "ground_truth": "13100.2"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Angry",
+        "ground_truth": "Inspired"
+    },
+    {
+        "pred": "41",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "127.4",
+        "ground_truth": "106.4"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Amazon Fire TV",
+        "ground_truth": "Tizen"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "8.5"
+    },
+    {
+        "pred": "14.7",
+        "ground_truth": "6.4"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "51.1",
+        "ground_truth": "80.1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "46"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "Agriculture",
+        "ground_truth": "36.28"
+    },
+    {
+        "pred": "41780",
+        "ground_truth": "41856"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "2.72"
+    },
+    {
+        "pred": "2.5",
+        "ground_truth": "1.905805459"
+    },
+    {
+        "pred": "1.89",
+        "ground_truth": "1.92"
+    },
+    {
+        "pred": "3896",
+        "ground_truth": "3979"
+    },
+    {
+        "pred": "Turkey",
+        "ground_truth": "Korea"
+    },
+    {
+        "pred": "869",
+        "ground_truth": "696"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "114448",
+        "ground_truth": "118401"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "0.89"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "60.14",
+        "ground_truth": "96.4"
+    },
+    {
+        "pred": "venezuela",
+        "ground_truth": "Venezuela"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "57",
+        "ground_truth": "44"
+    },
+    {
+        "pred": "Asia Pacific",
+        "ground_truth": "Europe"
+    },
+    {
+        "pred": "2855",
+        "ground_truth": "6750"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "1992"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "89.8",
+        "ground_truth": "40.3"
+    },
+    {
+        "pred": "586",
+        "ground_truth": "633"
+    },
+    {
+        "pred": "Passenger cars",
+        "ground_truth": "Passenger cars"
+    },
+    {
+        "pred": "54.4",
+        "ground_truth": "32.4"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5.32"
+    },
+    {
+        "pred": "32.11%",
+        "ground_truth": "80"
+    },
+    {
+        "pred": "51919",
+        "ground_truth": "57139"
+    },
+    {
+        "pred": "Heavy",
+        "ground_truth": "Binge"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "351",
+        "ground_truth": "396.19"
+    },
+    {
+        "pred": "2014",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "Brides Guide",
+        "ground_truth": "Bridal Guide"
+    },
+    {
+        "pred": "Zambia",
+        "ground_truth": "Zambia"
+    },
+    {
+        "pred": "11.3",
+        "ground_truth": "10.87"
+    },
+    {
+        "pred": "1444.04",
+        "ground_truth": "1413.68"
+    },
+    {
+        "pred": "37267",
+        "ground_truth": "27935"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "democrats",
+        "ground_truth": "Generally produces accurate conclusions"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "6.6%",
+        "ground_truth": "67"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "220",
+        "ground_truth": "223"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "Asia",
+        "ground_truth": "Oceania"
+    },
+    {
+        "pred": "7.2",
+        "ground_truth": "67.9"
+    },
+    {
+        "pred": "265",
+        "ground_truth": "361"
+    },
+    {
+        "pred": "1.2",
+        "ground_truth": "4.9"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "8700",
+        "ground_truth": "5864"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "December 2016",
+        "ground_truth": "November 2007"
+    },
+    {
+        "pred": "999",
+        "ground_truth": "991"
+    },
+    {
+        "pred": "Orange",
+        "ground_truth": "orange"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "79"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "0.68",
+        "ground_truth": "55"
+    },
+    {
+        "pred": "14.1",
+        "ground_truth": "14.1"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "91"
+    },
+    {
+        "pred": "18333.33",
+        "ground_truth": "18762.59"
+    },
+    {
+        "pred": "321.4",
+        "ground_truth": "337.8"
+    },
+    {
+        "pred": "86",
+        "ground_truth": "85"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "0.11"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "2010"
+    },
+    {
+        "pred": "185",
+        "ground_truth": "185"
+    },
+    {
+        "pred": "415912",
+        "ground_truth": "233851"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "right",
+        "ground_truth": "Right decision"
+    },
+    {
+        "pred": "74",
+        "ground_truth": "80"
+    },
+    {
+        "pred": "51",
+        "ground_truth": "89"
+    },
+    {
+        "pred": "13.22",
+        "ground_truth": "12.74"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "5.33",
+        "ground_truth": "4.44"
+    },
+    {
+        "pred": "[Digestive health, Immune health, Women's health]",
+        "ground_truth": "Digestive health"
+    },
+    {
+        "pred": "111419",
+        "ground_truth": "113114"
+    },
+    {
+        "pred": "6114",
+        "ground_truth": "6607"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "1550",
+        "ground_truth": "2337"
+    },
+    {
+        "pred": "0.91",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1.01",
+        "ground_truth": "5.66"
+    },
+    {
+        "pred": "Bar",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "2.22",
+        "ground_truth": "2.62"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "92"
+    },
+    {
+        "pred": "726",
+        "ground_truth": "678"
+    },
+    {
+        "pred": "618",
+        "ground_truth": "636"
+    },
+    {
+        "pred": "8.99",
+        "ground_truth": "8.39"
+    },
+    {
+        "pred": "5727",
+        "ground_truth": "6174"
+    },
+    {
+        "pred": "809",
+        "ground_truth": "907"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "75"
+    },
+    {
+        "pred": "Africa",
+        "ground_truth": "Africa"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "43.5",
+        "ground_truth": "53.9"
+    },
+    {
+        "pred": "61.67",
+        "ground_truth": "59.66"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "blue"
+    },
+    {
+        "pred": "700.8",
+        "ground_truth": "627.31"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "March 2011"
+    },
+    {
+        "pred": "women",
+        "ground_truth": "Cuba"
+    },
+    {
+        "pred": "109.7",
+        "ground_truth": "108.8"
+    },
+    {
+        "pred": "10.38",
+        "ground_truth": "10.84"
+    },
+    {
+        "pred": "Orange",
+        "ground_truth": "orange"
+    },
+    {
+        "pred": "7.2",
+        "ground_truth": "5.7"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "0.1922"
+    },
+    {
+        "pred": "139",
+        "ground_truth": "152"
+    },
+    {
+        "pred": "0.99",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "64%",
+        "ground_truth": "61.2"
+    },
+    {
+        "pred": "1007",
+        "ground_truth": "67465"
+    },
+    {
+        "pred": "353.1",
+        "ground_truth": "346.1"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "1.56",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "13.75",
+        "ground_truth": "19.7"
+    },
+    {
+        "pred": "1200",
+        "ground_truth": "250"
+    },
+    {
+        "pred": "9.4",
+        "ground_truth": "9.48"
+    },
+    {
+        "pred": "111000",
+        "ground_truth": "140300"
+    },
+    {
+        "pred": "7",
+        "ground_truth": "70.4"
+    },
+    {
+        "pred": "568",
+        "ground_truth": "846"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "9.6"
+    },
+    {
+        "pred": "147",
+        "ground_truth": "120"
+    },
+    {
+        "pred": "36",
+        "ground_truth": "120"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "25397"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "0.167777778",
+        "ground_truth": "2.315"
+    },
+    {
+        "pred": "0.01",
+        "ground_truth": "5.4"
+    },
+    {
+        "pred": "47177.6",
+        "ground_truth": "23800.7"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "50"
+    },
+    {
+        "pred": "32.5",
+        "ground_truth": "32.66"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "49"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "50"
+    },
+    {
+        "pred": "2199.6",
+        "ground_truth": "1615.6"
+    },
+    {
+        "pred": "2009",
+        "ground_truth": "2008"
+    },
+    {
+        "pred": "1444644",
+        "ground_truth": "1407401"
+    },
+    {
+        "pred": "44.9",
+        "ground_truth": "[42.47, 54.91]"
+    },
+    {
+        "pred": "41.1",
+        "ground_truth": "41.1"
+    },
+    {
+        "pred": "10460",
+        "ground_truth": "10408"
+    },
+    {
+        "pred": "399",
+        "ground_truth": "828"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Categorical",
+        "ground_truth": "84"
+    },
+    {
+        "pred": "Nepal",
+        "ground_truth": "Nepal"
+    },
+    {
+        "pred": "169",
+        "ground_truth": "168"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "Over 30 mins"
+    },
+    {
+        "pred": "3.1",
+        "ground_truth": "3.9"
+    },
+    {
+        "pred": "918000",
+        "ground_truth": "963000"
+    },
+    {
+        "pred": "Retail",
+        "ground_truth": "Licensing and other"
+    },
+    {
+        "pred": "2188",
+        "ground_truth": "11209"
+    },
+    {
+        "pred": "land",
+        "ground_truth": "Cameroon"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "1.4",
+        "ground_truth": "1.88"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "12.7",
+        "ground_truth": "35.94"
+    },
+    {
+        "pred": "35.5",
+        "ground_truth": "11.4"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "69"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "1.051388889"
+    },
+    {
+        "pred": "Blacks & Whites",
+        "ground_truth": "Democrats & Republicans"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "1.06",
+        "ground_truth": "2.93"
+    },
+    {
+        "pred": "Dog",
+        "ground_truth": "Rabbit**"
+    },
+    {
+        "pred": "19.8",
+        "ground_truth": "51.1"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2009"
+    },
+    {
+        "pred": "20414",
+        "ground_truth": "20354"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "25.8",
+        "ground_truth": "23.8"
+    },
+    {
+        "pred": "51444.4",
+        "ground_truth": "54132.4"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "57"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2000"
+    },
+    {
+        "pred": "Medium car generation",
+        "ground_truth": "Medium car (petrol)"
+    },
+    {
+        "pred": "2.3",
+        "ground_truth": "2.1"
+    },
+    {
+        "pred": "GQ",
+        "ground_truth": "GQ"
+    },
+    {
+        "pred": "12.0",
+        "ground_truth": "3.88"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "2.11",
+        "ground_truth": "0.41"
+    },
+    {
+        "pred": "56.9",
+        "ground_truth": "68.4"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "20.5",
+        "ground_truth": "46"
+    },
+    {
+        "pred": "Ireland",
+        "ground_truth": "Ireland"
+    },
+    {
+        "pred": "4.23",
+        "ground_truth": "4.53"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "42"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "1.54"
+    },
+    {
+        "pred": "15.09",
+        "ground_truth": "14.05"
+    },
+    {
+        "pred": "474",
+        "ground_truth": "445"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "517"
+    },
+    {
+        "pred": "9.78",
+        "ground_truth": "9.07"
+    },
+    {
+        "pred": "3.34",
+        "ground_truth": "3.5"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "2372.1"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "Increased"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "105.3"
+    },
+    {
+        "pred": "3.41",
+        "ground_truth": "3.42"
+    },
+    {
+        "pred": "6.1",
+        "ground_truth": "4.4"
+    },
+    {
+        "pred": "Male",
+        "ground_truth": "Female"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "10.0",
+        "ground_truth": "105.4"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "light blue"
+    },
+    {
+        "pred": "105.5",
+        "ground_truth": "39.8"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "306"
+    },
+    {
+        "pred": "5.99",
+        "ground_truth": "5.99"
+    },
+    {
+        "pred": "417777.7",
+        "ground_truth": "451176.9"
+    },
+    {
+        "pred": "4900",
+        "ground_truth": "4592"
+    },
+    {
+        "pred": "5.5",
+        "ground_truth": "7.54"
+    },
+    {
+        "pred": "Good",
+        "ground_truth": "Rep/Lean Rep"
+    },
+    {
+        "pred": "Eagle Ford",
+        "ground_truth": "Eagle Ford"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "Belgium",
+        "ground_truth": "Belgium"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "35.3",
+        "ground_truth": "39.9"
+    },
+    {
+        "pred": "1.22",
+        "ground_truth": "1.33"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "south africa",
+        "ground_truth": "Eritrea"
+    },
+    {
+        "pred": "2.5",
+        "ground_truth": "4.19"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "29.82",
+        "ground_truth": "30.27"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "36"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "100.4",
+        "ground_truth": "71"
+    },
+    {
+        "pred": "55.3",
+        "ground_truth": "55.5"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2006",
+        "ground_truth": "10878"
+    },
+    {
+        "pred": "212",
+        "ground_truth": "238"
+    },
+    {
+        "pred": "277",
+        "ground_truth": "270"
+    },
+    {
+        "pred": "18.4",
+        "ground_truth": "18.2"
+    },
+    {
+        "pred": "446",
+        "ground_truth": "468"
+    },
+    {
+        "pred": "5955.3",
+        "ground_truth": "6192.5"
+    },
+    {
+        "pred": "42.5",
+        "ground_truth": "42.5"
+    },
+    {
+        "pred": "Schitt's Creek",
+        "ground_truth": "Schitt's Creek"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "211",
+        "ground_truth": "212"
+    },
+    {
+        "pred": "15.3",
+        "ground_truth": "14.3"
+    },
+    {
+        "pred": "70.42",
+        "ground_truth": "67.31"
+    },
+    {
+        "pred": "17242",
+        "ground_truth": "106100"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "91.1"
+    },
+    {
+        "pred": "$1,000,000",
+        "ground_truth": "14153.35"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "1.3"
+    },
+    {
+        "pred": "29.39",
+        "ground_truth": "26.26"
+    },
+    {
+        "pred": "Increase",
+        "ground_truth": "increasing"
+    },
+    {
+        "pred": "2.22",
+        "ground_truth": "2.82"
+    },
+    {
+        "pred": "29.57",
+        "ground_truth": "32.92"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "3181.81",
+        "ground_truth": "2829.38"
+    },
+    {
+        "pred": "255",
+        "ground_truth": "285"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2012"
+    },
+    {
+        "pred": "15444",
+        "ground_truth": "971"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "59.1",
+        "ground_truth": "51.1"
+    },
+    {
+        "pred": "15999",
+        "ground_truth": "15299"
+    },
+    {
+        "pred": "5480",
+        "ground_truth": "5564"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "0.11"
+    },
+    {
+        "pred": "3.89",
+        "ground_truth": "3.49"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "2210"
+    },
+    {
+        "pred": "The Bachelor",
+        "ground_truth": "Cooking (e.g., MasterChef, Chopped, etc.)"
+    },
+    {
+        "pred": "New Jersey",
+        "ground_truth": "New Jersey"
+    },
+    {
+        "pred": "New zealand",
+        "ground_truth": "Belgium"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "93"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "232.21",
+        "ground_truth": "352.21"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "0.75"
+    },
+    {
+        "pred": "1560.5",
+        "ground_truth": "531.6"
+    },
+    {
+        "pred": "0.2",
+        "ground_truth": "0.75"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "131253.5"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "965"
+    },
+    {
+        "pred": "88977",
+        "ground_truth": "82936017"
+    },
+    {
+        "pred": "Infrastructure software",
+        "ground_truth": "Analytics"
+    },
+    {
+        "pred": "1960",
+        "ground_truth": "1960"
+    },
+    {
+        "pred": "18-29",
+        "ground_truth": "65+"
+    },
+    {
+        "pred": "United States",
+        "ground_truth": "United States"
+    },
+    {
+        "pred": "100.00%",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "Alaska",
+        "ground_truth": "Alaska"
+    },
+    {
+        "pred": "green",
+        "ground_truth": "green"
+    },
+    {
+        "pred": "38.1",
+        "ground_truth": "36.11"
+    },
+    {
+        "pred": "0.36",
+        "ground_truth": "77"
+    },
+    {
+        "pred": "240",
+        "ground_truth": "211"
+    },
+    {
+        "pred": "211",
+        "ground_truth": "410"
+    },
+    {
+        "pred": "1331.2",
+        "ground_truth": "1251.8"
+    },
+    {
+        "pred": "3525",
+        "ground_truth": "3613"
+    },
+    {
+        "pred": "34.5",
+        "ground_truth": "12.3"
+    },
+    {
+        "pred": "Lombardy",
+        "ground_truth": "Autonomous Province of Bolzano"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "108",
+        "ground_truth": "489"
+    },
+    {
+        "pred": "2777",
+        "ground_truth": "2717"
+    },
+    {
+        "pred": "27.1",
+        "ground_truth": "23.01"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "76"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "Blue"
+    },
+    {
+        "pred": "801.3",
+        "ground_truth": "870.03"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "Dark blue"
+    },
+    {
+        "pred": "3150.5",
+        "ground_truth": "2408.125"
+    },
+    {
+        "pred": "13.8",
+        "ground_truth": "1.6"
+    },
+    {
+        "pred": "6.9",
+        "ground_truth": "7.1"
+    },
+    {
+        "pred": "Franco Harris",
+        "ground_truth": "Franco Harris"
+    },
+    {
+        "pred": "81",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "Credit card",
+        "ground_truth": "Mobile"
+    },
+    {
+        "pred": "0.56",
+        "ground_truth": "0.484375"
+    },
+    {
+        "pred": "7.7",
+        "ground_truth": "7.7"
+    },
+    {
+        "pred": "63",
+        "ground_truth": "58"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "63"
+    },
+    {
+        "pred": "31.7",
+        "ground_truth": "42.3"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2011"
+    },
+    {
+        "pred": "1378.8",
+        "ground_truth": "100375.8"
+    },
+    {
+        "pred": "Nicaragua",
+        "ground_truth": "Nicaragua"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "273"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Aeroflot",
+        "ground_truth": "Aeroflot"
+    },
+    {
+        "pred": "77",
+        "ground_truth": "98"
+    },
+    {
+        "pred": "1:1",
+        "ground_truth": "1.684722222"
+    },
+    {
+        "pred": "13.28",
+        "ground_truth": "13.52"
+    },
+    {
+        "pred": "7497.5",
+        "ground_truth": "4362.5"
+    },
+    {
+        "pred": "53212.6",
+        "ground_truth": "51258"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "0.88",
+        "ground_truth": "0.23"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "83",
+        "ground_truth": "44"
+    },
+    {
+        "pred": "1.49",
+        "ground_truth": "1.99"
+    },
+    {
+        "pred": "2009",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "35",
+        "ground_truth": "36"
+    },
+    {
+        "pred": "Vysočina",
+        "ground_truth": "Vitebsk Oblast"
+    },
+    {
+        "pred": "7.89",
+        "ground_truth": "8.73"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "84"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "[2011, 2012]"
+    },
+    {
+        "pred": "44",
+        "ground_truth": "42.4"
+    },
+    {
+        "pred": "1539.8",
+        "ground_truth": "1115.7"
+    },
+    {
+        "pred": "1.45",
+        "ground_truth": "1.45"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "20.5",
+        "ground_truth": "28.3"
+    },
+    {
+        "pred": "18.87",
+        "ground_truth": "23.31"
+    },
+    {
+        "pred": "39.9",
+        "ground_truth": "36.9"
+    },
+    {
+        "pred": "220000",
+        "ground_truth": "985468"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "32"
+    },
+    {
+        "pred": "135.9",
+        "ground_truth": "138.9"
+    },
+    {
+        "pred": "0.41",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "29.9",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "122",
+        "ground_truth": "121"
+    },
+    {
+        "pred": "290.82",
+        "ground_truth": "306.23"
+    },
+    {
+        "pred": "35-44 years",
+        "ground_truth": "50-64 years"
+    },
+    {
+        "pred": "12.38",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Philippines",
+        "ground_truth": "Philippines"
+    },
+    {
+        "pred": "86.1",
+        "ground_truth": "85.1"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "0.04",
+        "ground_truth": "0.04"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "1171",
+        "ground_truth": "144"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "colombia",
+        "ground_truth": "Spain"
+    },
+    {
+        "pred": "Sweden",
+        "ground_truth": "United States"
+    },
+    {
+        "pred": "Singapore",
+        "ground_truth": "Paraguay"
+    },
+    {
+        "pred": "13767",
+        "ground_truth": "15017"
+    },
+    {
+        "pred": "169.9",
+        "ground_truth": "169.1"
+    },
+    {
+        "pred": "101",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "519.3",
+        "ground_truth": "576.65"
+    },
+    {
+        "pred": "Franco Harris",
+        "ground_truth": "Franco Harris"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2004"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2009"
+    },
+    {
+        "pred": "Switzerland",
+        "ground_truth": "Switzerland"
+    },
+    {
+        "pred": "The blue line represents the country of China.",
+        "ground_truth": "Australia"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2011"
+    },
+    {
+        "pred": "2019/20",
+        "ground_truth": "2019/20"
+    },
+    {
+        "pred": "67.89",
+        "ground_truth": "71.65"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "10.2"
+    },
+    {
+        "pred": "25.33%",
+        "ground_truth": "32.43"
+    },
+    {
+        "pred": "1.25",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "10000",
+        "ground_truth": "82.2"
+    },
+    {
+        "pred": "40.6",
+        "ground_truth": "40.7"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "1.179861111"
+    },
+    {
+        "pred": "Pulmonary arterial hypertension",
+        "ground_truth": "Pulmonary arterial hypertension"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "Navy blue"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "6750"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "160.3",
+        "ground_truth": "197.1"
+    },
+    {
+        "pred": "7.93",
+        "ground_truth": "6.99"
+    },
+    {
+        "pred": "2.25",
+        "ground_truth": "1.1"
+    },
+    {
+        "pred": "1030",
+        "ground_truth": "1125"
+    },
+    {
+        "pred": "0",
+        "ground_truth": "0.235"
+    },
+    {
+        "pred": "535",
+        "ground_truth": "582"
+    },
+    {
+        "pred": "2.6",
+        "ground_truth": "3.2"
+    },
+    {
+        "pred": "UK",
+        "ground_truth": "UK"
+    },
+    {
+        "pred": "111",
+        "ground_truth": "165"
+    },
+    {
+        "pred": "2002",
+        "ground_truth": "2008"
+    },
+    {
+        "pred": "mali",
+        "ground_truth": "[Gambia, Niger]"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "4.11",
+        "ground_truth": "4.51"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2014",
+        "ground_truth": "2010"
+    },
+    {
+        "pred": "976879",
+        "ground_truth": "910987"
+    },
+    {
+        "pred": "Lower secondary",
+        "ground_truth": "Primary school"
+    },
+    {
+        "pred": "34.87",
+        "ground_truth": "34.07"
+    },
+    {
+        "pred": "20.7",
+        "ground_truth": "18.4"
+    },
+    {
+        "pred": "[2011, 2012]",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "727.27",
+        "ground_truth": "273.21"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "decrease",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "34.86",
+        "ground_truth": "37.08"
+    },
+    {
+        "pred": "192.52",
+        "ground_truth": "179.9"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "8.3"
+    },
+    {
+        "pred": "germany",
+        "ground_truth": "Bulgaria"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "110.6",
+        "ground_truth": "112.6"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "2244",
+        "ground_truth": "2294"
+    },
+    {
+        "pred": "1.2",
+        "ground_truth": "-30.03"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "27567",
+        "ground_truth": "27573"
+    },
+    {
+        "pred": "33246.4",
+        "ground_truth": "35294.6"
+    },
+    {
+        "pred": "130.03",
+        "ground_truth": "132.7"
+    },
+    {
+        "pred": "0.47",
+        "ground_truth": "62.6"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3.2"
+    },
+    {
+        "pred": "1.2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "1677",
+        "ground_truth": "6411"
+    },
+    {
+        "pred": "2009",
+        "ground_truth": "2009"
+    },
+    {
+        "pred": "74",
+        "ground_truth": "48"
+    },
+    {
+        "pred": "15300",
+        "ground_truth": "35283"
+    },
+    {
+        "pred": "209",
+        "ground_truth": "209"
+    },
+    {
+        "pred": "5.6",
+        "ground_truth": "9.96"
+    },
+    {
+        "pred": "5.3",
+        "ground_truth": "5.4"
+    },
+    {
+        "pred": "31.2",
+        "ground_truth": "7.3"
+    },
+    {
+        "pred": "1,000",
+        "ground_truth": "2112"
+    },
+    {
+        "pred": "1.6",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "7.4",
+        "ground_truth": "8.41"
+    },
+    {
+        "pred": "144.77",
+        "ground_truth": "147.7"
+    },
+    {
+        "pred": "1477",
+        "ground_truth": "883"
+    },
+    {
+        "pred": "47.2",
+        "ground_truth": "24.6"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "35.2"
+    },
+    {
+        "pred": "New York",
+        "ground_truth": "Oklahoma"
+    },
+    {
+        "pred": "2.54",
+        "ground_truth": "2.46"
+    },
+    {
+        "pred": "0.41",
+        "ground_truth": "83"
+    },
+    {
+        "pred": "370888",
+        "ground_truth": "375967.8"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "34.3",
+        "ground_truth": "33.7"
+    },
+    {
+        "pred": "115",
+        "ground_truth": "126"
+    },
+    {
+        "pred": "0.09",
+        "ground_truth": "0.1"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1.346"
+    },
+    {
+        "pred": "Average student loan amount",
+        "ground_truth": "Private nonprofit institution"
+    },
+    {
+        "pred": "17.8",
+        "ground_truth": "17.3"
+    },
+    {
+        "pred": "italy",
+        "ground_truth": "[Italy , 22]"
+    },
+    {
+        "pred": "63",
+        "ground_truth": "15"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "45"
+    },
+    {
+        "pred": "7.3",
+        "ground_truth": "7.3"
+    },
+    {
+        "pred": "0.04",
+        "ground_truth": "0.01"
+    },
+    {
+        "pred": "12.8",
+        "ground_truth": "12.8"
+    },
+    {
+        "pred": "11.1",
+        "ground_truth": "16.1"
+    },
+    {
+        "pred": "Yes, almost all of them are corrupt",
+        "ground_truth": "Yes, almost all of them are corrupt"
+    },
+    {
+        "pred": "Telia Company AB",
+        "ground_truth": "Telia Company AB"
+    },
+    {
+        "pred": "59",
+        "ground_truth": "61"
+    },
+    {
+        "pred": "7.1",
+        "ground_truth": "8.1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "Low bone mineral density"
+    },
+    {
+        "pred": "5.6",
+        "ground_truth": "3.6"
+    },
+    {
+        "pred": "5.8",
+        "ground_truth": "6.5"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "20.06",
+        "ground_truth": "26.22"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "18.3"
+    },
+    {
+        "pred": "0.64",
+        "ground_truth": "1.03"
+    },
+    {
+        "pred": "3.3",
+        "ground_truth": "3.2"
+    },
+    {
+        "pred": "35.83",
+        "ground_truth": "36.33"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "gray"
+    },
+    {
+        "pred": "3444",
+        "ground_truth": "3444"
+    },
+    {
+        "pred": "Texas",
+        "ground_truth": "Texas"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "12.17",
+        "ground_truth": "12.17"
+    },
+    {
+        "pred": "46.4",
+        "ground_truth": "46.5"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2011"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "May '21"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "123",
+        "ground_truth": "329"
+    },
+    {
+        "pred": "6.6",
+        "ground_truth": "6.6"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "5G",
+        "ground_truth": "5G"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "14.12",
+        "ground_truth": "14.25"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "36"
+    },
+    {
+        "pred": "5.7",
+        "ground_truth": "5.6"
+    },
+    {
+        "pred": "49",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "784",
+        "ground_truth": "590"
+    },
+    {
+        "pred": "Cape Verde",
+        "ground_truth": "Cape Verde"
+    },
+    {
+        "pred": "144444",
+        "ground_truth": "47438"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "0.3125",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "pink",
+        "ground_truth": "Pink"
+    },
+    {
+        "pred": "6.4",
+        "ground_truth": "6.4"
+    },
+    {
+        "pred": "544",
+        "ground_truth": "467"
+    },
+    {
+        "pred": "League of Legends",
+        "ground_truth": "League of Legends"
+    },
+    {
+        "pred": "Poland",
+        "ground_truth": "Poland"
+    },
+    {
+        "pred": "14.2",
+        "ground_truth": "14.5"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "5.95"
+    },
+    {
+        "pred": "32.5",
+        "ground_truth": "39.8"
+    },
+    {
+        "pred": "Argentina",
+        "ground_truth": "Argentina"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2008"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "66",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "32"
+    },
+    {
+        "pred": "33622",
+        "ground_truth": "32665"
+    },
+    {
+        "pred": "non hispanic",
+        "ground_truth": "Asians"
+    },
+    {
+        "pred": "10.3",
+        "ground_truth": "11.7"
+    },
+    {
+        "pred": "13.3",
+        "ground_truth": "13.5"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "75"
+    },
+    {
+        "pred": "109.8",
+        "ground_truth": "194.3"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "124.4"
+    },
+    {
+        "pred": "1.41",
+        "ground_truth": "1.41"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "99"
+    },
+    {
+        "pred": "4.41",
+        "ground_truth": "4.28"
+    },
+    {
+        "pred": "2.4",
+        "ground_truth": "2.06"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "7.3"
+    },
+    {
+        "pred": "30.5",
+        "ground_truth": "30.5"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "41.3",
+        "ground_truth": "44.5"
+    },
+    {
+        "pred": "26.86",
+        "ground_truth": "27.05"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "69"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "6.3"
+    },
+    {
+        "pred": "Norway",
+        "ground_truth": "Netherlands"
+    },
+    {
+        "pred": "37",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "1.44",
+        "ground_truth": "1.38"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2000"
+    },
+    {
+        "pred": "96.66",
+        "ground_truth": "98.96"
+    },
+    {
+        "pred": "2.99",
+        "ground_truth": "3.4"
+    },
+    {
+        "pred": "62",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "31.01"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "196"
+    },
+    {
+        "pred": "66",
+        "ground_truth": "0.08"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "100.4",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "386899",
+        "ground_truth": "410849"
+    },
+    {
+        "pred": "Marlboro",
+        "ground_truth": "Newport"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1122",
+        "ground_truth": "585"
+    },
+    {
+        "pred": "53.3",
+        "ground_truth": "23.8"
+    },
+    {
+        "pred": "13",
+        "ground_truth": "46"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "15",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "non gmo",
+        "ground_truth": "No role"
+    },
+    {
+        "pred": "6.9",
+        "ground_truth": "9.8"
+    },
+    {
+        "pred": "58.5",
+        "ground_truth": "62.43"
+    },
+    {
+        "pred": "10.6",
+        "ground_truth": "10.6"
+    },
+    {
+        "pred": "1014.43",
+        "ground_truth": "1104.17"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "127",
+        "ground_truth": "5910"
+    },
+    {
+        "pred": "41",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "2.1",
+        "ground_truth": "2.88"
+    },
+    {
+        "pred": "5.9",
+        "ground_truth": "5.8"
+    },
+    {
+        "pred": "sweden",
+        "ground_truth": "Netherlands"
+    },
+    {
+        "pred": "2.22",
+        "ground_truth": "2.92"
+    },
+    {
+        "pred": "1333",
+        "ground_truth": "1812"
+    },
+    {
+        "pred": "non-overlapping",
+        "ground_truth": "0.1"
+    },
+    {
+        "pred": "12.1",
+        "ground_truth": "6.2"
+    },
+    {
+        "pred": "united states",
+        "ground_truth": "United States"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "1.702702703"
+    },
+    {
+        "pred": "Vale",
+        "ground_truth": "Vale"
+    },
+    {
+        "pred": "3689.8",
+        "ground_truth": "2994.52"
+    },
+    {
+        "pred": "Coca-Cola",
+        "ground_truth": "Coca-Cola"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "25000",
+        "ground_truth": "22600"
+    },
+    {
+        "pred": "209.1",
+        "ground_truth": "237.9"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "3.4"
+    },
+    {
+        "pred": "70",
+        "ground_truth": "56"
+    },
+    {
+        "pred": "1.66",
+        "ground_truth": "1.65"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "397",
+        "ground_truth": "307"
+    },
+    {
+        "pred": "1050",
+        "ground_truth": "4412"
+    },
+    {
+        "pred": "recycling",
+        "ground_truth": "Not documented, fate unknown*"
+    },
+    {
+        "pred": "Barclays Africa",
+        "ground_truth": "Fulham"
+    },
+    {
+        "pred": "2.85",
+        "ground_truth": "2.76"
+    },
+    {
+        "pred": "155.9",
+        "ground_truth": "142.5"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "884",
+        "ground_truth": "883"
+    },
+    {
+        "pred": "101",
+        "ground_truth": "49"
+    },
+    {
+        "pred": "27.7",
+        "ground_truth": "27.7"
+    },
+    {
+        "pred": "Industry",
+        "ground_truth": "Services"
+    },
+    {
+        "pred": "3999",
+        "ground_truth": "3996"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "389800",
+        "ground_truth": "509175"
+    },
+    {
+        "pred": "220",
+        "ground_truth": "239"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "10.3"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "33.8"
+    },
+    {
+        "pred": "Zambia",
+        "ground_truth": "Myanmar"
+    },
+    {
+        "pred": "13777",
+        "ground_truth": "13779.1"
+    },
+    {
+        "pred": "234.7",
+        "ground_truth": "296.7"
+    },
+    {
+        "pred": "132493",
+        "ground_truth": "133370"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2.125694444"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "S7 Airlines",
+        "ground_truth": "S7 Airlines"
+    },
+    {
+        "pred": "76",
+        "ground_truth": "76"
+    },
+    {
+        "pred": "67",
+        "ground_truth": "67"
+    },
+    {
+        "pred": "Hank Aaron",
+        "ground_truth": "Hank Aaron"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "1278.68",
+        "ground_truth": "5515.82"
+    },
+    {
+        "pred": "0.3",
+        "ground_truth": "0.5"
+    },
+    {
+        "pred": "514.5",
+        "ground_truth": "1041.6"
+    },
+    {
+        "pred": "10.875",
+        "ground_truth": "10.57"
+    },
+    {
+        "pred": "222.44",
+        "ground_truth": "263.44"
+    },
+    {
+        "pred": "71222",
+        "ground_truth": "77517"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "60"
+    },
+    {
+        "pred": "153783",
+        "ground_truth": "150187"
+    },
+    {
+        "pred": "11.5",
+        "ground_truth": "11.51"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "France",
+        "ground_truth": "Japan"
+    },
+    {
+        "pred": "10.3",
+        "ground_truth": "12.1"
+    },
+    {
+        "pred": "4.9",
+        "ground_truth": "4.9"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "310.312",
+        "ground_truth": "239.4"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "24688.3"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "64"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "317"
+    },
+    {
+        "pred": "321",
+        "ground_truth": "583"
+    },
+    {
+        "pred": "2,300",
+        "ground_truth": "3300"
+    },
+    {
+        "pred": "0.85",
+        "ground_truth": "0.85"
+    },
+    {
+        "pred": "1.79",
+        "ground_truth": "1.75"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "Engineering",
+        "ground_truth": "Engineering"
+    },
+    {
+        "pred": "72422",
+        "ground_truth": "77517"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "39"
+    },
+    {
+        "pred": "56.8",
+        "ground_truth": "43.92"
+    },
+    {
+        "pred": "80.2",
+        "ground_truth": "80.2"
+    },
+    {
+        "pred": "51.66",
+        "ground_truth": "55.66"
+    },
+    {
+        "pred": "green",
+        "ground_truth": "brown"
+    },
+    {
+        "pred": "14000000",
+        "ground_truth": "1413640"
+    },
+    {
+        "pred": "133.33",
+        "ground_truth": "115.31"
+    },
+    {
+        "pred": "Georgia",
+        "ground_truth": "Georgia"
+    },
+    {
+        "pred": "19222",
+        "ground_truth": "19921"
+    },
+    {
+        "pred": "100000000",
+        "ground_truth": "8092208"
+    },
+    {
+        "pred": "denmark",
+        "ground_truth": "Libya"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "2444",
+        "ground_truth": "2437"
+    },
+    {
+        "pred": "2.71",
+        "ground_truth": "2.76"
+    },
+    {
+        "pred": "1.25",
+        "ground_truth": "0.549"
+    },
+    {
+        "pred": "Facebook",
+        "ground_truth": "WhatsApp"
+    },
+    {
+        "pred": "0.45",
+        "ground_truth": "51.04"
+    },
+    {
+        "pred": "North America",
+        "ground_truth": "North America"
+    },
+    {
+        "pred": "1010",
+        "ground_truth": "510"
+    },
+    {
+        "pred": "Burkina Faso",
+        "ground_truth": "Burkina Faso"
+    },
+    {
+        "pred": "2.7",
+        "ground_truth": "1.2"
+    },
+    {
+        "pred": "3900",
+        "ground_truth": "3710"
+    },
+    {
+        "pred": "Gabriel",
+        "ground_truth": "Gabriel"
+    },
+    {
+        "pred": "10%",
+        "ground_truth": "33"
+    },
+    {
+        "pred": "18.8",
+        "ground_truth": "28.1"
+    },
+    {
+        "pred": "80",
+        "ground_truth": "60"
+    },
+    {
+        "pred": "\"don't know\"",
+        "ground_truth": "Less"
+    },
+    {
+        "pred": "182224",
+        "ground_truth": "140858"
+    },
+    {
+        "pred": "890.9",
+        "ground_truth": "803.9"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "1950",
+        "ground_truth": "1921"
+    },
+    {
+        "pred": "0.55",
+        "ground_truth": "0.35"
+    },
+    {
+        "pred": "47",
+        "ground_truth": "49976"
+    },
+    {
+        "pred": "13767",
+        "ground_truth": "15017"
+    },
+    {
+        "pred": "44244.4",
+        "ground_truth": "45823.94"
+    },
+    {
+        "pred": "Yellow",
+        "ground_truth": "gray"
+    },
+    {
+        "pred": "Much more/somewhat more",
+        "ground_truth": "Same"
+    },
+    {
+        "pred": "0.07",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "25.46",
+        "ground_truth": "23.68"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "36"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "'Disease burden'",
+        "ground_truth": "Obesity"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "ukraine",
+        "ground_truth": "Togo"
+    },
+    {
+        "pred": "201.78",
+        "ground_truth": "212.92"
+    },
+    {
+        "pred": "32.5",
+        "ground_truth": "105.4"
+    },
+    {
+        "pred": "31131",
+        "ground_truth": "37133"
+    },
+    {
+        "pred": "678",
+        "ground_truth": "687"
+    },
+    {
+        "pred": "2.8",
+        "ground_truth": "15.5"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "50"
+    },
+    {
+        "pred": "Netflix",
+        "ground_truth": "Facebook"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "0.6"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "63"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "71.7",
+        "ground_truth": "67.07"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "64.5",
+        "ground_truth": "64.9"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "Business and related services",
+        "ground_truth": "Natural resources, construction, and maintenance"
+    },
+    {
+        "pred": "1019.8",
+        "ground_truth": "656"
+    },
+    {
+        "pred": "0.38",
+        "ground_truth": "8.5"
+    },
+    {
+        "pred": "9.91",
+        "ground_truth": "8.12"
+    },
+    {
+        "pred": "Applied Materials",
+        "ground_truth": "ASML"
+    },
+    {
+        "pred": "32881800",
+        "ground_truth": "2287881"
+    },
+    {
+        "pred": "July 2012",
+        "ground_truth": "July 2014"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "40"
+    },
+    {
+        "pred": "Brazil",
+        "ground_truth": "Brazil"
+    },
+    {
+        "pred": "fire tv",
+        "ground_truth": "Robku TV"
+    },
+    {
+        "pred": "3297",
+        "ground_truth": "2378"
+    },
+    {
+        "pred": "non homophobic",
+        "ground_truth": "I don't discriminate against them, nor do I fear them."
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "7.47",
+        "ground_truth": "6.97"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "1.058333333"
+    },
+    {
+        "pred": "5395",
+        "ground_truth": "3582"
+    },
+    {
+        "pred": "290000",
+        "ground_truth": "212536"
+    },
+    {
+        "pred": "37.11",
+        "ground_truth": "26.81"
+    },
+    {
+        "pred": "10.1",
+        "ground_truth": "7.71"
+    },
+    {
+        "pred": "0.19",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "china",
+        "ground_truth": "U.S."
+    },
+    {
+        "pred": "10.33",
+        "ground_truth": "10.38"
+    },
+    {
+        "pred": "2005 to 2014",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "1123",
+        "ground_truth": "22738"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "Facebook",
+        "ground_truth": "YouTube"
+    },
+    {
+        "pred": "41",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "411.22",
+        "ground_truth": "419.35"
+    },
+    {
+        "pred": "Cancer",
+        "ground_truth": "Cancer"
+    },
+    {
+        "pred": "11.5",
+        "ground_truth": "7.2"
+    },
+    {
+        "pred": "999.95",
+        "ground_truth": "916.58"
+    },
+    {
+        "pred": "351.1",
+        "ground_truth": "573.1"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "1343.75"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "108"
+    },
+    {
+        "pred": "32.3",
+        "ground_truth": "197.3"
+    },
+    {
+        "pred": "809",
+        "ground_truth": "809"
+    },
+    {
+        "pred": "France",
+        "ground_truth": "France"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "135",
+        "ground_truth": "143"
+    },
+    {
+        "pred": "51",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "Chile",
+        "ground_truth": "Chile"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1980",
+        "ground_truth": "1986"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "170.46",
+        "ground_truth": "1541.08"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "71"
+    },
+    {
+        "pred": "23551.4",
+        "ground_truth": "23555.3"
+    },
+    {
+        "pred": "1.5%",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "48.87",
+        "ground_truth": "49.83"
+    },
+    {
+        "pred": "106.68",
+        "ground_truth": "106.89"
+    },
+    {
+        "pred": "Hungary",
+        "ground_truth": "Hungary"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "316"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Real Madrid C.F.",
+        "ground_truth": "Real Madrid CF"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "72",
+        "ground_truth": "73"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "0.59"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "24.75"
+    },
+    {
+        "pred": "226.6",
+        "ground_truth": "293.6"
+    },
+    {
+        "pred": "97.3",
+        "ground_truth": "98.7"
+    },
+    {
+        "pred": "6121",
+        "ground_truth": "6521"
+    },
+    {
+        "pred": "2.9",
+        "ground_truth": "3.3"
+    },
+    {
+        "pred": "All Chinese producers",
+        "ground_truth": "Trina Solar"
+    },
+    {
+        "pred": "France",
+        "ground_truth": "UK"
+    },
+    {
+        "pred": "2.0",
+        "ground_truth": "30.74"
+    },
+    {
+        "pred": "1.18",
+        "ground_truth": "5.11"
+    },
+    {
+        "pred": "20.3",
+        "ground_truth": "18.6"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "119.9",
+        "ground_truth": "102.44"
+    },
+    {
+        "pred": "Brazil",
+        "ground_truth": "Brazil"
+    },
+    {
+        "pred": "604.4",
+        "ground_truth": "604.4"
+    },
+    {
+        "pred": "58222",
+        "ground_truth": "44519"
+    },
+    {
+        "pred": "4.28",
+        "ground_truth": "4.37"
+    },
+    {
+        "pred": "31",
+        "ground_truth": "57"
+    },
+    {
+        "pred": "switzerland",
+        "ground_truth": "Switzerland"
+    },
+    {
+        "pred": "39222",
+        "ground_truth": "36282"
+    },
+    {
+        "pred": "17.9",
+        "ground_truth": "16.9"
+    },
+    {
+        "pred": "16579.9",
+        "ground_truth": "35075.9"
+    },
+    {
+        "pred": "ecuador",
+        "ground_truth": "Mali"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "light blue"
+    },
+    {
+        "pred": "19.5",
+        "ground_truth": "10.2"
+    },
+    {
+        "pred": "45.08",
+        "ground_truth": "43.03"
+    },
+    {
+        "pred": "53",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "10%",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "151.27",
+        "ground_truth": "151.25"
+    },
+    {
+        "pred": "123.3",
+        "ground_truth": "123.3"
+    },
+    {
+        "pred": "2021",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2000"
+    },
+    {
+        "pred": "604",
+        "ground_truth": "634"
+    },
+    {
+        "pred": "2.6",
+        "ground_truth": "2.6"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "0.01",
+        "ground_truth": "1.06"
+    },
+    {
+        "pred": "2006",
+        "ground_truth": "1987"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "8.3",
+        "ground_truth": "9.1"
+    },
+    {
+        "pred": "1059.65",
+        "ground_truth": "1385.95"
+    },
+    {
+        "pred": "1088",
+        "ground_truth": "63086"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "3.4"
+    },
+    {
+        "pred": "33.5",
+        "ground_truth": "33.25"
+    },
+    {
+        "pred": "3.8",
+        "ground_truth": "1.18"
+    },
+    {
+        "pred": "88.2",
+        "ground_truth": "72.3"
+    },
+    {
+        "pred": "49.7",
+        "ground_truth": "39.27"
+    },
+    {
+        "pred": "2799",
+        "ground_truth": "3280"
+    },
+    {
+        "pred": "Instagram",
+        "ground_truth": "Snapchat"
+    },
+    {
+        "pred": "20.2",
+        "ground_truth": "3.0238"
+    },
+    {
+        "pred": "32323.32",
+        "ground_truth": "5326.38"
+    },
+    {
+        "pred": "Total millennials ages 18-34",
+        "ground_truth": "Total Millennials (ages 18-33)"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "63"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2013"
+    },
+    {
+        "pred": "591",
+        "ground_truth": "667.61"
+    },
+    {
+        "pred": "Android",
+        "ground_truth": "Android"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Don't believe it can impact us",
+        "ground_truth": "Staying alert and taking precautions"
+    },
+    {
+        "pred": "1277.9",
+        "ground_truth": "1793.79"
+    },
+    {
+        "pred": "27",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "48",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "0.01",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "2016",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "328",
+        "ground_truth": "327"
+    },
+    {
+        "pred": "52.51",
+        "ground_truth": "52.45"
+    },
+    {
+        "pred": "29.04",
+        "ground_truth": "28.44"
+    },
+    {
+        "pred": "22.9",
+        "ground_truth": "22.9"
+    },
+    {
+        "pred": "Hank Aaron",
+        "ground_truth": "Hank Aaron"
+    },
+    {
+        "pred": "13",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Germany",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "Tony Gonzalez",
+        "ground_truth": "Tony Gonzalez"
+    },
+    {
+        "pred": "Asia",
+        "ground_truth": "Asia"
+    },
+    {
+        "pred": "313",
+        "ground_truth": "232"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "Saudi Arabia",
+        "ground_truth": "Saudi Arabia"
+    },
+    {
+        "pred": "11.5",
+        "ground_truth": "30.33"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Africa",
+        "ground_truth": "Africa"
+    },
+    {
+        "pred": "580",
+        "ground_truth": "599"
+    },
+    {
+        "pred": "13.0",
+        "ground_truth": "12.99"
+    },
+    {
+        "pred": "0.66",
+        "ground_truth": "2.66"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "312.5",
+        "ground_truth": "144.8"
+    },
+    {
+        "pred": "189800",
+        "ground_truth": "263878"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "177",
+        "ground_truth": "197"
+    },
+    {
+        "pred": "9727",
+        "ground_truth": "3781"
+    },
+    {
+        "pred": "2017",
+        "ground_truth": "18/19"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "death rate",
+        "ground_truth": "50-69 years old"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "1980",
+        "ground_truth": "1980"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "6.33",
+        "ground_truth": "5.33"
+    },
+    {
+        "pred": "Asia",
+        "ground_truth": "Asia"
+    },
+    {
+        "pred": "10.3",
+        "ground_truth": "56.3"
+    },
+    {
+        "pred": "544244",
+        "ground_truth": "444428"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2035"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "29.33"
+    },
+    {
+        "pred": "200",
+        "ground_truth": "113"
+    },
+    {
+        "pred": "109.9",
+        "ground_truth": "108.9"
+    },
+    {
+        "pred": "TPG",
+        "ground_truth": "Telstra"
+    },
+    {
+        "pred": "13",
+        "ground_truth": "15.75"
+    },
+    {
+        "pred": "32251",
+        "ground_truth": "34236"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "2.44"
+    },
+    {
+        "pred": "1-5 minutes",
+        "ground_truth": "1-5 mins"
+    },
+    {
+        "pred": "100.77",
+        "ground_truth": "104.73"
+    },
+    {
+        "pred": "percentage",
+        "ground_truth": "Women"
+    },
+    {
+        "pred": "127.06",
+        "ground_truth": "124.77"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2010"
+    },
+    {
+        "pred": "LDPE",
+        "ground_truth": "PP"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "6.3",
+        "ground_truth": "9.32"
+    },
+    {
+        "pred": "Usa and saudi arabia",
+        "ground_truth": "[Lithuania, Saudi Arabia]"
+    },
+    {
+        "pred": "2007",
+        "ground_truth": "2005"
+    },
+    {
+        "pred": "167.8",
+        "ground_truth": "162"
+    },
+    {
+        "pred": "Criminalized beauty services",
+        "ground_truth": "Online authorized dealers"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "2.7"
+    },
+    {
+        "pred": "699",
+        "ground_truth": "373"
+    },
+    {
+        "pred": "1234",
+        "ground_truth": "28568"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "32"
+    },
+    {
+        "pred": "44",
+        "ground_truth": "55"
+    },
+    {
+        "pred": "586",
+        "ground_truth": "524"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "1790.4",
+        "ground_truth": "832.5"
+    },
+    {
+        "pred": "58",
+        "ground_truth": "66"
+    },
+    {
+        "pred": "Apple",
+        "ground_truth": "Apple"
+    },
+    {
+        "pred": "Sales",
+        "ground_truth": "More likely"
+    },
+    {
+        "pred": "98377",
+        "ground_truth": "99750"
+    },
+    {
+        "pred": "181.6",
+        "ground_truth": "189.6"
+    },
+    {
+        "pred": "51.9",
+        "ground_truth": "53.62"
+    },
+    {
+        "pred": "122",
+        "ground_truth": "120"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "0.02"
+    },
+    {
+        "pred": "714.55",
+        "ground_truth": "258.4"
+    },
+    {
+        "pred": "61.3",
+        "ground_truth": "37.24"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "23.6",
+        "ground_truth": "25.7"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3.6"
+    },
+    {
+        "pred": "716",
+        "ground_truth": "706"
+    },
+    {
+        "pred": "1970",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "147.06",
+        "ground_truth": "126.38"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "NFL",
+        "ground_truth": "NFL (2016)"
+    },
+    {
+        "pred": "2004",
+        "ground_truth": "2005"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Brazil",
+        "ground_truth": "India"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "15.8",
+        "ground_truth": "14.6"
+    },
+    {
+        "pred": "0",
+        "ground_truth": "40"
+    },
+    {
+        "pred": "17.9",
+        "ground_truth": "18.8"
+    },
+    {
+        "pred": "4444.44",
+        "ground_truth": "4431.94"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "Poor"
+    },
+    {
+        "pred": "50",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "2286.7",
+        "ground_truth": "2057.6"
+    },
+    {
+        "pred": "21.4",
+        "ground_truth": "21.1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "34",
+        "ground_truth": "61"
+    },
+    {
+        "pred": "Top priority",
+        "ground_truth": "Important, but lower priority"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "33"
+    },
+    {
+        "pred": "29",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "6.47",
+        "ground_truth": "6.04"
+    },
+    {
+        "pred": "Better off",
+        "ground_truth": "Better off"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "411",
+        "ground_truth": "555"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2008"
+    },
+    {
+        "pred": "[2017, 2020]",
+        "ground_truth": "[2017, 2023]"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "98"
+    },
+    {
+        "pred": "2013",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "76.6",
+        "ground_truth": "76.6"
+    },
+    {
+        "pred": "Mercadona",
+        "ground_truth": "Mercadona"
+    },
+    {
+        "pred": "44.5",
+        "ground_truth": "47.47"
+    },
+    {
+        "pred": "19.9",
+        "ground_truth": "20.4"
+    },
+    {
+        "pred": "74",
+        "ground_truth": "83"
+    },
+    {
+        "pred": "Walter Davis",
+        "ground_truth": "Walter Davis"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "41.1",
+        "ground_truth": "28.6"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "60"
+    },
+    {
+        "pred": "11.8",
+        "ground_truth": "114.7"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2021"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "199",
+        "ground_truth": "186"
+    },
+    {
+        "pred": "58.87",
+        "ground_truth": "53.03"
+    },
+    {
+        "pred": "GB",
+        "ground_truth": "Netherlands"
+    },
+    {
+        "pred": "Belgium",
+        "ground_truth": "Belgium"
+    },
+    {
+        "pred": "2.8",
+        "ground_truth": "2.7"
+    },
+    {
+        "pred": "605000",
+        "ground_truth": "590598"
+    },
+    {
+        "pred": "3.95",
+        "ground_truth": "3.56"
+    },
+    {
+        "pred": "30.09",
+        "ground_truth": "34.01"
+    },
+    {
+        "pred": "68.8",
+        "ground_truth": "75.54"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "3599.9",
+        "ground_truth": "2345.3"
+    },
+    {
+        "pred": "513",
+        "ground_truth": "429"
+    },
+    {
+        "pred": "232.1",
+        "ground_truth": "320.66"
+    },
+    {
+        "pred": "71",
+        "ground_truth": "71"
+    },
+    {
+        "pred": "15.99",
+        "ground_truth": "13.99"
+    },
+    {
+        "pred": "81.5",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "United Kingdom",
+        "ground_truth": "Germany"
+    },
+    {
+        "pred": "24",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "1970",
+        "ground_truth": "1970"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "15"
+    },
+    {
+        "pred": "11.1",
+        "ground_truth": "11.8"
+    },
+    {
+        "pred": "Anorexia nervosa",
+        "ground_truth": "Bulimia Nervosa"
+    },
+    {
+        "pred": "91.1",
+        "ground_truth": "92.01"
+    },
+    {
+        "pred": "49",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "35.24",
+        "ground_truth": "35.49"
+    },
+    {
+        "pred": "47.22",
+        "ground_truth": "54.62"
+    },
+    {
+        "pred": "12.48",
+        "ground_truth": "12.47"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2007",
+        "ground_truth": "2007"
+    },
+    {
+        "pred": "234.6",
+        "ground_truth": "336.6"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "Scotland",
+        "ground_truth": "Scotland"
+    },
+    {
+        "pred": "6.4",
+        "ground_truth": "6.4"
+    },
+    {
+        "pred": "990",
+        "ground_truth": "1055"
+    },
+    {
+        "pred": "230000",
+        "ground_truth": "267579"
+    },
+    {
+        "pred": "10.8",
+        "ground_truth": "3.2"
+    },
+    {
+        "pred": "30/20",
+        "ground_truth": "0.414285714"
+    },
+    {
+        "pred": "6.09",
+        "ground_truth": "3.38"
+    },
+    {
+        "pred": "4322.4",
+        "ground_truth": "4285.7"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "Amazon",
+        "ground_truth": "Alibaba.com"
+    },
+    {
+        "pred": "3.8",
+        "ground_truth": "6.9"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "Don't Know"
+    },
+    {
+        "pred": "Telia Company AB",
+        "ground_truth": "Telia Company AB"
+    },
+    {
+        "pred": "1.32",
+        "ground_truth": "1.19"
+    },
+    {
+        "pred": "99.9",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "Slovakia",
+        "ground_truth": "Hungary"
+    },
+    {
+        "pred": "248",
+        "ground_truth": "582"
+    },
+    {
+        "pred": "Ages 18-29",
+        "ground_truth": "Ages 18-29"
+    },
+    {
+        "pred": "0.44",
+        "ground_truth": "2.42"
+    },
+    {
+        "pred": "25",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "0.25"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "Barclays"
+    },
+    {
+        "pred": "10890",
+        "ground_truth": "31780"
+    },
+    {
+        "pred": "the number of media workers",
+        "ground_truth": "Media workers"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.18"
+    },
+    {
+        "pred": "66",
+        "ground_truth": "60"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "67"
+    },
+    {
+        "pred": "0.05",
+        "ground_truth": "8.87"
+    },
+    {
+        "pred": "99",
+        "ground_truth": "91"
+    },
+    {
+        "pred": "15-64",
+        "ground_truth": "0-14"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "95"
+    },
+    {
+        "pred": "103",
+        "ground_truth": "58"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "59",
+        "ground_truth": "110"
+    },
+    {
+        "pred": "70",
+        "ground_truth": "68"
+    },
+    {
+        "pred": "12.55",
+        "ground_truth": "12.15"
+    },
+    {
+        "pred": "Black or African American",
+        "ground_truth": "Black or African American alone"
+    },
+    {
+        "pred": "51",
+        "ground_truth": "40"
+    },
+    {
+        "pred": "6.3",
+        "ground_truth": "5.76"
+    },
+    {
+        "pred": "54",
+        "ground_truth": "38"
+    },
+    {
+        "pred": "2007",
+        "ground_truth": "2010"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "30"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "5.5",
+        "ground_truth": "8.6"
+    },
+    {
+        "pred": "37.6",
+        "ground_truth": "37.5"
+    },
+    {
+        "pred": "91",
+        "ground_truth": "95"
+    },
+    {
+        "pred": "Republican",
+        "ground_truth": "Democrat (scores 60 to 100)"
+    },
+    {
+        "pred": "65000",
+        "ground_truth": "7760"
+    },
+    {
+        "pred": "Indonesia",
+        "ground_truth": "Indonesia"
+    },
+    {
+        "pred": "Neonatal deaths",
+        "ground_truth": "Preterm birth complications"
+    },
+    {
+        "pred": "Turkey",
+        "ground_truth": "Malawi"
+    },
+    {
+        "pred": "Spain",
+        "ground_truth": "France"
+    },
+    {
+        "pred": "13.87",
+        "ground_truth": "11.97"
+    },
+    {
+        "pred": "12.3",
+        "ground_truth": "5.45"
+    },
+    {
+        "pred": "Regular consumer",
+        "ground_truth": "[Casual consumers**, Non-consumers]"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "Not worried at all"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "0.001",
+        "ground_truth": "0.2"
+    },
+    {
+        "pred": "411.01",
+        "ground_truth": "493.61"
+    },
+    {
+        "pred": "2.8",
+        "ground_truth": "3.5"
+    },
+    {
+        "pred": "55.5",
+        "ground_truth": "61.2"
+    },
+    {
+        "pred": "480000",
+        "ground_truth": "49405"
+    },
+    {
+        "pred": "77",
+        "ground_truth": "70"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "1969"
+    },
+    {
+        "pred": "20.3",
+        "ground_truth": "20.9"
+    },
+    {
+        "pred": "0.3",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "The grey color indicates that the data is not available.",
+        "ground_truth": "Rest of the Gulf Cooperation Council"
+    },
+    {
+        "pred": "0.1",
+        "ground_truth": "0.1"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "41.935"
+    },
+    {
+        "pred": "3.18",
+        "ground_truth": "0.46"
+    },
+    {
+        "pred": "Pirates of the Caribbean: Dead Men Tell No Tales",
+        "ground_truth": "Pirates of the Caribbean: Dead Man's Chest"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "588",
+        "ground_truth": "581"
+    },
+    {
+        "pred": "Finland",
+        "ground_truth": "Saudi Arabia"
+    },
+    {
+        "pred": "1013.83",
+        "ground_truth": "653.98"
+    },
+    {
+        "pred": "58.7",
+        "ground_truth": "60.31"
+    },
+    {
+        "pred": "300",
+        "ground_truth": "315"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "31.3",
+        "ground_truth": "34.3"
+    },
+    {
+        "pred": "Girls Grade 8",
+        "ground_truth": "Girls grade 10"
+    },
+    {
+        "pred": "0.7",
+        "ground_truth": "0.7"
+    },
+    {
+        "pred": "3:1",
+        "ground_truth": "1.577"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "69.9",
+        "ground_truth": "65.38"
+    },
+    {
+        "pred": "14.1",
+        "ground_truth": "18.4"
+    },
+    {
+        "pred": "119",
+        "ground_truth": "791"
+    },
+    {
+        "pred": "Deuce McAllister",
+        "ground_truth": "Deuce McAllister"
+    },
+    {
+        "pred": "63",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "Usa and uk",
+        "ground_truth": "[United Kingdom, Cape Verde]"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "111446",
+        "ground_truth": "113454"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "1.1"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "1019.5",
+        "ground_truth": "1130.2"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "52"
+    },
+    {
+        "pred": "4.2",
+        "ground_truth": "4.89"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "2016"
+    },
+    {
+        "pred": "4.87",
+        "ground_truth": "5.04"
+    },
+    {
+        "pred": "46000",
+        "ground_truth": "48082"
+    },
+    {
+        "pred": "40%",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "2,400",
+        "ground_truth": "2577420"
+    },
+    {
+        "pred": "246",
+        "ground_truth": "235"
+    },
+    {
+        "pred": "50.5",
+        "ground_truth": "50"
+    },
+    {
+        "pred": "94.44",
+        "ground_truth": "87.25"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "35"
+    },
+    {
+        "pred": "177",
+        "ground_truth": "317"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "4895",
+        "ground_truth": "4522"
+    },
+    {
+        "pred": "464.4",
+        "ground_truth": "456.4"
+    },
+    {
+        "pred": "3.4",
+        "ground_truth": "9.6"
+    },
+    {
+        "pred": "60000",
+        "ground_truth": "7000"
+    },
+    {
+        "pred": "17.09",
+        "ground_truth": "17.89"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "Songza",
+        "ground_truth": "Songs PK"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "87",
+        "ground_truth": "85"
+    },
+    {
+        "pred": "209.7",
+        "ground_truth": "286.1"
+    },
+    {
+        "pred": "Western Digital",
+        "ground_truth": "Western Digital"
+    },
+    {
+        "pred": "Chile",
+        "ground_truth": "Botswana"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "130",
+        "ground_truth": "150"
+    },
+    {
+        "pred": "100.8",
+        "ground_truth": "146.29"
+    },
+    {
+        "pred": "0.3",
+        "ground_truth": "0"
+    },
+    {
+        "pred": "5.1",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Indonesia",
+        "ground_truth": "Indonesia"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "47.6"
+    },
+    {
+        "pred": "75.5",
+        "ground_truth": "80"
+    },
+    {
+        "pred": "33",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "1000000",
+        "ground_truth": "322817"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "2.2"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "2.5"
+    },
+    {
+        "pred": "3.8",
+        "ground_truth": "3.3"
+    },
+    {
+        "pred": "14.79",
+        "ground_truth": "14.79"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "91817"
+    },
+    {
+        "pred": "4.9",
+        "ground_truth": "5.9"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2019"
+    },
+    {
+        "pred": "112.2",
+        "ground_truth": "34.98"
+    },
+    {
+        "pred": "2011",
+        "ground_truth": "2011"
+    },
+    {
+        "pred": "72",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "105",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "Men",
+        "ground_truth": "Men"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "18.27"
+    },
+    {
+        "pred": "3.13",
+        "ground_truth": "1.4"
+    },
+    {
+        "pred": "474",
+        "ground_truth": "285"
+    },
+    {
+        "pred": "37.7",
+        "ground_truth": "35.7"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "62"
+    },
+    {
+        "pred": "333.44",
+        "ground_truth": "333.54"
+    },
+    {
+        "pred": "777",
+        "ground_truth": "776"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "4.2"
+    },
+    {
+        "pred": "16-20 years",
+        "ground_truth": "6.6 - 10.5 years"
+    },
+    {
+        "pred": "57",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "6.8",
+        "ground_truth": "6.88"
+    },
+    {
+        "pred": "891.9",
+        "ground_truth": "891.59"
+    },
+    {
+        "pred": "44",
+        "ground_truth": "44.4"
+    },
+    {
+        "pred": "Generation Z",
+        "ground_truth": "Generation Z"
+    },
+    {
+        "pred": "United Arab Emirates",
+        "ground_truth": "United Arab Emirates"
+    },
+    {
+        "pred": "6.1",
+        "ground_truth": "6.3"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "74"
+    },
+    {
+        "pred": "25.27",
+        "ground_truth": "26.37"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "43.9"
+    },
+    {
+        "pred": "Japan",
+        "ground_truth": "Japan"
+    },
+    {
+        "pred": "59.6",
+        "ground_truth": "82.5"
+    },
+    {
+        "pred": "161",
+        "ground_truth": "99"
+    },
+    {
+        "pred": "39",
+        "ground_truth": "46"
+    },
+    {
+        "pred": "1332.42",
+        "ground_truth": "1297.51"
+    },
+    {
+        "pred": "4222",
+        "ground_truth": "3922"
+    },
+    {
+        "pred": "1.08",
+        "ground_truth": "0.55"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "1986"
+    },
+    {
+        "pred": "35%",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "1.74",
+        "ground_truth": "1.71"
+    },
+    {
+        "pred": "High prices",
+        "ground_truth": "Very concerned"
+    },
+    {
+        "pred": "Afghanistan",
+        "ground_truth": "Afghanistan"
+    },
+    {
+        "pred": "3.9",
+        "ground_truth": "6.8"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "9545.35"
+    },
+    {
+        "pred": "4.55",
+        "ground_truth": "4.55"
+    },
+    {
+        "pred": "Male",
+        "ground_truth": "Female"
+    },
+    {
+        "pred": "52.7",
+        "ground_truth": "74.82"
+    },
+    {
+        "pred": "China",
+        "ground_truth": "China"
+    },
+    {
+        "pred": "641.44",
+        "ground_truth": "646.43"
+    },
+    {
+        "pred": "0.6",
+        "ground_truth": "0.45"
+    },
+    {
+        "pred": "2016",
+        "ground_truth": "2012"
+    },
+    {
+        "pred": "177",
+        "ground_truth": "175"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "9111",
+        "ground_truth": "6313"
+    },
+    {
+        "pred": "Total",
+        "ground_truth": "[Should not, Should]"
+    },
+    {
+        "pred": "72",
+        "ground_truth": "74"
+    },
+    {
+        "pred": "Robert Frost",
+        "ground_truth": "Emily Dickinson"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "0.07"
+    },
+    {
+        "pred": "2000",
+        "ground_truth": "2009"
+    },
+    {
+        "pred": "0.34",
+        "ground_truth": "0.77"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "10.00%",
+        "ground_truth": "33.6"
+    },
+    {
+        "pred": "Cinematography",
+        "ground_truth": "Cinematography"
+    },
+    {
+        "pred": "Venezuela",
+        "ground_truth": "Colombia"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "1.4"
+    },
+    {
+        "pred": "1.1",
+        "ground_truth": "10.53"
+    },
+    {
+        "pred": "60",
+        "ground_truth": "50.4"
+    },
+    {
+        "pred": "1308270",
+        "ground_truth": "4709852"
+    },
+    {
+        "pred": "[0.5, 0.31, 0.82, 0.62]",
+        "ground_truth": "United Kingdom"
+    },
+    {
+        "pred": "[Amazon, Facebook]",
+        "ground_truth": "Online shoppers"
+    },
+    {
+        "pred": "566.66",
+        "ground_truth": "568.58"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "51.33"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "8.51"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "51.87",
+        "ground_truth": "50.02"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "[2014, 2016]"
+    },
+    {
+        "pred": "Blue",
+        "ground_truth": "Dark blue"
+    },
+    {
+        "pred": "Cash",
+        "ground_truth": "Cash"
+    },
+    {
+        "pred": "0.78",
+        "ground_truth": "0.87"
+    },
+    {
+        "pred": "Tunisia",
+        "ground_truth": "Taiwan"
+    },
+    {
+        "pred": "6505",
+        "ground_truth": "6536"
+    },
+    {
+        "pred": "1144.4",
+        "ground_truth": "1461.3"
+    },
+    {
+        "pred": "3.3",
+        "ground_truth": "3.9"
+    },
+    {
+        "pred": "63",
+        "ground_truth": "45"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "0.99124"
+    },
+    {
+        "pred": "100.00%",
+        "ground_truth": "33"
+    },
+    {
+        "pred": "46000",
+        "ground_truth": "45804"
+    },
+    {
+        "pred": "56",
+        "ground_truth": "73"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "80000",
+        "ground_truth": "80000"
+    },
+    {
+        "pred": "130.06",
+        "ground_truth": "110.06"
+    },
+    {
+        "pred": "48.3",
+        "ground_truth": "39.01"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "27.41",
+        "ground_truth": "28.18"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2018"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "1.45",
+        "ground_truth": "1.45"
+    },
+    {
+        "pred": "10088000",
+        "ground_truth": "10085207"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "25-34 years",
+        "ground_truth": "20 to 29 years"
+    },
+    {
+        "pred": "365",
+        "ground_truth": "305"
+    },
+    {
+        "pred": "27.5",
+        "ground_truth": "27.5"
+    },
+    {
+        "pred": "0.89",
+        "ground_truth": "0.98"
+    },
+    {
+        "pred": "12701",
+        "ground_truth": "17001"
+    },
+    {
+        "pred": "Never married",
+        "ground_truth": "Married"
+    },
+    {
+        "pred": "Mastercard",
+        "ground_truth": "Hermes"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "Finland",
+        "ground_truth": "Finland"
+    },
+    {
+        "pred": "64.87",
+        "ground_truth": "362.05"
+    },
+    {
+        "pred": "malawi",
+        "ground_truth": "Sri Lanka"
+    },
+    {
+        "pred": "233.44",
+        "ground_truth": "209.75"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "[1981, 1983]",
+        "ground_truth": "[1965, 1970]"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "2.2",
+        "ground_truth": "2.6"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "34.8",
+        "ground_truth": "35.29"
+    },
+    {
+        "pred": "Pirates of the Caribbean: Dead Men Tell No Tales",
+        "ground_truth": "Pirates of the Caribbean: The Curse of the Black Pearl"
+    },
+    {
+        "pred": "2888",
+        "ground_truth": "213"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "13.28",
+        "ground_truth": "13.52"
+    },
+    {
+        "pred": "127",
+        "ground_truth": "126"
+    },
+    {
+        "pred": "22",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "28",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "2.4",
+        "ground_truth": "2.6"
+    },
+    {
+        "pred": "225",
+        "ground_truth": "116"
+    },
+    {
+        "pred": "55",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "10.08",
+        "ground_truth": "389.82"
+    },
+    {
+        "pred": "How well government is working",
+        "ground_truth": "Opportunity to get ahead through hard work"
+    },
+    {
+        "pred": "19",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "100.3",
+        "ground_truth": "100.6"
+    },
+    {
+        "pred": "561.7",
+        "ground_truth": "450.7"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "19.3"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "57"
+    },
+    {
+        "pred": "2.4",
+        "ground_truth": "24.9"
+    },
+    {
+        "pred": "231.44",
+        "ground_truth": "75.19"
+    },
+    {
+        "pred": "Europe",
+        "ground_truth": "Europe"
+    },
+    {
+        "pred": "2015",
+        "ground_truth": "2014"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "29"
+    },
+    {
+        "pred": "49.5",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "Mexico",
+        "ground_truth": "Mexico"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "[Tesco, Sainsbury's]",
+        "ground_truth": "Facebook users"
+    },
+    {
+        "pred": "44.8",
+        "ground_truth": "43.2"
+    },
+    {
+        "pred": "1.55",
+        "ground_truth": "0.86"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "464.08",
+        "ground_truth": "428.08"
+    },
+    {
+        "pred": "1.19 g/m³",
+        "ground_truth": "32.115"
+    },
+    {
+        "pred": "Egypt",
+        "ground_truth": "Ethiopia"
+    },
+    {
+        "pred": "131",
+        "ground_truth": "133"
+    },
+    {
+        "pred": "45",
+        "ground_truth": "61 years and older"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "42.1"
+    },
+    {
+        "pred": "The country represented by the red bar is the United States.",
+        "ground_truth": "Portugal"
+    },
+    {
+        "pred": "Orange",
+        "ground_truth": "Blue"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "26",
+        "ground_truth": "65"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "7.46",
+        "ground_truth": "7.68"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Uncovered",
+        "ground_truth": "Insured all year, not underinsured"
+    },
+    {
+        "pred": "3169.8",
+        "ground_truth": "3718.4"
+    },
+    {
+        "pred": "HTML",
+        "ground_truth": "HTML"
+    },
+    {
+        "pred": "11.1",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "1109",
+        "ground_truth": "1189"
+    },
+    {
+        "pred": "30.44",
+        "ground_truth": "30.45"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "87"
+    },
+    {
+        "pred": "51.3",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "8",
+        "ground_truth": "153"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2020"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Iran",
+        "ground_truth": "Saudi Arabia"
+    },
+    {
+        "pred": "2019",
+        "ground_truth": "2017/2018"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "1994"
+    },
+    {
+        "pred": "20.5",
+        "ground_truth": "17.3"
+    },
+    {
+        "pred": "51.06",
+        "ground_truth": "43.44"
+    },
+    {
+        "pred": "22000",
+        "ground_truth": "22920"
+    },
+    {
+        "pred": "100119",
+        "ground_truth": "100185"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "53"
+    },
+    {
+        "pred": "3200.27",
+        "ground_truth": "3352.74"
+    },
+    {
+        "pred": "2008",
+        "ground_truth": "2015"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "53.8"
+    },
+    {
+        "pred": "183.5",
+        "ground_truth": "180.3"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "1000",
+        "ground_truth": "3594"
+    },
+    {
+        "pred": "20625",
+        "ground_truth": "20526"
+    },
+    {
+        "pred": "474.61",
+        "ground_truth": "491.46"
+    },
+    {
+        "pred": "10.5",
+        "ground_truth": "6.2"
+    },
+    {
+        "pred": "0.11 g/kg",
+        "ground_truth": "48.01"
+    },
+    {
+        "pred": "20.11",
+        "ground_truth": "28.31"
+    },
+    {
+        "pred": "141.4",
+        "ground_truth": "143.4"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "belize",
+        "ground_truth": "Belize"
+    },
+    {
+        "pred": "94.4",
+        "ground_truth": "93.45"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "2020",
+        "ground_truth": "March 2021"
+    },
+    {
+        "pred": "44.1",
+        "ground_truth": "41"
+    },
+    {
+        "pred": "1990",
+        "ground_truth": "1990"
+    },
+    {
+        "pred": "86.3",
+        "ground_truth": "83.6"
+    },
+    {
+        "pred": "Mercadona",
+        "ground_truth": "Carrefour"
+    },
+    {
+        "pred": "31.1",
+        "ground_truth": "31.1"
+    },
+    {
+        "pred": "2.7",
+        "ground_truth": "3.7"
+    },
+    {
+        "pred": "1001",
+        "ground_truth": "1931"
+    },
+    {
+        "pred": "10.12",
+        "ground_truth": "10.25"
+    },
+    {
+        "pred": "10.0",
+        "ground_truth": "40.13"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "298",
+        "ground_truth": "304"
+    },
+    {
+        "pred": "13110",
+        "ground_truth": "25101"
+    },
+    {
+        "pred": "182.7",
+        "ground_truth": "194.7"
+    },
+    {
+        "pred": "1.5",
+        "ground_truth": "1.25"
+    },
+    {
+        "pred": "10.0",
+        "ground_truth": "3.7"
+    },
+    {
+        "pred": "96.6",
+        "ground_truth": "95.6"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "96"
+    },
+    {
+        "pred": "712",
+        "ground_truth": "753"
+    },
+    {
+        "pred": "2016",
+        "ground_truth": "2017"
+    },
+    {
+        "pred": "39.5",
+        "ground_truth": "40.03"
+    },
+    {
+        "pred": "Mauritius",
+        "ground_truth": "Samoa"
+    },
+    {
+        "pred": "40",
+        "ground_truth": "Based on how much we can afford as a family"
+    },
+    {
+        "pred": "Ontario",
+        "ground_truth": "Ontario"
+    },
+    {
+        "pred": "11.3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "21.1",
+        "ground_truth": "47"
+    },
+    {
+        "pred": "54.44",
+        "ground_truth": "53.41"
+    },
+    {
+        "pred": "122",
+        "ground_truth": "31"
+    },
+    {
+        "pred": "Corn",
+        "ground_truth": "Corn"
+    },
+    {
+        "pred": "47.38",
+        "ground_truth": "46.93"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "100"
+    },
+    {
+        "pred": "Fiji",
+        "ground_truth": "Fiji"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "66.07",
+        "ground_truth": "68.08"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "No"
+    },
+    {
+        "pred": "Lazio",
+        "ground_truth": "Liguria"
+    },
+    {
+        "pred": "1.7",
+        "ground_truth": "2.7"
+    },
+    {
+        "pred": "14.45",
+        "ground_truth": "14.36"
+    },
+    {
+        "pred": "Jamaica",
+        "ground_truth": "Jamaica"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "72",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "Costa Rica",
+        "ground_truth": "Estonia"
+    },
+    {
+        "pred": "47.8",
+        "ground_truth": "47.9"
+    },
+    {
+        "pred": "2.32",
+        "ground_truth": "2.29"
+    },
+    {
+        "pred": "36.5",
+        "ground_truth": "36.5"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "55"
+    },
+    {
+        "pred": "No",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "Radio Times",
+        "ground_truth": "Radio Times"
+    },
+    {
+        "pred": "34.32",
+        "ground_truth": "34.33"
+    },
+    {
+        "pred": "49",
+        "ground_truth": "48"
+    },
+    {
+        "pred": "2010",
+        "ground_truth": "2010"
+    },
+    {
+        "pred": "1.3",
+        "ground_truth": "7.69"
+    },
+    {
+        "pred": "Female",
+        "ground_truth": "Female"
+    },
+    {
+        "pred": "2012",
+        "ground_truth": "[2015, 2016]"
+    },
+    {
+        "pred": "Other medical devices",
+        "ground_truth": "Other medical device"
+    },
+    {
+        "pred": "Yes",
+        "ground_truth": "Yes"
+    },
+    {
+        "pred": "72",
+        "ground_truth": "72"
+    },
+    {
+        "pred": "177.7",
+        "ground_truth": "180.77"
+    },
+    {
+        "pred": "539",
+        "ground_truth": "557"
+    },
+    {
+        "pred": "39.5%",
+        "ground_truth": "36.1"
+    },
+    {
+        "pred": "23.99",
+        "ground_truth": "30.15"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "20"
+    },
+    {
+        "pred": "51",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "464",
+        "ground_truth": "478"
+    },
+    {
+        "pred": "718",
+        "ground_truth": "71"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "523",
+        "ground_truth": "628"
+    },
+    {
+        "pred": "2018",
+        "ground_truth": "1990"
+    },
+    {
+        "pred": "24",
+        "ground_truth": "44"
+    },
+    {
+        "pred": "54.8",
+        "ground_truth": "57.16"
+    },
+    {
+        "pred": "389.8",
+        "ground_truth": "481.55"
+    },
+    {
+        "pred": "32.2",
+        "ground_truth": "44.3"
+    },
+    {
+        "pred": "20.56",
+        "ground_truth": "25.25"
+    },
+    {
+        "pred": "0.09",
+        "ground_truth": "0.01"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "52.9",
+        "ground_truth": "66.8"
+    },
+    {
+        "pred": "negative",
+        "ground_truth": "Very confident"
+    },
+    {
+        "pred": "46.66",
+        "ground_truth": "40.78"
+    },
+    {
+        "pred": "100",
+        "ground_truth": "37"
+    },
+    {
+        "pred": "41.1",
+        "ground_truth": "47.86"
+    },
+    {
+        "pred": "5.3",
+        "ground_truth": "6.6"
+    },
+    {
+        "pred": "us",
+        "ground_truth": "Human capital"
+    },
+    {
+        "pred": "672",
+        "ground_truth": "1592"
+    },
+    {
+        "pred": "4.9",
+        "ground_truth": "3.4"
+    },
+    {
+        "pred": "blue",
+        "ground_truth": "Blue"
+    },
+    {
+        "pred": "California",
+        "ground_truth": "California"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "9.9"
+    },
+    {
+        "pred": "10 years",
+        "ground_truth": "13.5"
+    },
+    {
+        "pred": "0.32",
+        "ground_truth": "1.43"
+    },
+    {
+        "pred": "1.66",
+        "ground_truth": "20.98"
+    },
+    {
+        "pred": "95",
+        "ground_truth": "98"
+    },
+    {
+        "pred": "May '21",
+        "ground_truth": "May '21"
+    },
+    {
+        "pred": "89",
+        "ground_truth": "83"
+    },
+    {
+        "pred": "41",
+        "ground_truth": "54"
+    },
+    {
+        "pred": "YouTube",
+        "ground_truth": "Facebook"
+    },
+    {
+        "pred": "4287.2",
+        "ground_truth": "6.92"
+    },
+    {
+        "pred": "20.1",
+        "ground_truth": "54.93"
+    },
+    {
+        "pred": "372525",
+        "ground_truth": "372532"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "No, but I plan to soon"
+    },
+    {
+        "pred": "17755",
+        "ground_truth": "17715"
+    },
+    {
+        "pred": "In this context, the appropriate behavior, of both genders",
+        "ground_truth": "They are downplaying the situation"
+    },
+    {
+        "pred": "30",
+        "ground_truth": "63"
+    },
+    {
+        "pred": "0",
+        "ground_truth": "6.2"
+    },
+    {
+        "pred": "26486",
+        "ground_truth": "28661"
+    },
+    {
+        "pred": "13.7",
+        "ground_truth": "15.7"
+    },
+    {
+        "pred": "4.39",
+        "ground_truth": "4.91"
+    },
+    {
+        "pred": "11.1",
+        "ground_truth": "16.1"
+    },
+    {
+        "pred": "23.4",
+        "ground_truth": "23.16"
+    },
+    {
+        "pred": "Michael Jordan",
+        "ground_truth": "Michael Jordan"
+    }
+]

@@ -1,0 +1,7334 @@
+[
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "0",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "10",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "10"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "26"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "15"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "24",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "24",
+        "ground_truth": "28"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "24"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "22"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "11",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "12"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "25"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "21",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "21"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "23"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "18",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "14"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "11"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "18"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "16"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "13"
+    },
+    {
+        "pred": "Medium",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "8"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded,non flooded"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "9"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "19"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "17"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "flooded",
+        "ground_truth": "flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "2",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "Medium",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "5"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "6"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "14",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "12",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "high",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "6",
+        "ground_truth": "4"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "51"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "20",
+        "ground_truth": "39"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "16",
+        "ground_truth": "39"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "4",
+        "ground_truth": "7"
+    },
+    {
+        "pred": "moderate",
+        "ground_truth": "high"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "5",
+        "ground_truth": "3"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "moderate"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "3",
+        "ground_truth": "2"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Low",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "Medium",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "yes",
+        "ground_truth": "yes"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "non flooded",
+        "ground_truth": "non flooded"
+    },
+    {
+        "pred": "1",
+        "ground_truth": "1"
+    },
+    {
+        "pred": "High",
+        "ground_truth": "low"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    },
+    {
+        "pred": "no",
+        "ground_truth": "no"
+    }
+]

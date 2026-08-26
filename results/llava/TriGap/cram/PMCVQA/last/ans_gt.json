@@ -1,0 +1,12002 @@
+[
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "D",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "D"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "A"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "B"
+    },
+    {
+        "pred": "A",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "C",
+        "ground_truth": "C"
+    },
+    {
+        "pred": "B",
+        "ground_truth": "C"
+    }
+]

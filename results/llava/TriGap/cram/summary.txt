@@ -1,0 +1,14 @@
+TriGap  last checkpoint after Task 9
+DocVQA / InfographicVQA use ANLS; others use Acc
+
+Task             Metric     Score
+PMCVQA           Acc        43.60%
+DocVQA           ANLS       44.33%
+ChartQA          Acc        16.92%
+IconQA           Acc        66.00%
+InfographicVQA   ANLS       39.17%
+ArxivQA          Acc        91.83%
+Roadside         Acc        12.83%
+ChemVQA          Acc        24.27%
+FloodNetVQA      Acc        79.49%
+CLEVR            Acc        59.53%
