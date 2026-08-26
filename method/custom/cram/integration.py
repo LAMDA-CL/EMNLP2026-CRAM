@@ -29,39 +29,6 @@ _LOG = logging.getLogger(__name__)
 _PEFT_EXT_REGISTERED = False
 _CRAM_DS_WARN_NO_REFRESH = False
 
-# Paper Sec. 5.1 (also in config/methods/cram.py). Fallbacks match that file.
-_CRAM_THETA = 0.1
-_CRAM_RBF_SIGMA = 2.0
-_CRAM_TAU_ALLOC = 0.08
-_CRAM_TAU_ORTH = 0.99
-_CRAM_WARMUP_RATIO = 0.05
-_CRAM_RANK_TOTAL = 48
-
-# Implementation-only; not listed in the paper.
-_CRAM_MAX_EXPERT_SLOTS = 10
-_CRAM_SVD_RANK_MIN = 4
-_CRAM_DEC_LAMBDA = 1.0
-_CRAM_CLIP_FEATURE_DIM = 768
-_CRAM_LEVEL1_MERGE_MIN_SIM = 0.8
-_CRAM_LORA_DROPOUT = 0.05
-
-
-def _cram_benchmark_id(config: Any) -> str:
-    return str(getattr(config, "benchmark", "") or "").strip().lower()
-
-
-def _cram_max_groups_impl(config: Any, task_num: int) -> int:
-    b = _cram_benchmark_id(config)
-    if b == "ucit":
-        return 5
-    if b == "trigap":
-        return 10
-    return max(1, int(task_num))
-
-
-def _cram_expert_rank_max_impl(config: Any) -> int:
-    return 10 if _cram_benchmark_id(config) == "trigap" else 9
-
 def _cram_call_deepspeed_refresh_fp32_from_lp(engine: Optional[Any]) -> None:
 
     global _CRAM_DS_WARN_NO_REFRESH
@@ -193,10 +160,11 @@ class CramIntegration(CLIntegration):
     def __init__(self, config: Any):
         super().__init__(config)
         self.task_num: int = int(getattr(config, "task_num", getattr(config, "expert_num", 8)))
-        self.max_slots: int = _CRAM_MAX_EXPERT_SLOTS
-        self.feature_dim: int = _CRAM_CLIP_FEATURE_DIM
-        self.max_groups: int = _cram_max_groups_impl(config, self.task_num)
-        self.theta: float = float(getattr(config, "cram_delta_threshold", _CRAM_THETA))
+        self.max_slots: int = 10
+        self.feature_dim: int = int(getattr(config, "clip_feature_dim", 768))
+        _bm = str(getattr(config, "benchmark", "") or "").strip().lower()
+        self.max_groups: int = 5 if _bm == "ucit" else 10 if _bm == "trigap" else max(1, self.task_num)
+        self.theta: float = float(getattr(config, "cram_delta_threshold", 0.1))
         self._model_ref: Any = None
         self._prep_invoke: int = 0
         self._cram_optimizer_steps_done: int = 0
@@ -240,10 +208,11 @@ class CramIntegration(CLIntegration):
 
         cfg = self.config
         self.task_num = int(getattr(cfg, "task_num", getattr(cfg, "expert_num", self.task_num)))
-        self.max_slots = _CRAM_MAX_EXPERT_SLOTS
-        self.max_groups = _cram_max_groups_impl(cfg, self.task_num)
-        self.theta = float(getattr(cfg, "cram_delta_threshold", _CRAM_THETA))
-        self.feature_dim = _CRAM_CLIP_FEATURE_DIM
+        self.max_slots = 10
+        _bm = str(getattr(cfg, "benchmark", "") or "").strip().lower()
+        self.max_groups = 5 if _bm == "ucit" else 10 if _bm == "trigap" else max(1, self.task_num)
+        self.theta = float(getattr(cfg, "cram_delta_threshold", 0.1))
+        self.feature_dim = int(getattr(cfg, "clip_feature_dim", 768))
         while len(self.expert_budget_charge) < int(self.max_slots):
             self.expert_budget_charge.append(0)
         if len(self.expert_budget_charge) > int(self.max_slots):
@@ -275,7 +244,7 @@ class CramIntegration(CLIntegration):
 
     def _refresh_cram_visual_warmup_steps(self, trainer: Any = None) -> int:
 
-        ratio = getattr(self.config, "cram_visual_warmup_ratio", _CRAM_WARMUP_RATIO)
+        ratio = getattr(self.config, "cram_visual_warmup_ratio", 0.05)
         try:
             rf = float(ratio) if ratio is not None else -1.0
         except (TypeError, ValueError):
@@ -431,7 +400,7 @@ class CramIntegration(CLIntegration):
         return v
 
     def _route_rbf_sigma(self) -> float:
-        return max(float(getattr(self.config, "cram_route_rbf_sigma", _CRAM_RBF_SIGMA)), 1e-8)
+        return max(float(getattr(self.config, "cram_route_rbf_sigma", 2.0)), 1e-8)
 
     @staticmethod
     def _secondary_route_logits_gemm(
@@ -717,7 +686,7 @@ class CramIntegration(CLIntegration):
         s1, g1 = float(topv[0]), int(topi[0])
         new_group = False
         if G == 1:
-            thr_hi = float(_CRAM_LEVEL1_MERGE_MIN_SIM)
+            thr_hi = 0.8
             if s1 > thr_hi:
                 g_star = g1
                 lock_now = True
@@ -1000,7 +969,7 @@ class CramIntegration(CLIntegration):
 
     def _buf_train_rank(self) -> int:
 
-        Rtot = int(getattr(self.config, "cram_rank_total", _CRAM_RANK_TOTAL))
+        Rtot = int(getattr(self.config, "cram_rank_total", 48))
         return max(1, Rtot)
 
     def _sync_r_buf_all_layers(self, model: nn.Module) -> None:
@@ -1315,13 +1284,13 @@ class CramIntegration(CLIntegration):
         from PEFT.utils.config import TaskType
 
         target_modules = collect_peft_target_linear_suffixes(model, self.config)
-        Rtot = int(getattr(self.config, "cram_rank_total", _CRAM_RANK_TOTAL))
-        rmax = _cram_expert_rank_max_impl(self.config)
+        Rtot = int(getattr(self.config, "cram_rank_total", 48))
+        rmax = 10 if str(getattr(self.config, "benchmark", "") or "").strip().lower() == "trigap" else 9
         peft_config = CramBudgetLoraConfig(
             target_modules=target_modules,
             r=Rtot,
             lora_alpha=2 * Rtot,
-            lora_dropout=_CRAM_LORA_DROPOUT,
+            lora_dropout=0.05,
             cram_rank_total=Rtot,
             cram_expert_rank_max=rmax,
             cram_max_expert_slots=self.max_slots,
@@ -1447,10 +1416,10 @@ class CramIntegration(CLIntegration):
         self._ensure_centroid_tables(model)
         slot = int(slot)
         self._sync_task_centroid_display_from_buf_for_slot(slot)
-        tau_a = float(getattr(self.config, "cram_svd_tau_alloc", _CRAM_TAU_ALLOC))
-        rmax = _cram_expert_rank_max_impl(self.config)
-        tau_novel = float(getattr(self.config, "cram_svd_tau_novel", _CRAM_TAU_ORTH))
-        rank_min = _CRAM_SVD_RANK_MIN
+        tau_a = float(getattr(self.config, "cram_svd_tau_alloc", 0.08))
+        rmax = 10 if str(getattr(self.config, "benchmark", "") or "").strip().lower() == "trigap" else 9
+        tau_novel = float(getattr(self.config, "cram_svd_tau_novel", 0.99))
+        rank_min = 4
         hist_slots = self._hist_expert_slots_same_semantic_pool(int(task_id), slot)
 
         buf_snap = None
@@ -1511,7 +1480,7 @@ class CramIntegration(CLIntegration):
         self._apply_routing(model, images, input_ids, context)
         self._cram_dec_visual_mask = None
         if (
-            float(_CRAM_DEC_LAMBDA) > 0
+            self._dec_lambda() > 0
             and getattr(self, "_cram_forward_train_hard", False)
             and self._in_stable_training_phase()
             and input_ids is not None
@@ -1665,7 +1634,7 @@ class CramIntegration(CLIntegration):
                 set_cram_infer_group_softmax_layer(ell, pi_dense)
 
     def _dec_lambda(self) -> float:
-        return float(_CRAM_DEC_LAMBDA)
+        return 1.0
 
     def _should_compute_dec_loss(self) -> bool:
         return (

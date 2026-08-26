@@ -1,8 +1,4 @@
-"""CRAM method defaults (paper Sec. 5.1 / Tab. 5).
-
-Reported: θ, σ, τ_alloc, τ_orth, visual-warmup fraction, temporary-buffer rank,
-attention LoRA, batch size 8, 1 epoch, lr 2e-4, warmup 0.03.
-"""
+"""Defaults for method: cram."""
 
 from PEFT.utils.peft_scope_defaults import EXCLUDE_FOR_LLM_ONLY_INJECTION
 from utils.infer_paths import DEFAULT_ROUTING_VISION_TOWER_PATH, DEFAULT_TEXT_TOWER_PATH
@@ -41,6 +37,7 @@ METHOD_CONFIG = {
     "cram_svd_tau_novel": 0.99,
     "cram_visual_warmup_ratio": 0.05,
     "cram_rank_total": 48,
+    "clip_feature_dim": 768,
     "peft_target_modules": "attn",
     "exclude_module_path_segments": list(EXCLUDE_FOR_LLM_ONLY_INJECTION),
 }
